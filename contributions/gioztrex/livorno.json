@@ -22,7 +22,7 @@
       "description": "Lo snack umano per eccellenza.",
       "scientificNote": "Niente da dire. Perfetto.",
       "origin": "Livorno Pack",
-      "baseFactor": 0.5,
+      "baseFactor": 0.25,
       "tags": ["food"],
       "families": ["food"],
       "scientificAccuracy": "committeeConsensus"
