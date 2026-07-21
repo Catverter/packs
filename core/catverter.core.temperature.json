@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.core.temperature",
+  "displayName": "Catverter Core Temperature",
+  "version": "1.0.0",
+  "author": "Catverter",
+  "description": "Funny thermodynamic temperature units anchored in kelvin.",
+  "localizations": {
+    "it": {
+      "displayName": "Temperatura Core Catverter",
+      "description": "Unità di temperatura termodinamica buffe ancorate al kelvin.",
+      "units": {
+        "freezer-breath": {
+          "name": "Respiro da congelatore",
+          "symbol": "respiri da congelatore",
+          "singularName": "respiro da congelatore",
+          "pluralName": "respiri da congelatore",
+          "description": "L'aria che ti ricorda cosa hai dimenticato nel freezer.",
+          "scientificNote": "La brina viene conteggiata come revisore indipendente.",
+          "origin": "Laboratorio Elettrodomestici Gelidi"
+        },
+        "room-temperature": {
+          "name": "Temperatura ambiente",
+          "symbol": "temperature ambiente",
+          "singularName": "temperatura ambiente",
+          "pluralName": "temperature ambiente",
+          "description": "La condizione predefinita di stanze, scuse e caffè dimenticati.",
+          "scientificNote": "Assume una stanza con ambizioni climatiche moderate.",
+          "origin": "Ufficio Standard Soggiorni Neutrali"
+        },
+        "cat-loaf-warmth": {
+          "name": "Calore da gatto a pagnotta",
+          "symbol": "calori da gatto a pagnotta",
+          "singularName": "calore da gatto a pagnotta",
+          "pluralName": "calori da gatto a pagnotta",
+          "description": "Calore felino compatto generato in modalità pagnotta.",
+          "scientificNote": "L'emissione termica aumenta quando il portatile è incustodito.",
+          "origin": "Dipartimento Termodinamica Felina Applicata"
+        },
+        "hot-coffee": {
+          "name": "Caffè caldo",
+          "symbol": "caffè caldi",
+          "singularName": "caffè caldo",
+          "pluralName": "caffè caldi",
+          "description": "Il punto in cui la produttività diventa una bevanda.",
+          "scientificNote": "Il valore scende rapidamente durante le riunioni.",
+          "origin": "Istituto Termico Bevande da Scrivania"
+        },
+        "pizza-oven": {
+          "name": "Forno da pizza",
+          "symbol": "forni da pizza",
+          "singularName": "forno da pizza",
+          "pluralName": "forni da pizza",
+          "description": "Temperatura a cui l'impasto inizia a credere in se stesso.",
+          "scientificNote": "Approvazione italiana in attesa di gesticolazione formale.",
+          "origin": "Osservatorio Termico Pizzeria Seria"
+        },
+        "surface-of-sun": {
+          "name": "Superficie del Sole",
+          "symbol": "superfici del Sole",
+          "singularName": "superficie del Sole",
+          "pluralName": "superfici del Sole",
+          "description": "Per misure che hanno chiaramente superato il livello tostapane.",
+          "scientificNote": "La crema solare non è una strategia di calibrazione.",
+          "origin": "Ufficio Standard Solari Non Richiesti"
+        }
+      }
+    }
+  },
+  "units": [
+    {
+      "id": "freezer-breath",
+      "dimension": "temperature",
+      "name": "Freezer Breath",
+      "symbol": "freezer breaths",
+      "emoji": "🧊",
+      "singularName": "freezer breath",
+      "pluralName": "freezer breaths",
+      "description": "The air that reminds you what you forgot in the freezer.",
+      "scientificNote": "Frost counts as an independent reviewer.",
+      "origin": "Chilly Appliance Laboratory",
+      "baseFactor": 255.15,
+      "preferredMin": 0.5,
+      "preferredMax": 2,
+      "tags": ["household", "intuitive"],
+      "families": ["appliance", "householdObject"],
+      "scientificAccuracy": "reasonableEstimate"
+    },
+    {
+      "id": "room-temperature",
+      "dimension": "temperature",
+      "name": "Room Temperature",
+      "symbol": "room temperatures",
+      "emoji": "🛋️",
+      "singularName": "room temperature",
+      "pluralName": "room temperatures",
+      "description": "The default condition of rooms, excuses, and forgotten coffee.",
+      "scientificNote": "Assumes a room with moderate climate ambitions.",
+      "origin": "Neutral Living Room Standards Office",
+      "baseFactor": 293.15,
+      "preferredMin": 0.5,
+      "preferredMax": 2,
+      "tags": ["intuitive", "household"],
+      "families": ["householdObject"],
+      "scientificAccuracy": "committeeConsensus"
+    },
+    {
+      "id": "cat-loaf-warmth",
+      "dimension": "temperature",
+      "name": "Cat Loaf Warmth",
+      "symbol": "cat loaf warmths",
+      "emoji": "🍞",
+      "singularName": "cat loaf warmth",
+      "pluralName": "cat loaf warmths",
+      "description": "Compact feline heat generated in loaf mode.",
+      "scientificNote": "Thermal output increases when a laptop is left unattended.",
+      "origin": "Applied Feline Thermodynamics Department",
+      "baseFactor": 310.15,
+      "preferredMin": 0.5,
+      "preferredMax": 2,
+      "tags": ["cats", "animals", "intuitive"],
+      "families": ["cat", "animal"],
+      "scientificAccuracy": "reasonableEstimate"
+    },
+    {
+      "id": "hot-coffee",
+      "dimension": "temperature",
+      "name": "Hot Coffee",
+      "symbol": "hot coffees",
+      "emoji": "☕",
+      "singularName": "hot coffee",
+      "pluralName": "hot coffees",
+      "description": "The point at which productivity becomes a beverage.",
+      "scientificNote": "Value decays rapidly during meetings.",
+      "origin": "Desk Beverage Thermal Institute",
+      "baseFactor": 338.15,
+      "preferredMin": 0.3,
+      "preferredMax": 2,
+      "tags": ["food", "intuitive", "geek"],
+      "families": ["food"],
+      "scientificAccuracy": "reasonableEstimate"
+    },
+    {
+      "id": "pizza-oven",
+      "dimension": "temperature",
+      "name": "Pizza Oven",
+      "symbol": "pizza ovens",
+      "emoji": "🍕",
+      "singularName": "pizza oven",
+      "pluralName": "pizza ovens",
+      "description": "The temperature where dough starts believing in itself.",
+      "scientificNote": "Italian approval pending formal hand gestures.",
+      "origin": "Serious Pizzeria Thermal Observatory",
+      "baseFactor": 523.15,
+      "preferredMin": 0.2,
+      "preferredMax": 2,
+      "tags": ["food", "hugeThings"],
+      "families": ["food"],
+      "scientificAccuracy": "reasonableEstimate"
+    },
+    {
+      "id": "surface-of-sun",
+      "dimension": "temperature",
+      "name": "Surface of the Sun",
+      "symbol": "surfaces of the Sun",
+      "emoji": "☀️",
+      "singularName": "surface of the Sun",
+      "pluralName": "surfaces of the Sun",
+      "description": "For measurements that have clearly exceeded toaster territory.",
+      "scientificNote": "Sunscreen is not a calibration strategy.",
+      "origin": "Unrequested Solar Standards Office",
+      "baseFactor": 5778,
+      "preferredMin": 0.01,
+      "preferredMax": 2,
+      "tags": ["hugeThings", "pseudoScientific"],
+      "families": ["abstract"],
+      "scientificAccuracy": "publishedAverages"
+    }
+  ]
+}

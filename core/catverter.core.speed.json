@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.core.speed",
+  "displayName": "Catverter Core Speed",
+  "version": "1.0.0",
+  "author": "Catverter",
+  "description": "Funny speed ratio units built from core length and time units.",
+  "localizations": {
+    "it": {
+      "displayName": "Velocità Core Catverter",
+      "description": "Unità di velocità buffe costruite da lunghezze e tempi core.",
+      "ratioUnits": {
+        "cat-tail-per-tail-flick": {
+          "name": "Coda di gatto per scatto di coda",
+          "symbol": "code di gatto/scatto di coda",
+          "singularName": "coda di gatto per scatto di coda",
+          "pluralName": "code di gatto per scatto di coda",
+          "description": "Una velocità di fuga felina compatta.",
+          "scientificNote": "Valida quando la coda ha registrato lieve disapprovazione.",
+          "origin": "Banco Standard del Moto Felino"
+        },
+        "sofa-per-developer-hour": {
+          "name": "Divano per ora sviluppatore",
+          "symbol": "divani/ora sviluppatore",
+          "singularName": "divano per ora sviluppatore",
+          "pluralName": "divani per ora sviluppatore",
+          "description": "Progresso dopo che un piccolo refactoring diventa filosofia architetturale.",
+          "scientificNote": "La velocità diminuisce mentre si dà il nome alle cose.",
+          "origin": "Istituto di Cronometria Software"
+        }
+      }
+    }
+  },
+  "ratioUnits": [
+    {
+      "id": "cat-tail-per-tail-flick",
+      "dimension": "speed",
+      "numeratorUnitId": "cat-tail",
+      "denominatorUnitId": "tail-flick",
+      "emoji": "🐈",
+      "description": "A compact feline escape velocity.",
+      "scientificNote": "Valid when the tail has registered mild disapproval.",
+      "origin": "Feline Motion Standards Desk",
+      "tags": ["cats", "intuitive"]
+    },
+    {
+      "id": "cat-jump-per-tail-flick",
+      "dimension": "speed",
+      "numeratorUnitId": "cat-jump",
+      "denominatorUnitId": "tail-flick",
+      "emoji": "⚡",
+      "description": "The official velocity of unexplained 3 AM movement.",
+      "scientificNote": "Researchers recommend not standing in the hallway.",
+      "origin": "Nighttime Velocity Observatory",
+      "tags": ["cats", "animals", "pseudoScientific"]
+    },
+    {
+      "id": "stretched-cat-per-snack-request",
+      "dimension": "speed",
+      "numeratorUnitId": "stretched-cat",
+      "denominatorUnitId": "snack-request",
+      "emoji": "🐈↔️",
+      "description": "Leisurely motion measured by a hungry committee.",
+      "scientificNote": "Subject may accelerate when hearing a can open.",
+      "origin": "Snack Acquisition Department",
+      "tags": ["cats", "food"]
+    },
+    {
+      "id": "banana-per-microwave-second",
+      "dimension": "speed",
+      "numeratorUnitId": "banana",
+      "denominatorUnitId": "microwave-second",
+      "emoji": "🍌",
+      "description": "Kitchen-scale velocity for mildly impatient objects.",
+      "scientificNote": "Microwave seconds remain emotionally longer than SI seconds.",
+      "origin": "Kitchen Time Institute",
+      "tags": ["food", "intuitive"]
+    },
+    {
+      "id": "sofa-per-developer-hour",
+      "dimension": "speed",
+      "numeratorUnitId": "sofa",
+      "denominatorUnitId": "developer-hour",
+      "emoji": "🛋️",
+      "description": "Progress after one small refactor becomes architectural philosophy.",
+      "scientificNote": "Velocity decreases while naming things.",
+      "origin": "Software Chronometry Institute",
+      "tags": ["geek", "household"]
+    },
+    {
+      "id": "city-bus-per-quick-meeting",
+      "dimension": "speed",
+      "numeratorUnitId": "city-bus",
+      "denominatorUnitId": "quick-meeting",
+      "emoji": "🚌",
+      "description": "A transit-grade speed for calendar-based suffering.",
+      "scientificNote": "Meeting duration observed to stretch under agenda pressure.",
+      "origin": "Office Standards Committee",
+      "tags": ["intuitive", "household"]
+    },
+    {
+      "id": "football-field-per-pizza-delivery",
+      "dimension": "speed",
+      "numeratorUnitId": "football-field",
+      "denominatorUnitId": "pizza-delivery",
+      "emoji": "🏈",
+      "description": "Newsroom distance divided by hunger latency.",
+      "scientificNote": "Pizza proximity may cause perceived speed distortion.",
+      "origin": "Pizza Logistics Authority",
+      "tags": ["food", "intuitive"]
+    },
+    {
+      "id": "giraffe-per-snooze",
+      "dimension": "speed",
+      "numeratorUnitId": "giraffe",
+      "denominatorUnitId": "snooze",
+      "emoji": "🦒",
+      "description": "A tall, sleepy measure of gradual progress.",
+      "scientificNote": "Neck length reviewed separately by the committee.",
+      "origin": "Sleep Research Division",
+      "tags": ["animals"]
+    },
+    {
+      "id": "spaghetti-per-happy-cat-wink",
+      "dimension": "speed",
+      "numeratorUnitId": "spaghetti",
+      "denominatorUnitId": "happy-cat-wink",
+      "emoji": "🍝",
+      "description": "A tender pasta velocity with emotional undertones.",
+      "scientificNote": "Overcooked observations rejected by Italian reviewers.",
+      "origin": "Italian Pasta Standards Board",
+      "tags": ["food", "cats"]
+    },
+    {
+      "id": "blue-whale-length-per-monday-morning",
+      "dimension": "speed",
+      "numeratorUnitId": "blue-whale-length",
+      "denominatorUnitId": "monday-morning",
+      "emoji": "🐋",
+      "description": "Large movement spread across the longest known office phenomenon.",
+      "scientificNote": "Time dilation confirmed by workplace studies.",
+      "origin": "Department of Weekly Suffering",
+      "tags": ["animals", "hugeThings"]
+    },
+    {
+      "id": "t-rex-per-one-more-turn",
+      "dimension": "speed",
+      "numeratorUnitId": "t-rex",
+      "denominatorUnitId": "one-more-turn",
+      "emoji": "🦖",
+      "description": "Prehistoric progress during strategic denial of bedtime.",
+      "scientificNote": "Arms do not affect aerodynamic calculations.",
+      "origin": "Interactive Time Distortion Laboratory",
+      "tags": ["geek", "animals"]
+    },
+    {
+      "id": "ikea-instruction-per-loading-bar-minute",
+      "dimension": "speed",
+      "numeratorUnitId": "ikea-instruction",
+      "denominatorUnitId": "loading-bar-minute",
+      "emoji": "📖",
+      "description": "Assembly documentation moving at software-update speed.",
+      "scientificNote": "Missing screws may reduce confidence but not nominal velocity.",
+      "origin": "Nordic Assembly Authority",
+      "tags": ["household", "geek"]
+    }
+  ]
+}
