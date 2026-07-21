@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.gioztrex.livorno.pack",
   "displayName": "Livorno Pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "GiozTrex",
   "description": "Unità in livornese.",
   "variantSettings": {
