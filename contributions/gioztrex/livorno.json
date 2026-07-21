@@ -14,7 +14,7 @@
     {
       "id": "cinque-e-cinque",
       "dimension": "mass",
-      "name": "5 e 5 ",
+      "name": "5 e 5",
       "symbol": "cec",
       "emoji": "🥪",
       "singularName": "Cinque e cinque",
@@ -27,5 +27,4 @@
       "families": ["food"],
       "scientificAccuracy": "committeeConsensus"
     }
-}
 }
