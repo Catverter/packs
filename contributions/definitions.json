@@ -1,1 +1,21 @@
-{}
+{
+  "schemaVersion": "catverter.pack-index/v1",
+  "id": "catverter.contributions",
+  "displayName": "Catverter Contributions",
+  "version": "1.0.0",
+  "author": "Catverter",
+  "description": "Validated community packs for Catverter.",
+  "packs": [
+    {
+      "id": "catverter.gioztrex.livorno.pack",
+      "kind": "units",
+      "displayName": "Livorno Pack",
+      "version": "1.0.0",
+      "author": "GiozTrex",
+      "description": "Unità in livornese.",
+      "downloadUrl": "gioztrex/livorno.json",
+      "homepageUrl": "https://github.com/Catverter/packs/blob/main/contributions/gioztrex/livorno.json",
+      "languages": ["it-IT"]
+    }
+  ]
+}
