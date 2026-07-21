@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-14",
+  "displayName": "Academic Pineapple Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "academic-pineapple", "dimension": "mass", "name": "Academic pineapple", "symbol": "apn", "emoji": "\uD83D\uDCE6", "singularName": "academic pineapple", "pluralName": "academic pineapples", "description": "A pineapple with peer-reviewed prickliness.", "scientificNote": "Crown height not counted as mass, despite protests.", "origin": "GiozTrex Template Stress Test", "baseFactor": 1.5, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

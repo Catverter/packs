@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-16",
+  "displayName": "Legendary Sock Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "legendary-sock", "dimension": "mass", "name": "Legendary sock", "symbol": "lsock", "emoji": "\uD83D\uDCE6", "singularName": "legendary sock", "pluralName": "legendary socks", "description": "A sock that survived the laundry dimension.", "scientificNote": "Pairing probability not part of mass calibration.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.04, "tags": ["test", "household"], "families": ["object", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

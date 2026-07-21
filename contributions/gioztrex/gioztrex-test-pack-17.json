@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-17",
+  "displayName": "Calibrated Pillow Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "calibrated-pillow", "dimension": "mass", "name": "Calibrated pillow", "symbol": "cpil", "emoji": "\uD83D\uDCE6", "singularName": "calibrated pillow", "pluralName": "calibrated pillows", "description": "A pillow approved for informal gravitational negotiations.", "scientificNote": "Fluff density averaged over three naps.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.7, "tags": ["test", "household"], "families": ["object", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

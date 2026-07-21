@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-23",
+  "displayName": "Bureaucracy Stapler Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "bureaucracy-stapler", "dimension": "mass", "name": "Bureaucracy stapler", "symbol": "bst", "emoji": "\uD83D\uDCE6", "singularName": "bureaucracy stapler", "pluralName": "bureaucracy staplers", "description": "A stapler carrying the weight of paperwork itself.", "scientificNote": "Staple reserves included at average office capacity.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.21, "tags": ["test", "office"], "families": ["object", "office"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

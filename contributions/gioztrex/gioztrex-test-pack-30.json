@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-30",
+  "displayName": "Archive Pebble Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "archive-pebble", "dimension": "mass", "name": "Archive pebble", "symbol": "apeb", "emoji": "\uD83D\uDCE6", "singularName": "archive pebble", "pluralName": "archive pebbles", "description": "A small stone preserved for procedural completeness.", "scientificNote": "Filed under mineral miscellany, subsection unnecessary.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.06, "tags": ["test", "object"], "families": ["object"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

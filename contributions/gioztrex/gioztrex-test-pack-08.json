@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-08",
+  "displayName": "Bath Towel of Destiny Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "bath-towel-of-destiny", "dimension": "mass", "name": "Bath towel of destiny", "symbol": "btod", "emoji": "\uD83D\uDCE6", "singularName": "bath towel of destiny", "pluralName": "bath towels of destiny", "description": "A towel with narrative consequences.", "scientificNote": "Dryness assumed for legal reasons.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.45, "tags": ["test", "household"], "families": ["object", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

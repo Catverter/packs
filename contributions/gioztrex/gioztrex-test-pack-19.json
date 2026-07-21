@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-19",
+  "displayName": "Serious Sandwich Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "serious-sandwich", "dimension": "mass", "name": "Serious sandwich", "symbol": "ssw", "emoji": "\uD83D\uDCE6", "singularName": "serious sandwich", "pluralName": "serious sandwiches", "description": "A sandwich with a firm position on lunch.", "scientificNote": "Fillings assumed cooperative.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.25, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

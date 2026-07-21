@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-24",
+  "displayName": "Micro Fridge Magnet Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "micro-fridge-magnet", "dimension": "mass", "name": "Micro fridge magnet", "symbol": "mfm", "emoji": "\uD83D\uDCE6", "singularName": "micro fridge magnet", "pluralName": "micro fridge magnets", "description": "A tiny authority holding one note against gravity.", "scientificNote": "Magnetism admired but not weighed separately.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.015, "tags": ["test", "kitchen"], "families": ["object", "kitchen"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

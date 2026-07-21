@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-27",
+  "displayName": "Cat-Approved Shoebox Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "cat-approved-shoebox", "dimension": "mass", "name": "Cat-approved shoebox", "symbol": "casb", "emoji": "\uD83D\uDCE6", "singularName": "cat-approved shoebox", "pluralName": "cat-approved shoeboxes", "description": "A shoebox validated by immediate occupation.", "scientificNote": "Comfort rating outside SI but inside truth.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.32, "tags": ["test", "household"], "families": ["object", "cat", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

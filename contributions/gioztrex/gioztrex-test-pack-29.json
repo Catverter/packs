@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-29",
+  "displayName": "Regulation Burrito Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "regulation-burrito", "dimension": "mass", "name": "Regulation burrito", "symbol": "rbur", "emoji": "\uD83D\uDCE6", "singularName": "regulation burrito", "pluralName": "regulation burritos", "description": "A burrito assembled within acceptable tolerance.", "scientificNote": "Tortilla containment assumed structurally sound.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.42, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

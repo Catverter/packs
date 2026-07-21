@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-18",
+  "displayName": "Tiny Dumbbell of Regret Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "tiny-dumbbell-of-regret", "dimension": "mass", "name": "Tiny dumbbell of regret", "symbol": "tdr", "emoji": "\uD83D\uDCE6", "singularName": "tiny dumbbell of regret", "pluralName": "tiny dumbbells of regret", "description": "Exercise equipment calibrated by ambition, not usage.", "scientificNote": "Regret is emotionally dense but physically excluded.", "origin": "GiozTrex Template Stress Test", "baseFactor": 2.0, "tags": ["test", "fitness"], "families": ["object", "tool"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

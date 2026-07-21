@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-02",
+  "displayName": "Pocket Thunder Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "pocket-thunder", "dimension": "mass", "name": "Pocket thunder", "symbol": "pth", "emoji": "\uD83D\uDCE6", "singularName": "pocket thunder", "pluralName": "pocket thunders", "description": "A dramatic amount of mass for something suspiciously portable.", "scientificNote": "Measured after the noise, for laboratory morale.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.24, "tags": ["test", "dramatic"], "families": ["object", "noise"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}

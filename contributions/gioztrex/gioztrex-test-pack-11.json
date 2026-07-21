@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.test-pack-11",
+  "displayName": "Sleepy Keyboard Pack",
+  "version": "1.0.0",
+  "author": "gioztrex",
+  "description": "Adds a single test mass unit for pack-list stress testing.",
+  "units": [
+    { "id": "sleepy-keyboard", "dimension": "mass", "name": "Sleepy keyboard", "symbol": "skbd", "emoji": "\uD83D\uDCE6", "singularName": "sleepy keyboard", "pluralName": "sleepy keyboards", "description": "A keyboard that has typed enough for one day.", "scientificNote": "Dust and abandoned shortcuts included.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.75, "tags": ["test", "office"], "families": ["object", "office"], "scientificAccuracy": "committeeConsensus" }
+  ]
+}
