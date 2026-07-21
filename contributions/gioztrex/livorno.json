@@ -1,1 +1,30 @@
-{}
+{
+  "schemaVersion": "catverter.units/v1",
+  "id": "catverter.gioztrex.livorno.pack",
+  "displayName": "Livorno Pack",
+  "version": "1.0.0",
+  "author": "GiozTrex",
+  "description": "Unità in livornese.",
+  "variantSettings": {
+    "enabled": true,
+    "enabledGroups": ["size"],
+    "maxVariantDepth": 1
+  },
+  "units": [
+    {
+      "id": "cinque-e-cinque",
+      "dimension": "mass",
+      "name": "5 e 5 ",
+      "symbol": "cec",
+      "emoji": "🥪",
+      "singularName": "Cinque e cinque",
+      "pluralName": "Cinque e cinque",
+      "description": "Lo snack umano per eccellenza.",
+      "scientificNote": "Niente da dire. Perfetto.",
+      "origin": "Livorno Pack",
+      "baseFactor": 0.5,
+      "tags": ["food"],
+      "families": ["food"],
+      "scientificAccuracy": "committeeConsensus"
+    }
+}
