@@ -6,6 +6,27 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "ceremonial-remote-control", "dimension": "mass", "name": "Ceremonial remote control", "symbol": "crc", "emoji": "\uD83D\uDCE6", "singularName": "ceremonial remote control", "pluralName": "ceremonial remote controls", "description": "A remote that controls only very formal televisions.", "scientificNote": "Battery mass included because somebody has to decide.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.16, "tags": ["test", "household"], "families": ["object", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "ceremonial-remote-control",
+      "dimension": "mass",
+      "name": "Ceremonial remote control",
+      "symbol": "crc",
+      "emoji": "📦",
+      "singularName": "ceremonial remote control",
+      "pluralName": "ceremonial remote controls",
+      "description": "A remote that controls only very formal televisions.",
+      "scientificNote": "Battery mass included because somebody has to decide.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.16,
+      "tags": [
+        "intuitive",
+        "household"
+      ],
+      "families": [
+        "technology",
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

@@ -6,6 +6,27 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "dramatic-pumpkin-seed", "dimension": "mass", "name": "Dramatic pumpkin seed", "symbol": "dps", "emoji": "\uD83D\uDCE6", "singularName": "dramatic pumpkin seed", "pluralName": "dramatic pumpkin seeds", "description": "A seed that believes the scene is about it.", "scientificNote": "Mass measured before applause.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.00013, "tags": ["test", "food", "tinyThings"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "dramatic-pumpkin-seed",
+      "dimension": "mass",
+      "name": "Dramatic pumpkin seed",
+      "symbol": "dps",
+      "emoji": "📦",
+      "singularName": "dramatic pumpkin seed",
+      "pluralName": "dramatic pumpkin seeds",
+      "description": "A seed that believes the scene is about it.",
+      "scientificNote": "Mass measured before applause.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.00013,
+      "tags": [
+        "intuitive",
+        "food",
+        "tinyThings"
+      ],
+      "families": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "suspicious-meatball", "dimension": "mass", "name": "Suspicious meatball", "symbol": "smb", "emoji": "\uD83D\uDCE6", "singularName": "suspicious meatball", "pluralName": "suspicious meatballs", "description": "A meatball with questions pending.", "scientificNote": "Sauce ambiguity remains under active investigation.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.08, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "suspicious-meatball",
+      "dimension": "mass",
+      "name": "Suspicious meatball",
+      "symbol": "smb",
+      "emoji": "📦",
+      "singularName": "suspicious meatball",
+      "pluralName": "suspicious meatballs",
+      "description": "A meatball with questions pending.",
+      "scientificNote": "Sauce ambiguity remains under active investigation.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.08,
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "families": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

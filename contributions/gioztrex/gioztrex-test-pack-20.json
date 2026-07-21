@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "parliament-banana", "dimension": "mass", "name": "Parliament banana", "symbol": "pban", "emoji": "\uD83D\uDCE6", "singularName": "parliament banana", "pluralName": "parliament bananas", "description": "A banana passed by a narrow majority.", "scientificNote": "Curvature debates tabled indefinitely.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.12, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "parliament-banana",
+      "dimension": "mass",
+      "name": "Parliament banana",
+      "symbol": "pban",
+      "emoji": "📦",
+      "singularName": "parliament banana",
+      "pluralName": "parliament bananas",
+      "description": "A banana passed by a narrow majority.",
+      "scientificNote": "Curvature debates tabled indefinitely.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.12,
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "families": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

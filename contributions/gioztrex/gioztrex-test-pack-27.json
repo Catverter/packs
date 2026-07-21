@@ -6,6 +6,29 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "cat-approved-shoebox", "dimension": "mass", "name": "Cat-approved shoebox", "symbol": "casb", "emoji": "\uD83D\uDCE6", "singularName": "cat-approved shoebox", "pluralName": "cat-approved shoeboxes", "description": "A shoebox validated by immediate occupation.", "scientificNote": "Comfort rating outside SI but inside truth.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.32, "tags": ["test", "household"], "families": ["object", "cat", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "cat-approved-shoebox",
+      "dimension": "mass",
+      "name": "Cat-approved shoebox",
+      "symbol": "casb",
+      "emoji": "📦",
+      "singularName": "cat-approved shoebox",
+      "pluralName": "cat-approved shoeboxes",
+      "description": "A shoebox validated by immediate occupation.",
+      "scientificNote": "Comfort rating outside SI but inside truth.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.32,
+      "tags": [
+        "intuitive",
+        "household",
+        "cats"
+      ],
+      "families": [
+        "cat",
+        "animal",
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

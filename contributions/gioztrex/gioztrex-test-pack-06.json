@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "tiny-anvil", "dimension": "mass", "name": "Tiny anvil", "symbol": "ta", "emoji": "\uD83D\uDCE6", "singularName": "tiny anvil", "pluralName": "tiny anvils", "description": "A surprisingly serious metal opinion.", "scientificNote": "Falls excluded from repeatability studies.", "origin": "GiozTrex Template Stress Test", "baseFactor": 1.2, "tags": ["test", "tool"], "families": ["object", "tool"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "tiny-anvil",
+      "dimension": "mass",
+      "name": "Tiny anvil",
+      "symbol": "ta",
+      "emoji": "📦",
+      "singularName": "tiny anvil",
+      "pluralName": "tiny anvils",
+      "description": "A surprisingly serious metal opinion.",
+      "scientificNote": "Falls excluded from repeatability studies.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 1.2,
+      "tags": [
+        "intuitive",
+        "household"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "portable-cloud-fragment", "dimension": "mass", "name": "Portable cloud fragment", "symbol": "pcf", "emoji": "\uD83D\uDCE6", "singularName": "portable cloud fragment", "pluralName": "portable cloud fragments", "description": "A suspiciously light piece of imaginary weather.", "scientificNote": "Humidity politely ignored.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.03, "tags": ["test", "poetic"], "families": ["object"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "portable-cloud-fragment",
+      "dimension": "mass",
+      "name": "Portable cloud fragment",
+      "symbol": "pcf",
+      "emoji": "📦",
+      "singularName": "portable cloud fragment",
+      "pluralName": "portable cloud fragments",
+      "description": "A suspiciously light piece of imaginary weather.",
+      "scientificNote": "Humidity politely ignored.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.03,
+      "tags": [
+        "intuitive",
+        "pseudoScientific"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

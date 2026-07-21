@@ -6,6 +6,27 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "confused-teacup", "dimension": "mass", "name": "Confused teacup", "symbol": "ctc", "emoji": "\uD83D\uDCE6", "singularName": "confused teacup", "pluralName": "confused teacups", "description": "A teacup unsure whether it is decorative or responsible.", "scientificNote": "Tea not included unless specified by ceremony.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.2, "tags": ["test", "kitchen"], "families": ["object", "kitchen"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "confused-teacup",
+      "dimension": "mass",
+      "name": "Confused teacup",
+      "symbol": "ctc",
+      "emoji": "📦",
+      "singularName": "confused teacup",
+      "pluralName": "confused teacups",
+      "description": "A teacup unsure whether it is decorative or responsible.",
+      "scientificNote": "Tea not included unless specified by ceremony.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.2,
+      "tags": [
+        "intuitive",
+        "food",
+        "household"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

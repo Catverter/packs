@@ -6,6 +6,27 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "emergency-espresso-cup", "dimension": "mass", "name": "Emergency espresso cup", "symbol": "eec", "emoji": "\uD83D\uDCE6", "singularName": "emergency espresso cup", "pluralName": "emergency espresso cups", "description": "A critical vessel in workplace survival science.", "scientificNote": "Caffeine pressure not included in base mass.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.22, "tags": ["test", "kitchen"], "families": ["object", "kitchen"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "emergency-espresso-cup",
+      "dimension": "mass",
+      "name": "Emergency espresso cup",
+      "symbol": "eec",
+      "emoji": "📦",
+      "singularName": "emergency espresso cup",
+      "pluralName": "emergency espresso cups",
+      "description": "A critical vessel in workplace survival science.",
+      "scientificNote": "Caffeine pressure not included in base mass.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.22,
+      "tags": [
+        "intuitive",
+        "food",
+        "household"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

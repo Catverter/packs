@@ -6,6 +6,27 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "office-biscuit", "dimension": "mass", "name": "Office biscuit", "symbol": "ob", "emoji": "\uD83D\uDCE6", "singularName": "office biscuit", "pluralName": "office biscuits", "description": "A biscuit that has attended too many meetings.", "scientificNote": "Crumbs counted only when politically convenient.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.012, "tags": ["test", "food"], "families": ["food", "office"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "office-biscuit",
+      "dimension": "mass",
+      "name": "Office biscuit",
+      "symbol": "ob",
+      "emoji": "📦",
+      "singularName": "office biscuit",
+      "pluralName": "office biscuits",
+      "description": "A biscuit that has attended too many meetings.",
+      "scientificNote": "Crumbs counted only when politically convenient.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.012,
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "families": [
+        "food",
+        "technology"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

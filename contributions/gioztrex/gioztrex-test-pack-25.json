@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "garden-gnome-hat", "dimension": "mass", "name": "Garden gnome hat", "symbol": "ggh", "emoji": "\uD83D\uDCE6", "singularName": "garden gnome hat", "pluralName": "garden gnome hats", "description": "A hat from the quiet end of garden administration.", "scientificNote": "Pointiness standardized under outdoor conditions.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.18, "tags": ["test", "garden"], "families": ["object"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "garden-gnome-hat",
+      "dimension": "mass",
+      "name": "Garden gnome hat",
+      "symbol": "ggh",
+      "emoji": "📦",
+      "singularName": "garden gnome hat",
+      "pluralName": "garden gnome hats",
+      "description": "A hat from the quiet end of garden administration.",
+      "scientificNote": "Pointiness standardized under outdoor conditions.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.18,
+      "tags": [
+        "intuitive",
+        "household"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

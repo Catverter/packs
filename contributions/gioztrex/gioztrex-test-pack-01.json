@@ -6,6 +6,27 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "ceremonial-spoon", "dimension": "mass", "name": "Ceremonial spoon", "symbol": "csp", "emoji": "\uD83D\uDCE6", "singularName": "ceremonial spoon", "pluralName": "ceremonial spoons", "description": "A spoon promoted far beyond its natural authority.", "scientificNote": "Mass includes ceremonial expectations but excludes soup.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.018, "tags": ["test", "kitchen"], "families": ["object", "kitchen"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "ceremonial-spoon",
+      "dimension": "mass",
+      "name": "Ceremonial spoon",
+      "symbol": "csp",
+      "emoji": "📦",
+      "singularName": "ceremonial spoon",
+      "pluralName": "ceremonial spoons",
+      "description": "A spoon promoted far beyond its natural authority.",
+      "scientificNote": "Mass includes ceremonial expectations but excludes soup.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.018,
+      "tags": [
+        "intuitive",
+        "food",
+        "household"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

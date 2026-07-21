@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "heroic-lasagna-square", "dimension": "mass", "name": "Heroic lasagna square", "symbol": "hls", "emoji": "\uD83D\uDCE6", "singularName": "heroic lasagna square", "pluralName": "heroic lasagna squares", "description": "A structural food unit with excellent morale.", "scientificNote": "Layers counted by optimism rather than microscopy.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.35, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "heroic-lasagna-square",
+      "dimension": "mass",
+      "name": "Heroic lasagna square",
+      "symbol": "hls",
+      "emoji": "📦",
+      "singularName": "heroic lasagna square",
+      "pluralName": "heroic lasagna squares",
+      "description": "A structural food unit with excellent morale.",
+      "scientificNote": "Layers counted by optimism rather than microscopy.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.35,
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "families": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

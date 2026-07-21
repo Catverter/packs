@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "municipal-croissant", "dimension": "mass", "name": "Municipal croissant", "symbol": "mcro", "emoji": "\uD83D\uDCE6", "singularName": "municipal croissant", "pluralName": "municipal croissants", "description": "A pastry approved by three imaginary departments.", "scientificNote": "Flakiness introduces harmless administrative variance.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.09, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "municipal-croissant",
+      "dimension": "mass",
+      "name": "Municipal croissant",
+      "symbol": "mcro",
+      "emoji": "📦",
+      "singularName": "municipal croissant",
+      "pluralName": "municipal croissants",
+      "description": "A pastry approved by three imaginary departments.",
+      "scientificNote": "Flakiness introduces harmless administrative variance.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.09,
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "families": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "sofa-crumb", "dimension": "mass", "name": "Sofa crumb", "symbol": "scr", "emoji": "\uD83D\uDCE6", "singularName": "sofa crumb", "pluralName": "sofa crumbs", "description": "A tiny relic recovered from domestic archaeology.", "scientificNote": "Age unknown, emotional weight significant.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.002, "tags": ["test", "tinyThings"], "families": ["object", "householdObject"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "sofa-crumb",
+      "dimension": "mass",
+      "name": "Sofa crumb",
+      "symbol": "scr",
+      "emoji": "📦",
+      "singularName": "sofa crumb",
+      "pluralName": "sofa crumbs",
+      "description": "A tiny relic recovered from domestic archaeology.",
+      "scientificNote": "Age unknown, emotional weight significant.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.002,
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "families": [
+        "householdObject"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }

@@ -6,6 +6,26 @@
   "author": "gioztrex",
   "description": "Adds a single test mass unit for pack-list stress testing.",
   "units": [
-    { "id": "solemn-pizza-slice", "dimension": "mass", "name": "Solemn pizza slice", "symbol": "sps", "emoji": "\uD83D\uDCE6", "singularName": "solemn pizza slice", "pluralName": "solemn pizza slices", "description": "A pizza slice aware of its civic duty.", "scientificNote": "Cheese stretch excluded from linear dramatics.", "origin": "GiozTrex Template Stress Test", "baseFactor": 0.11, "tags": ["test", "food"], "families": ["food"], "scientificAccuracy": "committeeConsensus" }
+    {
+      "id": "solemn-pizza-slice",
+      "dimension": "mass",
+      "name": "Solemn pizza slice",
+      "symbol": "sps",
+      "emoji": "📦",
+      "singularName": "solemn pizza slice",
+      "pluralName": "solemn pizza slices",
+      "description": "A pizza slice aware of its civic duty.",
+      "scientificNote": "Cheese stretch excluded from linear dramatics.",
+      "origin": "GiozTrex Template Stress Test",
+      "baseFactor": 0.11,
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "families": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus"
+    }
   ]
 }
