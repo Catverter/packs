@@ -16,7 +16,7 @@
       "downloadUrl": "gioztrex/livorno.json",
       "languages": ["it-IT"],
       "badges": ["committeePick", "packOfTheMonth"],
-      "featuredOrder": 10,
+      "featuredOrder": 2,
       "featuredReason": {
         "en": "Approved after careful sample-based science.",
         "it": "Approvato dopo attenta scienza a campione."
