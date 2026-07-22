@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.speed",
   "displayName": "Velocità Core Catverter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Catverter",
   "description": "Unità di velocità buffe costruite da lunghezze e tempi core.",
   "ratioUnits": [
