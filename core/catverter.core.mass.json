@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.mass",
   "displayName": "Massa Core Catverter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Catverter",
   "description": "Unità di massa buffe e definizioni predefinite delle varianti.",
   "variantSettings": {
