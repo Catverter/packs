@@ -1,311 +1,324 @@
 {
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.length",
-  "displayName": "Catverter Core Length",
+  "displayName": "Lunghezza Core Catverter",
   "version": "1.0.0",
   "author": "Catverter",
-  "description": "Funny length units used directly and by speed ratios.",
-  "localizations": {
-    "it": {
-      "displayName": "Lunghezza Core Catverter",
-      "description": "Unità di lunghezza buffe usate direttamente e nei rapporti di velocità.",
-      "units": {
-        "sleeping-cat": {
-          "name": "Gatto addormentato",
-          "symbol": "gatti addormentati",
-          "singularName": "gatto addormentato",
-          "pluralName": "gatti addormentati",
-          "description": "Un gatto domestico che occupa uno standard orizzontale pacifico.",
-          "scientificNote": "Le misurazioni sono valide solo finché il soggetto non sente una bustina di cibo.",
-          "origin": "Standard di Lunghezza Felina a Riposo"
-        },
-        "cat-tail": {
-          "name": "Coda di gatto",
-          "symbol": "code di gatto",
-          "singularName": "coda di gatto",
-          "pluralName": "code di gatto",
-          "description": "La lunghezza media della coda di un gatto ragionevolmente collaborativo.",
-          "scientificNote": "Misurazioni ottenute senza inseguire il campione.",
-          "origin": "Ufficio Calibrazione Code"
-        },
-        "banana": {
-          "name": "Banana",
-          "symbol": "banane",
-          "singularName": "banana",
-          "pluralName": "banane",
-          "description": "L'unità di riferimento preferita da Internet.",
-          "scientificNote": "Curvatura ignorata per coerenza.",
-          "origin": "Comitato Standard Frutticoli"
-        }
-      }
-    }
-  },
+  "description": "Unità di lunghezza buffe usate direttamente e nei rapporti di velocità.",
   "units": [
     {
       "id": "sleeping-cat",
       "dimension": "length",
-      "name": "Sleeping cat",
-      "symbol": "sleeping cats",
+      "name": "Gatto addormentato",
+      "symbol": "gatti addormentati",
       "emoji": "😴",
-      "singularName": "sleeping cat",
-      "pluralName": "sleeping cats",
-      "description": "A domestic cat occupying a peaceful horizontal standard.",
-      "scientificNote": "Measurements are valid only until the subject hears a food packet.",
-      "origin": "Feline Resting Length Standard",
+      "singularName": "gatto addormentato",
+      "pluralName": "gatti addormentati",
+      "description": "Un gatto domestico che occupa uno standard orizzontale pacifico.",
+      "scientificNote": "Le misurazioni sono valide solo finché il soggetto non sente una bustina di cibo.",
+      "origin": "Standard di Lunghezza Felina a Riposo",
       "baseFactor": 0.5,
-      "tags": ["cats", "animals", "intuitive"]
+      "tags": [
+        "cats",
+        "animals",
+        "intuitive"
+      ]
     },
     {
       "id": "tail-length",
       "dimension": "length",
-      "name": "Tail length",
-      "symbol": "tails",
+      "name": "Lunghezza di coda",
+      "symbol": "code",
       "emoji": "〰️",
-      "singularName": "tail",
-      "pluralName": "tails",
-      "description": "An expressive linear unit attached to the back of the reference cat.",
-      "scientificNote": "Tail mood may introduce curvature not represented here.",
-      "origin": "Appendage Metrology Annex",
+      "singularName": "coda",
+      "pluralName": "code",
+      "description": "Un'unità lineare espressiva attaccata dietro al gatto di riferimento.",
+      "scientificNote": "L'umore della coda può introdurre curvature non rappresentate qui.",
+      "origin": "Allegato di Metrologia delle Appendici",
       "baseFactor": 0.3,
-      "tags": ["cats", "animals", "tinyThings"]
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings"
+      ]
     },
     {
       "id": "banana-length",
       "dimension": "length",
       "name": "Banana",
-      "symbol": "bananas",
+      "symbol": "banane",
       "emoji": "🍌",
       "singularName": "banana",
-      "pluralName": "bananas",
-      "description": "The classic unit for scale, now in actual length.",
-      "scientificNote": "Straightening the banana voids the warranty.",
-      "origin": "Global Banana Reference Program",
+      "pluralName": "banane",
+      "description": "La classica unità per fare scala, ora in lunghezza reale.",
+      "scientificNote": "Raddrizzare la banana annulla la garanzia.",
+      "origin": "Programma Globale di Riferimento Banana",
       "baseFactor": 0.18,
-      "tags": ["food", "tinyThings", "intuitive"]
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive"
+      ]
     },
     {
       "id": "cat-tail",
       "dimension": "length",
-      "name": "Cat tail",
-      "symbol": "cat tails",
+      "name": "Coda di gatto",
+      "symbol": "code di gatto",
       "emoji": "🐈",
-      "singularName": "cat tail",
-      "pluralName": "cat tails",
-      "description": "The average tail length of a reasonably cooperative cat.",
-      "scientificNote": "Measurements obtained without chasing the specimen.",
-      "origin": "Tail Calibration Bureau",
-      "baseFactor": 0.30,
-      "tags": ["cats", "animals"]
+      "singularName": "coda di gatto",
+      "pluralName": "code di gatto",
+      "description": "La lunghezza media della coda di un gatto ragionevolmente collaborativo.",
+      "scientificNote": "Misurazioni ottenute senza inseguire il campione.",
+      "origin": "Ufficio Calibrazione Code",
+      "baseFactor": 0.3,
+      "tags": [
+        "cats",
+        "animals"
+      ]
     },
     {
       "id": "loaf-cat-length",
       "dimension": "length",
-      "name": "Loaf cat",
-      "symbol": "loaf cats",
+      "name": "Gatto a pagnotta",
+      "symbol": "gatti a pagnotta",
       "emoji": "🍞🐈",
-      "singularName": "loaf cat",
-      "pluralName": "loaf cats",
-      "description": "A cat measured in optimal loaf configuration.",
-      "scientificNote": "Front paws must not be visible.",
-      "origin": "Institute of Advanced Loaf Dynamics",
+      "singularName": "gatto a pagnotta",
+      "pluralName": "gatti a pagnotta",
+      "description": "Un gatto misurato nella configurazione a pagnotta ottimale.",
+      "scientificNote": "Le zampe anteriori non devono essere visibili.",
+      "origin": "Istituto di Dinamica Avanzata della Pagnotta",
       "baseFactor": 0.45,
-      "tags": ["cats"]
+      "tags": [
+        "cats"
+      ]
     },
     {
       "id": "stretched-cat",
       "dimension": "length",
-      "name": "Stretched cat",
-      "symbol": "stretched cats",
+      "name": "Gatto stiracchiato",
+      "symbol": "gatti stiracchiati",
       "emoji": "🐈↔️",
-      "singularName": "stretched cat",
-      "pluralName": "stretched cats",
-      "description": "Maximum observed feline elongation after waking up.",
-      "scientificNote": "Stretch quality varies with nap satisfaction.",
-      "origin": "Elastic Feline Laboratory",
+      "singularName": "gatto stiracchiato",
+      "pluralName": "gatti stiracchiati",
+      "description": "Massima elongazione felina osservata dopo il risveglio.",
+      "scientificNote": "La qualità dello stiracchiamento varia con la soddisfazione del pisolino.",
+      "origin": "Laboratorio Felino Elastico",
       "baseFactor": 0.85,
-      "tags": ["cats"]
+      "tags": [
+        "cats"
+      ]
     },
     {
       "id": "cat-jump",
       "dimension": "length",
-      "name": "Cat jump",
-      "symbol": "cat jumps",
+      "name": "Salto di gatto",
+      "symbol": "salti di gatto",
       "emoji": "🐈⬆️",
-      "singularName": "cat jump",
-      "pluralName": "cat jumps",
-      "description": "Average horizontal leap during unexplained excitement.",
-      "scientificNote": "Commonly observed at 3 AM.",
-      "origin": "Nighttime Velocity Observatory",
+      "singularName": "salto di gatto",
+      "pluralName": "salti di gatto",
+      "description": "Balzo orizzontale medio durante entusiasmo inspiegabile.",
+      "scientificNote": "Osservato comunemente alle 3 di notte.",
+      "origin": "Osservatorio della Velocità Notturna",
       "baseFactor": 1.5,
-      "tags": ["cats"]
+      "tags": [
+        "cats"
+      ]
     },
     {
       "id": "banana",
       "dimension": "length",
       "name": "Banana",
-      "symbol": "bananas",
+      "symbol": "banane",
       "emoji": "🍌",
       "singularName": "banana",
-      "pluralName": "bananas",
-      "description": "The Internet's preferred reference unit.",
-      "scientificNote": "Curvature ignored for consistency.",
-      "origin": "Fruit Standards Committee",
+      "pluralName": "banane",
+      "description": "L'unità di riferimento preferita da Internet.",
+      "scientificNote": "Curvatura ignorata per coerenza.",
+      "origin": "Comitato Standard Frutticoli",
       "baseFactor": 0.18,
-      "tags": ["food", "intuitive"]
+      "tags": [
+        "food",
+        "intuitive"
+      ]
     },
     {
       "id": "baguette",
       "dimension": "length",
       "name": "Baguette",
-      "symbol": "baguettes",
+      "symbol": "baguette",
       "emoji": "🥖",
       "singularName": "baguette",
-      "pluralName": "baguettes",
-      "description": "Traditional French length standard.",
-      "scientificNote": "Crunchiness does not affect calibration.",
-      "origin": "French Bakery Standards Committee",
+      "pluralName": "baguette",
+      "description": "Standard di lunghezza tradizionale francese.",
+      "scientificNote": "La croccantezza non influenza la calibrazione.",
+      "origin": "Comitato Standard Panetteria Francese",
       "baseFactor": 0.65,
-      "tags": ["food"]
+      "tags": [
+        "food"
+      ]
     },
     {
       "id": "sofa",
       "dimension": "length",
-      "name": "Sofa",
-      "symbol": "sofas",
+      "name": "Divano",
+      "symbol": "divani",
       "emoji": "🛋️",
-      "singularName": "sofa",
-      "pluralName": "sofas",
-      "description": "Domestic lounging apparatus.",
-      "scientificNote": "Cats assume ownership immediately.",
-      "origin": "Domestic Furniture Registry",
+      "singularName": "divano",
+      "pluralName": "divani",
+      "description": "Apparato domestico per il relax.",
+      "scientificNote": "I gatti ne assumono subito la proprietà.",
+      "origin": "Registro Arredi Domestici",
       "baseFactor": 2.1,
-      "tags": ["household"]
+      "tags": [
+        "household"
+      ]
     },
     {
       "id": "city-bus",
       "dimension": "length",
-      "name": "City bus",
-      "symbol": "city buses",
+      "name": "Autobus urbano",
+      "symbol": "autobus urbani",
       "emoji": "🚌",
-      "singularName": "city bus",
-      "pluralName": "city buses",
-      "description": "Frequently used by journalists for dramatic effect.",
-      "scientificNote": "Usually late during measurements.",
-      "origin": "Department of Public Transport",
+      "singularName": "autobus urbano",
+      "pluralName": "autobus urbani",
+      "description": "Usato spesso dai giornalisti per effetto drammatico.",
+      "scientificNote": "Di solito in ritardo durante le misurazioni.",
+      "origin": "Dipartimento del Trasporto Pubblico",
       "baseFactor": 12,
-      "tags": ["intuitive"]
+      "tags": [
+        "intuitive"
+      ]
     },
     {
       "id": "blue-whale-length",
       "dimension": "length",
-      "name": "Blue whale",
-      "symbol": "Blue whales",
+      "name": "Balena azzurra",
+      "symbol": "balene azzurre",
       "emoji": "🐋",
-      "singularName": "blue whale",
-      "pluralName": "blue whales",
-      "description": "The largest regularly calibrated marine mammal.",
-      "scientificNote": "Measurements exclude dramatic splashes.",
-      "origin": "Marine Measurement Institute",
+      "singularName": "balena azzurra",
+      "pluralName": "balene azzurre",
+      "description": "Il più grande mammifero marino calibrato regolarmente.",
+      "scientificNote": "Le misurazioni escludono schizzi drammatici.",
+      "origin": "Istituto di Misurazione Marina",
       "baseFactor": 27,
-      "tags": ["animals", "hugeThings"]
+      "tags": [
+        "animals",
+        "hugeThings"
+      ]
     },
     {
       "id": "t-rex",
       "dimension": "length",
       "name": "T-Rex",
-      "symbol": "T-Rexes",
+      "symbol": "T-Rex",
       "emoji": "🦖",
       "singularName": "T-Rex",
-      "pluralName": "T-Rexes",
-      "description": "Large extinct reptile.",
-      "scientificNote": "Arm length intentionally omitted.",
-      "origin": "Department of Historical Approximation",
+      "pluralName": "T-Rex",
+      "description": "Grande rettile estinto.",
+      "scientificNote": "La lunghezza delle braccia è omessa intenzionalmente.",
+      "origin": "Dipartimento di Approssimazione Storica",
       "baseFactor": 12,
-      "tags": ["animals"]
+      "tags": [
+        "animals"
+      ]
     },
     {
       "id": "football-field",
       "dimension": "length",
-      "name": "Football field",
-      "symbol": "football fields",
+      "name": "Campo da football",
+      "symbol": "campi da football",
       "emoji": "🏈",
-      "singularName": "football field",
-      "pluralName": "football fields",
-      "description": "The international journalistic standard.",
-      "scientificNote": "Almost mandatory for news articles.",
-      "origin": "Newsroom Approximation Bureau",
+      "singularName": "campo da football",
+      "pluralName": "campi da football",
+      "description": "Lo standard giornalistico internazionale.",
+      "scientificNote": "Quasi obbligatorio negli articoli di giornale.",
+      "origin": "Ufficio Approssimazioni da Redazione",
       "baseFactor": 105,
-      "tags": ["intuitive"]
+      "tags": [
+        "intuitive"
+      ]
     },
     {
       "id": "eiffel-tower",
       "dimension": "length",
-      "name": "Eiffel Tower",
-      "symbol": "Eiffel Towers",
+      "name": "Torre Eiffel",
+      "symbol": "Torri Eiffel",
       "emoji": "🗼",
-      "singularName": "Eiffel Tower",
-      "pluralName": "Eiffel Towers",
-      "description": "Large Parisian calibration artifact.",
-      "scientificNote": "Tourists not included.",
-      "origin": "European Landmark Registry",
+      "singularName": "Torre Eiffel",
+      "pluralName": "Torri Eiffel",
+      "description": "Grande artefatto di calibrazione parigino.",
+      "scientificNote": "Turisti non inclusi.",
+      "origin": "Registro Monumenti Europei",
       "baseFactor": 330,
-      "tags": ["hugeThings"]
+      "tags": [
+        "hugeThings"
+      ]
     },
     {
       "id": "giraffe",
       "dimension": "length",
-      "name": "Giraffe",
-      "symbol": "Giraffes",
+      "name": "Giraffa",
+      "symbol": "giraffe",
       "emoji": "🦒",
-      "singularName": "giraffe",
-      "pluralName": "giraffes",
-      "description": "Tall herbivore with excellent visibility.",
-      "scientificNote": "Neck measured separately during certification.",
-      "origin": "Long Neck Institute",
+      "singularName": "giraffa",
+      "pluralName": "giraffe",
+      "description": "Erbivoro alto con visibilità eccellente.",
+      "scientificNote": "Il collo viene misurato separatamente durante la certificazione.",
+      "origin": "Istituto del Collo Lungo",
       "baseFactor": 5.2,
-      "tags": ["animals"]
+      "tags": [
+        "animals"
+      ]
     },
     {
       "id": "spaghetti",
       "dimension": "length",
-      "name": "Spaghetti strand",
-      "symbol": "spaghetti strands",
+      "name": "Spaghetto",
+      "symbol": "spaghetti",
       "emoji": "🍝",
-      "singularName": "spaghetti strand",
-      "pluralName": "spaghetti strands",
-      "description": "An extremely inconvenient unit of length.",
-      "scientificNote": "Breakage probability increases with enthusiasm.",
-      "origin": "Italian Pasta Standards Board",
+      "singularName": "spaghetto",
+      "pluralName": "spaghetti",
+      "description": "Un'unità di lunghezza estremamente scomoda.",
+      "scientificNote": "La probabilità di rottura aumenta con l'entusiasmo.",
+      "origin": "Consiglio Italiano Standard Pasta",
       "baseFactor": 0.26,
-      "tags": ["food", "tinyThings"]
+      "tags": [
+        "food",
+        "tinyThings"
+      ]
     },
     {
       "id": "supermarket-queue",
       "dimension": "length",
-      "name": "Supermarket queue",
-      "symbol": "supermarket queues",
+      "name": "Fila al supermercato",
+      "symbol": "file al supermercato",
       "emoji": "🛒",
-      "singularName": "supermarket queue",
-      "pluralName": "supermarket queues",
-      "description": "Average queue immediately before your lunch break.",
-      "scientificNote": "Length increases when you're in a hurry.",
-      "origin": "Department of Everyday Frustration",
+      "singularName": "fila al supermercato",
+      "pluralName": "file al supermercato",
+      "description": "Fila media appena prima della pausa pranzo.",
+      "scientificNote": "La lunghezza aumenta quando hai fretta.",
+      "origin": "Dipartimento della Frustrazione Quotidiana",
       "baseFactor": 18,
-      "tags": ["intuitive"]
+      "tags": [
+        "intuitive"
+      ]
     },
     {
       "id": "ikea-instruction",
       "dimension": "length",
-      "name": "IKEA instruction",
-      "symbol": "IKEA instructions",
+      "name": "Istruzione IKEA",
+      "symbol": "istruzioni IKEA",
       "emoji": "📖",
-      "singularName": "IKEA instruction",
-      "pluralName": "IKEA instructions",
-      "description": "One page of an IKEA manual.",
-      "scientificNote": "Reading it remains optional.",
-      "origin": "Nordic Assembly Authority",
+      "singularName": "istruzione IKEA",
+      "pluralName": "istruzioni IKEA",
+      "description": "Una pagina di manuale IKEA.",
+      "scientificNote": "Leggerla resta facoltativo.",
+      "origin": "Autorità Nordica di Montaggio",
       "baseFactor": 0.297,
-      "tags": ["household"]
+      "tags": [
+        "household"
+      ]
     }
   ]
 }

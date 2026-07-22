@@ -1,114 +1,10 @@
 {
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.mass",
-  "displayName": "Catverter Core Mass",
+  "displayName": "Massa Core Catverter",
   "version": "1.0.0",
   "author": "Catverter",
-  "description": "Funny mass units and the default variant definitions.",
-  "localizations": {
-    "it": {
-      "displayName": "Massa Core Catverter",
-      "description": "Unità di massa buffe e definizioni predefinite delle varianti.",
-      "units": {
-        "standard-cat": {
-          "name": "Gatto standard",
-          "symbol": "gatti",
-          "singularName": "gatto standard",
-          "pluralName": "gatti standard",
-          "description": "Il riferimento felino. Di solito ti sta giudicando.",
-          "scientificNote": "Tutti i Gatti Standard vengono calibrati annualmente dal Reparto Garanzia Qualità.",
-          "origin": "Riferimento primario di massa Catverter"
-        },
-        "golden-retriever": {
-          "name": "Golden retriever",
-          "symbol": "golden retriever",
-          "singularName": "golden retriever",
-          "pluralName": "golden retriever",
-          "description": "Utile quando la risposta ha bisogno di energia canina amichevole.",
-          "scientificNote": "Le misurazioni assumono massimo ottimismo.",
-          "origin": "Ufficio Standard Comparativi Canini"
-        },
-        "average-chair": {
-          "name": "Sedia media",
-          "symbol": "sedie medie",
-          "singularName": "sedia media",
-          "pluralName": "sedie medie",
-          "description": "Per favore non sederti su sedie frazionarie.",
-          "scientificNote": "Cuscini, braccioli e dignità ergonomica non sono inclusi.",
-          "origin": "Catverter Furniture Standards Bureau"
-        },
-        "potato": {
-          "name": "Patata",
-          "symbol": "patate",
-          "singularName": "patata",
-          "pluralName": "patate",
-          "description": "L'unità affidabile della scienza da dispensa.",
-          "scientificNote": "Germogli ignorati a meno che non diventino senzienti.",
-          "origin": "Registro Agricolo delle Unità Circa Rotonde"
-        },
-        "refrigerator": {
-          "name": "Frigorifero",
-          "symbol": "frigoriferi",
-          "singularName": "frigorifero",
-          "pluralName": "frigoriferi",
-          "description": "Grande apparato domestico di raffreddamento.",
-          "scientificNote": "Le misurazioni escludono avanzi misteriosi più vecchi di sei mesi.",
-          "origin": "Registro Elettrodomestici Domestici"
-        },
-        "parmesan-wheel": {
-          "name": "Forma di Parmigiano",
-          "symbol": "forme di Parmigiano",
-          "singularName": "forma di Parmigiano",
-          "pluralName": "forme di Parmigiano",
-          "description": "Un riferimento culinario grande approvato dall'Italia.",
-          "scientificNote": "Assaggio scientifico eseguito dopo ogni calibrazione.",
-          "origin": "Consorzio degli Scienziati del Formaggio Estremamente Seri"
-        }
-      },
-      "variants": {
-        "skinny": {
-          "adjective": "snello",
-          "unitNamePattern": "{unitName} snello",
-          "singularNamePattern": "{singular} snello",
-          "pluralNamePattern": "{plural} snelli",
-          "symbolPattern": "{symbol} snelli",
-          "descriptionPattern": "Una variante più snella di {singular}, calibrata per interpretazioni sospettosamente strette.",
-          "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
-          "origin": "Banco Calibrazione Varianti Catverter"
-        },
-        "tall": {
-          "adjective": "alto",
-          "unitNamePattern": "{unitName} alto",
-          "singularNamePattern": "{singular} alto",
-          "pluralNamePattern": "{plural} alti",
-          "symbolPattern": "{symbol} alti",
-          "descriptionPattern": "Una variante verticalmente ambiziosa di {singular}, con fiducia metrologica extra.",
-          "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
-          "origin": "Banco Calibrazione Varianti Catverter"
-        },
-        "happy": {
-          "adjective": "felice",
-          "unitNamePattern": "{unitName} felice",
-          "singularNamePattern": "{singular} felice",
-          "pluralNamePattern": "{plural} felici",
-          "symbolPattern": "{symbol} felici",
-          "descriptionPattern": "Una variante allegra di {singular}; l'unità sembra più collaborativa del solito.",
-          "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata.",
-          "origin": "Dipartimento di Metrologia Emotiva Applicata"
-        },
-        "sad": {
-          "adjective": "triste",
-          "unitNamePattern": "{unitName} triste",
-          "singularNamePattern": "{singular} triste",
-          "pluralNamePattern": "{plural} tristi",
-          "symbolPattern": "{symbol} tristi",
-          "descriptionPattern": "Una variante malinconica di {singular}, adatta a misure emotivamente umide.",
-          "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata, morale ridotto.",
-          "origin": "Dipartimento di Metrologia Emotiva Applicata"
-        }
-      }
-    }
-  },
+  "description": "Unità di massa buffe e definizioni predefinite delle varianti.",
   "variantSettings": {
     "enabled": true,
     "maxVariantDepth": 1,
@@ -133,468 +29,605 @@
     {
       "id": "kitten",
       "dimension": "mass",
-      "name": "Kitten",
-      "symbol": "kittens",
+      "name": "Gattino",
+      "symbol": "gattini",
       "emoji": "🐱",
-      "singularName": "kitten",
-      "pluralName": "kittens",
-      "description": "A tiny warm-up unit for suspiciously small weights.",
-      "scientificNote": "Specimens should be weighed before discovering the food bowl.",
-      "origin": "Catverter Standard Feline Committee, 2026",
+      "singularName": "gattino",
+      "pluralName": "gattini",
+      "description": "Una piccola unità di riscaldamento per pesi sospettosamente minuscoli.",
+      "scientificNote": "I campioni vanno pesati prima che scoprano la ciotola.",
+      "origin": "Comitato Felino Standard Catverter, 2026",
       "baseFactor": 0.8,
-      "tags": ["cats", "animals", "tinyThings"]
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings"
+      ]
     },
     {
       "id": "skinny-cat",
       "dimension": "mass",
-      "name": "Skinny cat",
-      "symbol": "skinny cats",
+      "name": "Gatto magro",
+      "symbol": "gatti magri",
       "emoji": "🐱",
-      "singularName": "skinny cat",
-      "pluralName": "skinny cats",
-      "description": "The streamlined feline. Mostly opinions and bones.",
-      "scientificNote": "Measurements exclude dramatic complaints about underfeeding.",
-      "origin": "Institute of Feline Metrology field notes",
+      "singularName": "gatto magro",
+      "pluralName": "gatti magri",
+      "description": "Il felino aerodinamico. Quasi tutto opinioni e ossa.",
+      "scientificNote": "Le misurazioni escludono lamentele teatrali sulla sottoalimentazione.",
+      "origin": "Note sul campo dell'Istituto di Metrologia Felina",
       "baseFactor": 2.8,
-      "tags": ["cats", "animals"]
+      "tags": [
+        "cats",
+        "animals"
+      ]
     },
     {
       "id": "standard-cat",
       "dimension": "mass",
-      "name": "Standard cat",
-      "symbol": "cats",
+      "name": "Gatto standard",
+      "symbol": "gatti",
       "emoji": "🐈",
-      "singularName": "standard cat",
-      "pluralName": "standard cats",
-      "description": "The benchmark feline. Usually judging you.",
-      "scientificNote": "All Standard Cats are calibrated annually by the Quality Assurance Department.",
-      "origin": "Catverter primary mass reference",
+      "singularName": "gatto standard",
+      "pluralName": "gatti standard",
+      "description": "Il riferimento felino. Di solito ti sta giudicando.",
+      "scientificNote": "Tutti i Gatti Standard vengono calibrati annualmente dal Reparto Garanzia Qualità.",
+      "origin": "Riferimento primario di massa Catverter",
       "baseFactor": 4.5,
-      "tags": ["intuitive", "cats", "animals", "pseudoScientific"]
+      "tags": [
+        "intuitive",
+        "cats",
+        "animals",
+        "pseudoScientific"
+      ]
     },
     {
       "id": "old-cat",
       "dimension": "mass",
-      "name": "Old cat",
-      "symbol": "old cats",
+      "name": "Gatto anziano",
+      "symbol": "gatti anziani",
       "emoji": "👴",
-      "singularName": "old cat",
-      "pluralName": "old cats",
-      "description": "A senior cat with excellent nap credentials.",
-      "scientificNote": "Approved only when the subject has earned at least one favorite blanket.",
-      "origin": "Gerontological Feline Standards Annex",
+      "singularName": "gatto anziano",
+      "pluralName": "gatti anziani",
+      "description": "Un gatto senior con eccellenti credenziali da pisolino.",
+      "scientificNote": "Approvato solo se il soggetto si è guadagnato almeno una coperta preferita.",
+      "origin": "Allegato Gerontologico agli Standard Felini",
       "baseFactor": 3.9,
-      "tags": ["cats", "animals"]
+      "tags": [
+        "cats",
+        "animals"
+      ]
     },
     {
       "id": "angry-cat",
       "dimension": "mass",
-      "name": "Angry cat",
-      "symbol": "angry cats",
+      "name": "Gatto arrabbiato",
+      "symbol": "gatti arrabbiati",
       "emoji": "😾",
-      "singularName": "angry cat",
-      "pluralName": "angry cats",
-      "description": "Comparable mass, substantially more attitude.",
-      "scientificNote": "Mass may appear larger while the unit is staring directly at you.",
-      "origin": "Department of Defensive Handling",
+      "singularName": "gatto arrabbiato",
+      "pluralName": "gatti arrabbiati",
+      "description": "Massa comparabile, atteggiamento sostanzialmente superiore.",
+      "scientificNote": "La massa può apparire maggiore mentre l'unità ti fissa direttamente.",
+      "origin": "Dipartimento della Gestione Difensiva",
       "baseFactor": 4.8,
-      "tags": ["cats", "animals"]
+      "tags": [
+        "cats",
+        "animals"
+      ]
     },
     {
       "id": "fat-cat",
       "dimension": "mass",
-      "name": "Fat cat",
-      "symbol": "fat cats",
+      "name": "Gatto cicciotto",
+      "symbol": "gatti cicciotti",
       "emoji": "🦁",
-      "singularName": "fat cat",
-      "pluralName": "fat cats",
-      "description": "Scientifically optimized for naps.",
-      "scientificNote": "Dinner status must be recorded before calibration.",
-      "origin": "Catverter High-Density Feline Register",
+      "singularName": "gatto cicciotto",
+      "pluralName": "gatti cicciotti",
+      "description": "Scientificamente ottimizzato per i pisolini.",
+      "scientificNote": "Lo stato della cena deve essere registrato prima della calibrazione.",
+      "origin": "Registro Felino ad Alta Densità Catverter",
       "baseFactor": 7.2,
-      "tags": ["cats", "animals", "pseudoScientific"]
+      "tags": [
+        "cats",
+        "animals",
+        "pseudoScientific"
+      ]
     },
     {
       "id": "maine-coon",
       "dimension": "mass",
       "name": "Maine Coon",
-      "symbol": "Maine Coons",
+      "symbol": "Maine Coon",
       "emoji": "🐈‍⬛",
       "singularName": "Maine Coon",
-      "pluralName": "Maine Coons",
-      "description": "A large-cat unit for premium fluff density.",
-      "scientificNote": "Includes an estimated fluff correction factor of yes.",
-      "origin": "Long-Hair Metrology Working Group",
+      "pluralName": "Maine Coon",
+      "description": "Un'unità gatto grande per densità di pelo premium.",
+      "scientificNote": "Include un fattore stimato di correzione pelo pari a sì.",
+      "origin": "Gruppo di Lavoro Metrologia a Pelo Lungo",
       "baseFactor": 8.5,
-      "tags": ["cats", "animals", "hugeThings"]
+      "tags": [
+        "cats",
+        "animals",
+        "hugeThings"
+      ]
     },
     {
       "id": "golden-retriever",
       "dimension": "mass",
       "name": "Golden retriever",
-      "symbol": "dogs",
+      "symbol": "golden retriever",
       "emoji": "🐕",
       "singularName": "golden retriever",
-      "pluralName": "golden retrievers",
-      "description": "Useful when the answer needs friendly dog energy.",
-      "scientificNote": "Measurements assume maximum optimism.",
-      "origin": "Canine Comparative Standards Bureau",
+      "pluralName": "golden retriever",
+      "description": "Utile quando la risposta ha bisogno di energia canina amichevole.",
+      "scientificNote": "Le misurazioni assumono massimo ottimismo.",
+      "origin": "Ufficio Standard Comparativi Canini",
       "baseFactor": 30,
-      "tags": ["intuitive", "animals"]
+      "tags": [
+        "intuitive",
+        "animals"
+      ]
     },
     {
       "id": "bowling-ball",
       "dimension": "mass",
-      "name": "Bowling ball",
-      "symbol": "bowling balls",
+      "name": "Palla da bowling",
+      "symbol": "palle da bowling",
       "emoji": "🎳",
-      "singularName": "bowling ball",
-      "pluralName": "bowling balls",
-      "description": "Compact, round, and nicely visual.",
-      "scientificNote": "Not approved for rolling down stairs during experiments.",
-      "origin": "Household Object Calibration Series",
+      "singularName": "palla da bowling",
+      "pluralName": "palle da bowling",
+      "description": "Compatta, rotonda e facile da visualizzare.",
+      "scientificNote": "Non approvata per rotolare giù dalle scale durante gli esperimenti.",
+      "origin": "Serie di Calibrazione Oggetti Domestici",
       "baseFactor": 6.8,
-      "tags": ["intuitive", "household"]
+      "tags": [
+        "intuitive",
+        "household"
+      ]
     },
     {
       "id": "average-chair",
       "dimension": "mass",
-      "name": "Average chair",
-      "symbol": "chairs",
+      "name": "Sedia media",
+      "symbol": "sedie medie",
       "emoji": "🪑",
-      "singularName": "average chair",
-      "pluralName": "average chairs",
-      "description": "Please do not sit on fractional chairs.",
-      "scientificNote": "Average excludes accumulated hoodies.",
-      "origin": "Domestic Furniture Weight Tables",
+      "singularName": "sedia media",
+      "pluralName": "sedie medie",
+      "description": "Per favore non sederti su sedie frazionarie.",
+      "scientificNote": "La media esclude le felpe accumulate.",
+      "origin": "Tabelle di Peso Arredi Domestici",
       "baseFactor": 7,
-      "tags": ["intuitive", "household"]
+      "tags": [
+        "intuitive",
+        "household"
+      ]
     },
     {
       "id": "microwave-oven",
       "dimension": "mass",
-      "name": "Microwave oven",
-      "symbol": "microwaves",
+      "name": "Forno a microonde",
+      "symbol": "microonde",
       "emoji": "📻",
-      "singularName": "microwave oven",
-      "pluralName": "microwaves",
-      "description": "Kitchen appliance mass, because why not.",
-      "scientificNote": "Popcorn residue considered statistically insignificant.",
-      "origin": "Kitchen Appliance Metrology Circular",
+      "singularName": "forno a microonde",
+      "pluralName": "microonde",
+      "description": "Massa da elettrodomestico da cucina, perché no.",
+      "scientificNote": "I residui di popcorn sono considerati statisticamente insignificanti.",
+      "origin": "Circolare di Metrologia degli Elettrodomestici da Cucina",
       "baseFactor": 15,
-      "tags": ["household"]
+      "tags": [
+        "household"
+      ]
     },
     {
       "id": "banana",
       "dimension": "mass",
       "name": "Banana",
-      "symbol": "bananas",
+      "symbol": "banane",
       "emoji": "🍌",
       "singularName": "banana",
-      "pluralName": "bananas",
-      "description": "For scale. The internet insisted.",
-      "scientificNote": "Curvature not included in mass calculation.",
-      "origin": "Global Banana Reference Program",
+      "pluralName": "banane",
+      "description": "Per fare scala. Internet ha insistito.",
+      "scientificNote": "La curvatura non è inclusa nel calcolo della massa.",
+      "origin": "Programma Globale di Riferimento Banana",
       "baseFactor": 0.118,
-      "tags": ["food", "tinyThings", "intuitive"]
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive"
+      ]
     },
     {
       "id": "potato",
       "dimension": "mass",
-      "name": "Potato",
-      "symbol": "potatoes",
+      "name": "Patata",
+      "symbol": "patate",
       "emoji": "🥔",
-      "singularName": "potato",
-      "pluralName": "potatoes",
-      "description": "The dependable unit of pantry science.",
-      "scientificNote": "Subject may sprout if validation is delayed.",
-      "origin": "Pantry Science Institute",
+      "singularName": "patata",
+      "pluralName": "patate",
+      "description": "L'unità affidabile della scienza da dispensa.",
+      "scientificNote": "Il soggetto può germogliare se la validazione tarda troppo.",
+      "origin": "Istituto di Scienza della Dispensa",
       "baseFactor": 0.15,
-      "tags": ["food", "tinyThings", "intuitive"]
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive"
+      ]
     },
     {
       "id": "pizza",
       "dimension": "mass",
       "name": "Pizza",
-      "symbol": "pizzas",
+      "symbol": "pizze",
       "emoji": "🍕",
       "singularName": "pizza",
-      "pluralName": "pizzas",
-      "description": "A dinner-sized disc of approximate truth.",
-      "scientificNote": "Toppings introduce measurable uncertainty.",
-      "origin": "Applied Circular Food Laboratory",
+      "pluralName": "pizze",
+      "description": "Un disco da cena di verità approssimativa.",
+      "scientificNote": "I condimenti introducono incertezza misurabile.",
+      "origin": "Laboratorio di Cibo Circolare Applicato",
       "baseFactor": 0.6,
-      "tags": ["food"]
+      "tags": [
+        "food"
+      ]
     },
     {
       "id": "lego-brick",
       "dimension": "mass",
-      "name": "LEGO brick",
-      "symbol": "LEGO bricks",
+      "name": "Mattoncino LEGO",
+      "symbol": "mattoncini LEGO",
       "emoji": "🧱",
-      "singularName": "LEGO brick",
-      "pluralName": "LEGO bricks",
-      "description": "Tiny, countable, and dangerous underfoot.",
-      "scientificNote": "Pain index intentionally omitted from SI conversion.",
-      "origin": "Toy-Based Standards Office",
+      "singularName": "mattoncino LEGO",
+      "pluralName": "mattoncini LEGO",
+      "description": "Piccolo, contabile e pericoloso sotto i piedi.",
+      "scientificNote": "L'indice di dolore è intenzionalmente omesso dalla conversione SI.",
+      "origin": "Ufficio Standard Basati sui Giocattoli",
       "baseFactor": 0.00232,
-      "tags": ["geek", "tinyThings"]
+      "tags": [
+        "geek",
+        "tinyThings"
+      ]
     },
     {
       "id": "honey-bee",
       "dimension": "mass",
-      "name": "Honey bee",
-      "symbol": "bees",
+      "name": "Ape",
+      "symbol": "api",
       "emoji": "🐝",
-      "singularName": "honey bee",
-      "pluralName": "honey bees",
-      "description": "You'll need quite a few.",
-      "scientificNote": "Counting protocol requires patience and unreasonable confidence.",
-      "origin": "Entomological Tiny Mass Register",
+      "singularName": "ape",
+      "pluralName": "api",
+      "description": "Te ne serviranno parecchie.",
+      "scientificNote": "Il protocollo di conteggio richiede pazienza e una fiducia irragionevole.",
+      "origin": "Registro Entomologico delle Masse Minuscole",
       "baseFactor": 0.0001,
-      "tags": ["animals", "tinyThings"]
+      "tags": [
+        "animals",
+        "tinyThings"
+      ]
     },
     {
       "id": "blue-whale",
       "dimension": "mass",
-      "name": "Blue whale",
-      "symbol": "whales",
+      "name": "Balena azzurra",
+      "symbol": "balene",
       "emoji": "🐋",
-      "singularName": "blue whale",
-      "pluralName": "blue whales",
-      "description": "For when the numbers should get wonderfully tiny.",
-      "scientificNote": "Laboratory storage requirements remain unresolved.",
-      "origin": "Oceanic Large Unit Committee",
+      "singularName": "balena azzurra",
+      "pluralName": "balene azzurre",
+      "description": "Per quando i numeri devono diventare meravigliosamente piccoli.",
+      "scientificNote": "I requisiti di stoccaggio in laboratorio restano irrisolti.",
+      "origin": "Comitato Oceanico delle Grandi Unità",
       "baseFactor": 140000,
-      "tags": ["intuitive", "animals", "hugeThings"]
+      "tags": [
+        "intuitive",
+        "animals",
+        "hugeThings"
+      ]
     },
     {
       "id": "t-rex",
       "dimension": "mass",
       "name": "T. rex",
-      "symbol": "T. rexes",
+      "symbol": "T. rex",
       "emoji": "🦖",
       "singularName": "T. rex",
-      "pluralName": "T. rexes",
-      "description": "Large, extinct, and hard to fit in a kitchen.",
-      "scientificNote": "All values reconstructed from fossil bureaucracy.",
-      "origin": "Paleometric Working Group",
+      "pluralName": "T. rex",
+      "description": "Grande, estinto e difficile da infilare in cucina.",
+      "scientificNote": "Tutti i valori sono ricostruiti dalla burocrazia fossile.",
+      "origin": "Gruppo di Lavoro Paleometrico",
       "baseFactor": 7000,
-      "tags": ["animals", "hugeThings", "pseudoScientific"]
+      "tags": [
+        "animals",
+        "hugeThings",
+        "pseudoScientific"
+      ]
     },
     {
       "id": "loaf-cat",
       "dimension": "mass",
-      "name": "Loaf cat",
-      "symbol": "loaf cats",
+      "name": "Gatto a pagnotta",
+      "symbol": "gatti a pagnotta",
       "emoji": "🍞🐈",
-      "singularName": "loaf cat",
-      "pluralName": "loaf cats",
-      "description": "A cat in its aerodynamically optimized resting configuration.",
-      "scientificNote": "Paw visibility immediately invalidates the measurement.",
-      "origin": "Institute of Advanced Loaf Dynamics",
+      "singularName": "gatto a pagnotta",
+      "pluralName": "gatti a pagnotta",
+      "description": "Un gatto nella sua configurazione di riposo aerodinamicamente ottimizzata.",
+      "scientificNote": "La visibilità delle zampe invalida immediatamente la misurazione.",
+      "origin": "Istituto di Dinamica Avanzata della Pagnotta",
       "baseFactor": 5.0,
-      "tags": ["cats", "animals", "pseudoScientific"]
+      "tags": [
+        "cats",
+        "animals",
+        "pseudoScientific"
+      ]
     },
     {
       "id": "sleepy-cat",
       "dimension": "mass",
-      "name": "Sleepy cat",
-      "symbol": "sleepy cats",
+      "name": "Gatto assonnato",
+      "symbol": "gatti assonnati",
       "emoji": "😴",
-      "singularName": "sleepy cat",
-      "pluralName": "sleepy cats",
-      "description": "A feline observed during one of its scheduled eighteen daily naps.",
-      "scientificNote": "Measurements taken only while snoring softly.",
-      "origin": "Department of Circadian Feline Research",
+      "singularName": "gatto assonnato",
+      "pluralName": "gatti assonnati",
+      "description": "Un felino osservato durante uno dei suoi diciotto pisolini giornalieri programmati.",
+      "scientificNote": "Misurazioni effettuate solo mentre russa piano.",
+      "origin": "Dipartimento di Ricerca Circadiana Felina",
       "baseFactor": 5.2,
-      "tags": ["cats", "animals"]
+      "tags": [
+        "cats",
+        "animals"
+      ]
     },
     {
       "id": "zooming-cat",
       "dimension": "mass",
-      "name": "Zooming cats",
-      "symbol": "zooming cats",
+      "name": "Gatto in zoomie",
+      "symbol": "gatti in zoomie",
       "emoji": "⚡",
-      "singularName": "zooming cat",
-      "pluralName": "zooming cats",
-      "description": "A high-velocity cat usually encountered at 3:17 AM.",
-      "scientificNote": "Specimens exceeding Mach 1 should not be pursued.",
-      "origin": "Nighttime Velocity Observatory",
+      "singularName": "gatto in zoomie",
+      "pluralName": "gatti in zoomie",
+      "description": "Un gatto ad alta velocità incontrato di solito alle 3:17.",
+      "scientificNote": "I campioni oltre Mach 1 non vanno inseguiti.",
+      "origin": "Osservatorio della Velocità Notturna",
       "baseFactor": 4.3,
-      "tags": ["cats", "animals"]
+      "tags": [
+        "cats",
+        "animals"
+      ]
     },
     {
       "id": "chihuahua",
       "dimension": "mass",
       "name": "Chihuahua",
-      "symbol": "Chihuahuas",
+      "symbol": "Chihuahua",
       "emoji": "🐕",
       "singularName": "Chihuahua",
-      "pluralName": "Chihuahuas",
-      "description": "A compact canine convinced it outweighs everything else.",
-      "scientificNote": "Apparent mass increases while barking.",
-      "origin": "Canine Institute (reviewed under protest)",
+      "pluralName": "Chihuahua",
+      "description": "Un cane compatto convinto di pesare più di tutto il resto.",
+      "scientificNote": "La massa apparente aumenta durante l'abbaio.",
+      "origin": "Istituto Canino, revisionato sotto protesta",
       "baseFactor": 2.7,
-      "tags": ["animals", "tinyThings"]
+      "tags": [
+        "animals",
+        "tinyThings"
+      ]
     },
     {
       "id": "labrador",
       "dimension": "mass",
       "name": "Labrador",
-      "symbol": "Labradors",
+      "symbol": "Labrador",
       "emoji": "🦮",
       "singularName": "Labrador",
-      "pluralName": "Labradors",
-      "description": "An excessively enthusiastic dog with questionable personal boundaries.",
-      "scientificNote": "Keeping the specimen still remains an unsolved engineering problem.",
-      "origin": "Canine Institute (reviewed under protest)",
+      "pluralName": "Labrador",
+      "description": "Un cane eccessivamente entusiasta con confini personali discutibili.",
+      "scientificNote": "Tenere fermo il campione resta un problema ingegneristico irrisolto.",
+      "origin": "Istituto Canino, revisionato sotto protesta",
       "baseFactor": 30,
-      "tags": ["animals", "intuitive"]
+      "tags": [
+        "animals",
+        "intuitive"
+      ]
     },
     {
       "id": "happy-cow",
       "dimension": "mass",
-      "name": "Happy cow",
-      "symbol": "happy cows",
+      "name": "Mucca felice",
+      "symbol": "mucche felici",
       "emoji": "🐄",
-      "singularName": "happy cow",
-      "pluralName": "happy cows",
-      "description": "A content grazing specimen with above-average moo quality.",
-      "scientificNote": "Measurements should be performed after unrestricted access to grass.",
-      "origin": "Pastoral Metrology Division",
+      "singularName": "mucca felice",
+      "pluralName": "mucche felici",
+      "description": "Un esemplare al pascolo soddisfatto con qualità di muggito sopra la media.",
+      "scientificNote": "Le misurazioni vanno eseguite dopo accesso illimitato all'erba.",
+      "origin": "Divisione di Metrologia Pastorale",
       "baseFactor": 650,
-      "tags": ["animals", "intuitive", "hugeThings"]
+      "tags": [
+        "animals",
+        "intuitive",
+        "hugeThings"
+      ]
     },
     {
       "id": "sheep",
       "dimension": "mass",
-      "name": "Sheep",
-      "symbol": "sheep",
+      "name": "Pecora",
+      "symbol": "pecore",
       "emoji": "🐑",
-      "singularName": "sheep",
-      "pluralName": "sheep",
-      "description": "A fluffy unit primarily used in counting and accidental roadblocks.",
-      "scientificNote": "Fluff contributes approximately 98% of perceived volume.",
-      "origin": "Wool Standards Association",
+      "singularName": "pecora",
+      "pluralName": "pecore",
+      "description": "Un'unità soffice usata soprattutto per contare e bloccare strade per sbaglio.",
+      "scientificNote": "La lana contribuisce circa al 98% del volume percepito.",
+      "origin": "Associazione Standard Lanosi",
       "baseFactor": 80,
-      "tags": ["animals"]
+      "tags": [
+        "animals"
+      ]
     },
     {
       "id": "rubber-duck",
       "dimension": "mass",
-      "name": "Rubber duck",
-      "symbol": "rubber ducks",
+      "name": "Papera di gomma",
+      "symbol": "papere di gomma",
       "emoji": "🦆",
-      "singularName": "rubber duck",
-      "pluralName": "rubber ducks",
-      "description": "The internationally accepted debugging companion.",
-      "scientificNote": "Certified listener. Advice quality not guaranteed.",
-      "origin": "Programmer Assistance Bureau",
+      "singularName": "papera di gomma",
+      "pluralName": "papere di gomma",
+      "description": "La compagna di debug accettata internazionalmente.",
+      "scientificNote": "Ascoltatrice certificata. Qualità dei consigli non garantita.",
+      "origin": "Ufficio Assistenza Programmatori",
       "baseFactor": 0.05,
-      "tags": ["geek", "tinyThings"]
+      "tags": [
+        "geek",
+        "tinyThings"
+      ]
     },
     {
       "id": "mechanical-keyboard",
       "dimension": "mass",
-      "name": "Mechanical keyboard",
-      "symbol": "mechanical keyboards",
+      "name": "Tastiera meccanica",
+      "symbol": "tastiere meccaniche",
       "emoji": "⌨️",
-      "singularName": "mechanical keyboard",
-      "pluralName": "mechanical keyboards",
-      "description": "Preferred by software developers and office noise complaints alike.",
-      "scientificNote": "Clickiness does not affect measured mass.",
-      "origin": "Department of Productive Noises",
+      "singularName": "tastiera meccanica",
+      "pluralName": "tastiere meccaniche",
+      "description": "Preferita dagli sviluppatori software e dai reclami per rumore in ufficio.",
+      "scientificNote": "Il click non influenza la massa misurata.",
+      "origin": "Dipartimento dei Rumori Produttivi",
       "baseFactor": 1.1,
-      "tags": ["geek", "household"]
+      "tags": [
+        "geek",
+        "household"
+      ]
     },
     {
       "id": "refrigerator",
       "dimension": "mass",
-      "name": "Refrigerator",
-      "symbol": "refrigerators",
+      "name": "Frigorifero",
+      "symbol": "frigoriferi",
       "emoji": "🧊",
-      "singularName": "refrigerator",
-      "pluralName": "refrigerators",
-      "description": "Large domestic cooling apparatus.",
-      "scientificNote": "Measurements exclude mysterious leftovers older than six months.",
-      "origin": "Domestic Appliance Registry",
+      "singularName": "frigorifero",
+      "pluralName": "frigoriferi",
+      "description": "Grande apparato domestico di raffreddamento.",
+      "scientificNote": "Le misurazioni escludono avanzi misteriosi più vecchi di sei mesi.",
+      "origin": "Registro Elettrodomestici Domestici",
       "baseFactor": 80,
-      "tags": ["household", "intuitive"]
+      "tags": [
+        "household",
+        "intuitive"
+      ]
     },
     {
       "id": "croissant",
       "dimension": "mass",
       "name": "Croissant",
-      "symbol": "croissants",
+      "symbol": "croissant",
       "emoji": "🥐",
       "singularName": "croissant",
-      "pluralName": "croissants",
-      "description": "A buttery unit with disappointing structural integrity.",
-      "scientificNote": "Crumb loss considered negligible.",
-      "origin": "French Bakery Standards Committee",
+      "pluralName": "croissant",
+      "description": "Un'unità burrosa con integrità strutturale deludente.",
+      "scientificNote": "La perdita di briciole è considerata trascurabile.",
+      "origin": "Comitato Standard Panetteria Francese",
       "baseFactor": 0.07,
-      "tags": ["food", "tinyThings"]
+      "tags": [
+        "food",
+        "tinyThings"
+      ]
     },
     {
       "id": "parmesan-wheel",
       "dimension": "mass",
-      "name": "Parmesan wheel",
-      "symbol": "Parmesan wheels",
+      "name": "Forma di Parmigiano",
+      "symbol": "forme di Parmigiano",
       "emoji": "🧀",
-      "singularName": "Parmesan wheel",
-      "pluralName": "Parmesan wheels",
-      "description": "An Italian-approved large culinary reference unit.",
-      "scientificNote": "Scientific tasting performed after every calibration.",
-      "origin": "Consortium of Extremely Serious Cheese Scientists",
+      "singularName": "forma di Parmigiano",
+      "pluralName": "forme di Parmigiano",
+      "description": "Un grande riferimento culinario approvato dall'Italia.",
+      "scientificNote": "Assaggio scientifico eseguito dopo ogni calibrazione.",
+      "origin": "Consorzio degli Scienziati del Formaggio Estremamente Seri",
       "baseFactor": 38,
-      "tags": ["food"]
+      "tags": [
+        "food"
+      ]
     }
   ],
   "variants": [
     {
       "id": "skinny",
-      "adjective": "skinny",
+      "adjective": "snello",
       "group": "size",
       "factorMultiplier": 0.72,
-      "additionalTags": ["tinyThings"],
-      "descriptionPattern": "A slimmer variant of {singular}, calibrated for suspiciously narrow interpretations.",
-      "scientificNotePattern": "{scientificNote} Size variant multiplier: x{factor}.",
-      "origin": "Catverter Variant Calibration Desk"
+      "additionalTags": [
+        "tinyThings"
+      ],
+      "descriptionPattern": "Una variante più snella di {singular}, calibrata per interpretazioni sospettosamente strette.",
+      "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
+      "origin": "Banco Calibrazione Varianti Catverter",
+      "singularNamePattern": "{singular} snello",
+      "unitNamePattern": "{unitName} snello",
+      "symbolPattern": "{symbol} snelli",
+      "pluralNamePattern": "{plural} snelli"
     },
     {
       "id": "tall",
-      "adjective": "tall",
+      "adjective": "alto",
       "group": "size",
       "factorMultiplier": 1.18,
-      "additionalTags": ["hugeThings"],
-      "descriptionPattern": "A vertically ambitious variant of {singular} with extra measurement confidence.",
-      "scientificNotePattern": "{scientificNote} Size variant multiplier: x{factor}.",
-      "origin": "Catverter Variant Calibration Desk"
+      "additionalTags": [
+        "hugeThings"
+      ],
+      "descriptionPattern": "Una variante verticalmente ambiziosa di {singular}, con fiducia metrologica extra.",
+      "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
+      "origin": "Banco Calibrazione Varianti Catverter",
+      "singularNamePattern": "{singular} alto",
+      "unitNamePattern": "{unitName} alto",
+      "symbolPattern": "{symbol} alti",
+      "pluralNamePattern": "{plural} alti"
     },
     {
       "id": "happy",
-      "adjective": "happy",
+      "adjective": "felice",
       "group": "mood",
-      "appliesToFamilies": ["animal", "cat", "dog", "dinosaur", "human", "marineAnimal"],
+      "appliesToFamilies": [
+        "animal",
+        "cat",
+        "dog",
+        "dinosaur",
+        "human",
+        "marineAnimal"
+      ],
       "factorMultiplier": 1,
       "emoji": "🙂",
-      "additionalTags": ["animals", "pseudoScientific"],
-      "descriptionPattern": "A cheerful variant of {singular}; the unit appears more cooperative than usual.",
-      "scientificNotePattern": "{scientificNote} Mood variant: nominal conversion unchanged.",
-      "origin": "Department of Applied Emotional Metrology"
+      "additionalTags": [
+        "animals",
+        "pseudoScientific"
+      ],
+      "descriptionPattern": "Una variante allegra di {singular}; l'unità sembra più collaborativa del solito.",
+      "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata.",
+      "origin": "Dipartimento di Metrologia Emotiva Applicata",
+      "singularNamePattern": "{singular} felice",
+      "unitNamePattern": "{unitName} felice",
+      "symbolPattern": "{symbol} felici",
+      "pluralNamePattern": "{plural} felici"
     },
     {
       "id": "sad",
-      "adjective": "sad",
+      "adjective": "triste",
       "group": "mood",
-      "appliesToFamilies": ["animal", "cat", "dog", "dinosaur", "human", "marineAnimal"],
+      "appliesToFamilies": [
+        "animal",
+        "cat",
+        "dog",
+        "dinosaur",
+        "human",
+        "marineAnimal"
+      ],
       "factorMultiplier": 1,
       "emoji": "☹️",
-      "additionalTags": ["animals", "pseudoScientific"],
-      "descriptionPattern": "A melancholic variant of {singular}, suitable for emotionally damp measurements.",
-      "scientificNotePattern": "{scientificNote} Mood variant: nominal conversion unchanged, morale reduced.",
-      "origin": "Department of Applied Emotional Metrology"
+      "additionalTags": [
+        "animals",
+        "pseudoScientific"
+      ],
+      "descriptionPattern": "Una variante malinconica di {singular}, adatta a misure emotivamente umide.",
+      "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata, morale ridotto.",
+      "origin": "Dipartimento di Metrologia Emotiva Applicata",
+      "singularNamePattern": "{singular} triste",
+      "unitNamePattern": "{unitName} triste",
+      "symbolPattern": "{symbol} tristi",
+      "pluralNamePattern": "{plural} tristi"
     }
   ]
 }
