@@ -14,8 +14,13 @@
       "author": "GiozTrex",
       "description": "Unità in livornese.",
       "downloadUrl": "gioztrex/livorno.json",
-      "homepageUrl": "https://github.com/Catverter/packs/blob/main/contributions/gioztrex/livorno.json",
-      "languages": ["it-IT"]
+      "languages": ["it-IT"],
+      "badges": ["committeePick", "packOfTheMonth"],
+      "featuredOrder": 10,
+      "featuredReason": {
+        "en": "Approved after careful sample-based science.",
+        "it": "Approvato dopo attenta scienza a campione."
+      }
     },
     { "id": "catverter.gioztrex.test-pack-01", "kind": "units", "displayName": "Ceremonial Spoon Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the ceremonial spoon mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-01.json", "languages": ["en"] },
     { "id": "catverter.gioztrex.test-pack-02", "kind": "units", "displayName": "Pocket Thunder Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the pocket thunder mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-02.json", "languages": ["en"] },
@@ -46,6 +51,12 @@
     { "id": "catverter.gioztrex.test-pack-27", "kind": "units", "displayName": "Cat-Approved Shoebox Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the cat-approved shoebox mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-27.json", "languages": ["en"] },
     { "id": "catverter.gioztrex.test-pack-28", "kind": "units", "displayName": "Diplomatic Onion Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the diplomatic onion mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-28.json", "languages": ["en"] },
     { "id": "catverter.gioztrex.test-pack-29", "kind": "units", "displayName": "Regulation Burrito Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the regulation burrito mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-29.json", "languages": ["en"] },
-    { "id": "catverter.gioztrex.test-pack-30", "kind": "units", "displayName": "Archive Pebble Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the archive pebble mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-30.json", "languages": ["en"] }
+    { "id": "catverter.gioztrex.test-pack-30", "kind": "units", "displayName": "Archive Pebble Pack", "version": "1.0.0", "author": "gioztrex", "description": "Adds the archive pebble mass unit.", "downloadUrl": "gioztrex/gioztrex-test-pack-30.json", "languages": ["en"],
+      "badges": ["committeePick"],
+      "featuredOrder": 9,
+      "featuredReason": {
+        "en": "Approved after careful sample-based scienceeeee.",
+        "it": "Approvato dopo attenta scienza a campioneeeee."
+      } }
   ]
 }
