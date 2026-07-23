@@ -3,7 +3,7 @@
   "kind": "units",
   "id": "catverter.core.mass",
   "displayName": "Massa Core Catverter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Catverter",
   "description": "Unit\u00E0 di massa buffe e definizioni predefinite delle varianti.",
   "variantSettings": {
@@ -647,18 +647,22 @@
     {
       "id": "angry",
       "adjective": "arrabbiato",
-      "group": "size",
+      "group": "mood",
       "appliesToFamilies": [
         "animal",
         "cat"
       ],
+      "additionalTags": [
+        "animals",
+        "pseudoScientific"
+      ],
       "factorMultiplier": 1.1,
       "emoji": "\uD83D\uDE3E",
       "additionalTags": [],
-      "unitNamePattern": "{Variant} {unitName}",
+      "unitNamePattern": "{unitName} {Variant}",
       "singularNamePattern": "{variant} {singular}",
-      "pluralNamePattern": "{variant} {plural}",
-      "symbolPattern": "{variant} {symbol}",
+      "pluralNamePattern": "{plural} arrabbiati",
+      "symbolPattern": "{symbol} arrabbiati",
       "descriptionPattern": "{description}",
       "scientificNotePattern": "{scientificNote}",
       "origin": "Catverter Pack Studio"
