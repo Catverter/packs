@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "kind": "localization",
+  "id": "catverter.core.speed.en",
+  "displayName": "English Localization - Catverter Core Speed",
+  "version": "1.0.1",
+  "author": "Catverter",
+  "description": "English localization for Catverter Core Speed.",
+  "dependencies": [
+    {
+      "id": "catverter.core.speed",
+      "minVersion": "1.0.1"
+    }
+  ],
+  "localizations": {
+    "en": {
+      "displayName": "Catverter Core Speed",
+      "description": "Funny speed ratio units built from core length and time units.",
+      "ratioUnits": {
+        "cat-tail-per-tail-flick": {
+          "description": "A compact feline escape velocity.",
+          "scientificNote": "Valid when the tail has registered mild disapproval.",
+          "origin": "Feline Motion Standards Desk",
+          "name": "Cat tail per tail flick",
+          "symbol": "cat tails/tail flick",
+          "singularName": "cat tail per tail flick",
+          "pluralName": "cat tails per tail flick"
+        },
+        "cat-jump-per-tail-flick": {
+          "description": "The official velocity of unexplained 3 AM movement.",
+          "scientificNote": "Researchers recommend not standing in the hallway.",
+          "origin": "Nighttime Velocity Observatory",
+          "name": "Cat jump per tail flick",
+          "symbol": "cat jumps/tail flick",
+          "singularName": "cat jump per tail flick",
+          "pluralName": "cat jumps per tail flick"
+        },
+        "stretched-cat-per-snack-request": {
+          "description": "Leisurely motion measured by a hungry committee.",
+          "scientificNote": "Subject may accelerate when hearing a can open.",
+          "origin": "Snack Acquisition Department",
+          "name": "Stretched cat per snack request",
+          "symbol": "stretched cats/snack request",
+          "singularName": "stretched cat per snack request",
+          "pluralName": "stretched cats per snack request"
+        },
+        "banana-per-microwave-second": {
+          "description": "Kitchen-scale velocity for mildly impatient objects.",
+          "scientificNote": "Microwave seconds remain emotionally longer than SI seconds.",
+          "origin": "Kitchen Time Institute",
+          "name": "Banana per microwave second",
+          "symbol": "bananas/microwave second",
+          "singularName": "banana per microwave second",
+          "pluralName": "bananas per microwave second"
+        },
+        "sofa-per-developer-hour": {
+          "description": "Progress after one small refactor becomes architectural philosophy.",
+          "scientificNote": "Velocity decreases while naming things.",
+          "origin": "Software Chronometry Institute",
+          "name": "Sofa per developer hour",
+          "symbol": "sofas/developer hour",
+          "singularName": "sofa per developer hour",
+          "pluralName": "sofas per developer hour"
+        },
+        "city-bus-per-quick-meeting": {
+          "description": "A transit-grade speed for calendar-based suffering.",
+          "scientificNote": "Meeting duration observed to stretch under agenda pressure.",
+          "origin": "Office Standards Committee",
+          "name": "City bus per Quick Meeting",
+          "symbol": "city buses/Quick Meeting",
+          "singularName": "city bus per Quick Meeting",
+          "pluralName": "city buses per Quick Meeting"
+        },
+        "football-field-per-pizza-delivery": {
+          "description": "Newsroom distance divided by hunger latency.",
+          "scientificNote": "Pizza proximity may cause perceived speed distortion.",
+          "origin": "Pizza Logistics Authority",
+          "name": "Football field per pizza delivery",
+          "symbol": "football fields/pizza delivery",
+          "singularName": "football field per pizza delivery",
+          "pluralName": "football fields per pizza delivery"
+        },
+        "giraffe-per-snooze": {
+          "description": "A tall, sleepy measure of gradual progress.",
+          "scientificNote": "Neck length reviewed separately by the committee.",
+          "origin": "Sleep Research Division",
+          "name": "Giraffe per snooze",
+          "symbol": "giraffes/snooze",
+          "singularName": "giraffe per snooze",
+          "pluralName": "giraffes per snooze"
+        },
+        "spaghetti-per-happy-cat-wink": {
+          "description": "A tender pasta velocity with emotional undertones.",
+          "scientificNote": "Overcooked observations rejected by Italian reviewers.",
+          "origin": "Italian Pasta Standards Board",
+          "name": "Spaghetti strand per happy cat wink",
+          "symbol": "spaghetti strands/happy cat wink",
+          "singularName": "spaghetti strand per happy cat wink",
+          "pluralName": "spaghetti strands per happy cat wink"
+        },
+        "blue-whale-length-per-monday-morning": {
+          "description": "Large movement spread across the longest known office phenomenon.",
+          "scientificNote": "Time dilation confirmed by workplace studies.",
+          "origin": "Department of Weekly Suffering",
+          "name": "Blue whale per Monday morning",
+          "symbol": "blue whales/Monday morning",
+          "singularName": "blue whale per Monday morning",
+          "pluralName": "blue whales per Monday morning"
+        },
+        "t-rex-per-one-more-turn": {
+          "description": "Prehistoric progress during strategic denial of bedtime.",
+          "scientificNote": "Arms do not affect aerodynamic calculations.",
+          "origin": "Interactive Time Distortion Laboratory",
+          "name": "T. rex per one more turn",
+          "symbol": "T. rexes/one more turn",
+          "singularName": "T. rex per one more turn",
+          "pluralName": "T. rexes per one more turn"
+        },
+        "ikea-instruction-per-loading-bar-minute": {
+          "description": "Assembly documentation moving at software-update speed.",
+          "scientificNote": "Missing screws may reduce confidence but not nominal velocity.",
+          "origin": "Nordic Assembly Authority",
+          "name": "IKEA instruction per loading bar minute",
+          "symbol": "IKEA instructions/loading bar minute",
+          "singularName": "IKEA instruction per loading bar minute",
+          "pluralName": "IKEA instructions per loading bar minute"
+        }
+      },
+      "variantDisplay": {
+        "unitNamePattern": "{Variant} {unitName}",
+        "singularNamePattern": "{variant} {singular}",
+        "pluralNamePattern": "{variant} {plural}",
+        "symbolPattern": "{variant} {symbol}"
+      }
+    }
+  }
+}

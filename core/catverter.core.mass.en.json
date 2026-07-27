@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "kind": "localization",
+  "id": "catverter.core.mass.en",
+  "displayName": "English Localization - Catverter Core Mass",
+  "version": "1.0.2",
+  "author": "Catverter",
+  "description": "English localization for Catverter Core Mass.",
+  "dependencies": [
+    {
+      "id": "catverter.core.mass",
+      "minVersion": "1.0.2"
+    }
+  ],
+  "localizations": {
+    "en": {
+      "displayName": "Catverter Core Mass",
+      "description": "Funny mass units and the default variant definitions.",
+      "units": {
+        "kitten": {
+          "name": "Kitten",
+          "symbol": "kittens",
+          "singularName": "kitten",
+          "pluralName": "kittens",
+          "description": "A tiny warm-up unit for suspiciously small weights.",
+          "scientificNote": "Specimens should be weighed before discovering the food bowl.",
+          "origin": "Catverter Standard Feline Committee, 2026"
+        },
+        "skinny-cat": {
+          "name": "Skinny cat",
+          "symbol": "skinny cats",
+          "singularName": "skinny cat",
+          "pluralName": "skinny cats",
+          "description": "The streamlined feline. Mostly opinions and bones.",
+          "scientificNote": "Measurements exclude dramatic complaints about underfeeding.",
+          "origin": "Institute of Feline Metrology field notes"
+        },
+        "standard-cat": {
+          "name": "Standard cat",
+          "symbol": "cats",
+          "singularName": "standard cat",
+          "pluralName": "standard cats",
+          "description": "The benchmark feline. Usually judging you.",
+          "scientificNote": "All Standard Cats are calibrated annually by the Quality Assurance Department.",
+          "origin": "Catverter primary mass reference"
+        },
+        "old-cat": {
+          "name": "Old cat",
+          "symbol": "old cats",
+          "singularName": "old cat",
+          "pluralName": "old cats",
+          "description": "A senior cat with excellent nap credentials.",
+          "scientificNote": "Approved only when the subject has earned at least one favorite blanket.",
+          "origin": "Gerontological Feline Standards Annex"
+        },
+        "angry-cat": {
+          "name": "Angry cat",
+          "symbol": "angry cats",
+          "singularName": "angry cat",
+          "pluralName": "angry cats",
+          "description": "Comparable mass, substantially more attitude.",
+          "scientificNote": "Mass may appear larger while the unit is staring directly at you.",
+          "origin": "Department of Defensive Handling"
+        },
+        "fat-cat": {
+          "name": "Fat cat",
+          "symbol": "fat cats",
+          "singularName": "fat cat",
+          "pluralName": "fat cats",
+          "description": "Scientifically optimized for naps.",
+          "scientificNote": "Dinner status must be recorded before calibration.",
+          "origin": "Catverter High-Density Feline Register"
+        },
+        "maine-coon": {
+          "name": "Maine Coon",
+          "symbol": "Maine Coons",
+          "singularName": "Maine Coon",
+          "pluralName": "Maine Coons",
+          "description": "A large-cat unit for premium fluff density.",
+          "scientificNote": "Includes an estimated fluff correction factor of yes.",
+          "origin": "Long-Hair Metrology Working Group"
+        },
+        "golden-retriever": {
+          "name": "Golden retriever",
+          "symbol": "dogs",
+          "singularName": "golden retriever",
+          "pluralName": "golden retrievers",
+          "description": "Useful when the answer needs friendly dog energy.",
+          "scientificNote": "Measurements assume maximum optimism.",
+          "origin": "Canine Comparative Standards Bureau"
+        },
+        "bowling-ball": {
+          "name": "Bowling ball",
+          "symbol": "bowling balls",
+          "singularName": "bowling ball",
+          "pluralName": "bowling balls",
+          "description": "Compact, round, and nicely visual.",
+          "scientificNote": "Not approved for rolling down stairs during experiments.",
+          "origin": "Household Object Calibration Series"
+        },
+        "average-chair": {
+          "name": "Average chair",
+          "symbol": "chairs",
+          "singularName": "average chair",
+          "pluralName": "average chairs",
+          "description": "Please do not sit on fractional chairs.",
+          "scientificNote": "Average excludes accumulated hoodies.",
+          "origin": "Domestic Furniture Weight Tables"
+        },
+        "microwave-oven": {
+          "name": "Microwave oven",
+          "symbol": "microwaves",
+          "singularName": "microwave oven",
+          "pluralName": "microwaves",
+          "description": "Kitchen appliance mass, because why not.",
+          "scientificNote": "Popcorn residue considered statistically insignificant.",
+          "origin": "Kitchen Appliance Metrology Circular"
+        },
+        "banana": {
+          "name": "Banana",
+          "symbol": "bananas",
+          "singularName": "banana",
+          "pluralName": "bananas",
+          "description": "For scale. The internet insisted.",
+          "scientificNote": "Curvature not included in mass calculation.",
+          "origin": "Global Banana Reference Program"
+        },
+        "potato": {
+          "name": "Potato",
+          "symbol": "potatoes",
+          "singularName": "potato",
+          "pluralName": "potatoes",
+          "description": "The dependable unit of pantry science.",
+          "scientificNote": "Subject may sprout if validation is delayed.",
+          "origin": "Pantry Science Institute"
+        },
+        "pizza": {
+          "name": "Pizza",
+          "symbol": "pizzas",
+          "singularName": "pizza",
+          "pluralName": "pizzas",
+          "description": "A dinner-sized disc of approximate truth.",
+          "scientificNote": "Toppings introduce measurable uncertainty.",
+          "origin": "Applied Circular Food Laboratory"
+        },
+        "lego-brick": {
+          "name": "LEGO brick",
+          "symbol": "LEGO bricks",
+          "singularName": "LEGO brick",
+          "pluralName": "LEGO bricks",
+          "description": "Tiny, countable, and dangerous underfoot.",
+          "scientificNote": "Pain index intentionally omitted from SI conversion.",
+          "origin": "Toy-Based Standards Office"
+        },
+        "honey-bee": {
+          "name": "Honey bee",
+          "symbol": "bees",
+          "singularName": "honey bee",
+          "pluralName": "honey bees",
+          "description": "You'll need quite a few.",
+          "scientificNote": "Counting protocol requires patience and unreasonable confidence.",
+          "origin": "Entomological Tiny Mass Register"
+        },
+        "blue-whale": {
+          "name": "Blue whale",
+          "symbol": "whales",
+          "singularName": "blue whale",
+          "pluralName": "blue whales",
+          "description": "For when the numbers should get wonderfully tiny.",
+          "scientificNote": "Laboratory storage requirements remain unresolved.",
+          "origin": "Oceanic Large Unit Committee"
+        },
+        "t-rex": {
+          "name": "T. rex",
+          "symbol": "T. rexes",
+          "singularName": "T. rex",
+          "pluralName": "T. rexes",
+          "description": "Large, extinct, and hard to fit in a kitchen.",
+          "scientificNote": "All values reconstructed from fossil bureaucracy.",
+          "origin": "Paleometric Working Group"
+        },
+        "loaf-cat": {
+          "name": "Loaf cat",
+          "symbol": "loaf cats",
+          "singularName": "loaf cat",
+          "pluralName": "loaf cats",
+          "description": "A cat in its aerodynamically optimized resting configuration.",
+          "scientificNote": "Paw visibility immediately invalidates the measurement.",
+          "origin": "Institute of Advanced Loaf Dynamics"
+        },
+        "sleepy-cat": {
+          "name": "Sleepy cat",
+          "symbol": "sleepy cats",
+          "singularName": "sleepy cat",
+          "pluralName": "sleepy cats",
+          "description": "A feline observed during one of its scheduled eighteen daily naps.",
+          "scientificNote": "Measurements taken only while snoring softly.",
+          "origin": "Department of Circadian Feline Research"
+        },
+        "zooming-cat": {
+          "name": "Zooming cats",
+          "symbol": "zooming cats",
+          "singularName": "zooming cat",
+          "pluralName": "zooming cats",
+          "description": "A high-velocity cat usually encountered at 3:17 AM.",
+          "scientificNote": "Specimens exceeding Mach 1 should not be pursued.",
+          "origin": "Nighttime Velocity Observatory"
+        },
+        "chihuahua": {
+          "name": "Chihuahua",
+          "symbol": "Chihuahuas",
+          "singularName": "Chihuahua",
+          "pluralName": "Chihuahuas",
+          "description": "A compact canine convinced it outweighs everything else.",
+          "scientificNote": "Apparent mass increases while barking.",
+          "origin": "Canine Institute (reviewed under protest)"
+        },
+        "labrador": {
+          "name": "Labrador",
+          "symbol": "Labradors",
+          "singularName": "Labrador",
+          "pluralName": "Labradors",
+          "description": "An excessively enthusiastic dog with questionable personal boundaries.",
+          "scientificNote": "Keeping the specimen still remains an unsolved engineering problem.",
+          "origin": "Canine Institute (reviewed under protest)"
+        },
+        "happy-cow": {
+          "name": "Happy cow",
+          "symbol": "happy cows",
+          "singularName": "happy cow",
+          "pluralName": "happy cows",
+          "description": "A content grazing specimen with above-average moo quality.",
+          "scientificNote": "Measurements should be performed after unrestricted access to grass.",
+          "origin": "Pastoral Metrology Division"
+        },
+        "sheep": {
+          "name": "Sheep",
+          "symbol": "sheep",
+          "singularName": "sheep",
+          "pluralName": "sheep",
+          "description": "A fluffy unit primarily used in counting and accidental roadblocks.",
+          "scientificNote": "Fluff contributes approximately 98% of perceived volume.",
+          "origin": "Wool Standards Association"
+        },
+        "rubber-duck": {
+          "name": "Rubber duck",
+          "symbol": "rubber ducks",
+          "singularName": "rubber duck",
+          "pluralName": "rubber ducks",
+          "description": "The internationally accepted debugging companion.",
+          "scientificNote": "Certified listener. Advice quality not guaranteed.",
+          "origin": "Programmer Assistance Bureau"
+        },
+        "mechanical-keyboard": {
+          "name": "Mechanical keyboard",
+          "symbol": "mechanical keyboards",
+          "singularName": "mechanical keyboard",
+          "pluralName": "mechanical keyboards",
+          "description": "Preferred by software developers and office noise complaints alike.",
+          "scientificNote": "Clickiness does not affect measured mass.",
+          "origin": "Department of Productive Noises"
+        },
+        "refrigerator": {
+          "name": "Refrigerator",
+          "symbol": "refrigerators",
+          "singularName": "refrigerator",
+          "pluralName": "refrigerators",
+          "description": "Large domestic cooling apparatus.",
+          "scientificNote": "Measurements exclude mysterious leftovers older than six months.",
+          "origin": "Domestic Appliance Registry"
+        },
+        "croissant": {
+          "name": "Croissant",
+          "symbol": "croissants",
+          "singularName": "croissant",
+          "pluralName": "croissants",
+          "description": "A buttery unit with disappointing structural integrity.",
+          "scientificNote": "Crumb loss considered negligible.",
+          "origin": "French Bakery Standards Committee"
+        },
+        "parmesan-wheel": {
+          "name": "Parmesan wheel",
+          "symbol": "Parmesan wheels",
+          "singularName": "Parmesan wheel",
+          "pluralName": "Parmesan wheels",
+          "description": "An Italian-approved large culinary reference unit.",
+          "scientificNote": "Scientific tasting performed after every calibration.",
+          "origin": "Consortium of Extremely Serious Cheese Scientists"
+        }
+      },
+      "variants": {
+        "skinny": {
+          "adjective": "skinny",
+          "descriptionPattern": "A slimmer variant of {singular}, calibrated for suspiciously narrow interpretations.",
+          "scientificNotePattern": "{scientificNote} Size variant multiplier: x{factor}.",
+          "origin": "Catverter Variant Calibration Desk"
+        },
+        "tall": {
+          "adjective": "tall",
+          "descriptionPattern": "A vertically ambitious variant of {singular} with extra measurement confidence.",
+          "scientificNotePattern": "{scientificNote} Size variant multiplier: x{factor}.",
+          "origin": "Catverter Variant Calibration Desk"
+        },
+        "happy": {
+          "adjective": "happy",
+          "descriptionPattern": "A cheerful variant of {singular}; the unit appears more cooperative than usual.",
+          "scientificNotePattern": "{scientificNote} Mood variant: nominal conversion unchanged.",
+          "origin": "Department of Applied Emotional Metrology"
+        },
+        "sad": {
+          "adjective": "sad",
+          "descriptionPattern": "A melancholic variant of {singular}, suitable for emotionally damp measurements.",
+          "scientificNotePattern": "{scientificNote} Mood variant: nominal conversion unchanged, morale reduced.",
+          "origin": "Department of Applied Emotional Metrology"
+        }
+      },
+      "variantDisplay": {
+        "unitNamePattern": "{Variant} {unitName}",
+        "singularNamePattern": "{variant} {singular}",
+        "pluralNamePattern": "{variant} {plural}",
+        "symbolPattern": "{variant} {symbol}"
+      }
+    }
+  }
+}

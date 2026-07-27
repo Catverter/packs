@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "kind": "localization",
+  "id": "catverter.core.temperature.en",
+  "displayName": "English Localization - Catverter Core Temperature",
+  "version": "1.0.1",
+  "author": "Catverter",
+  "description": "English localization for Catverter Core Temperature.",
+  "dependencies": [
+    {
+      "id": "catverter.core.temperature",
+      "minVersion": "1.0.1"
+    }
+  ],
+  "localizations": {
+    "en": {
+      "displayName": "Catverter Core Temperature",
+      "description": "Funny thermodynamic temperature units anchored in kelvin.",
+      "units": {
+        "freezer-breath": {
+          "name": "Freezer Breath",
+          "symbol": "freezer breaths",
+          "singularName": "freezer breath",
+          "pluralName": "freezer breaths",
+          "description": "The air that reminds you what you forgot in the freezer.",
+          "scientificNote": "Frost counts as an independent reviewer.",
+          "origin": "Chilly Appliance Laboratory"
+        },
+        "room-temperature": {
+          "name": "Room Temperature",
+          "symbol": "room temperatures",
+          "singularName": "room temperature",
+          "pluralName": "room temperatures",
+          "description": "The default condition of rooms, excuses, and forgotten coffee.",
+          "scientificNote": "Assumes a room with moderate climate ambitions.",
+          "origin": "Neutral Living Room Standards Office"
+        },
+        "cat-loaf-warmth": {
+          "name": "Cat Loaf Warmth",
+          "symbol": "cat loaf warmths",
+          "singularName": "cat loaf warmth",
+          "pluralName": "cat loaf warmths",
+          "description": "Compact feline heat generated in loaf mode.",
+          "scientificNote": "Thermal output increases when a laptop is left unattended.",
+          "origin": "Applied Feline Thermodynamics Department"
+        },
+        "hot-coffee": {
+          "name": "Hot Coffee",
+          "symbol": "hot coffees",
+          "singularName": "hot coffee",
+          "pluralName": "hot coffees",
+          "description": "The point at which productivity becomes a beverage.",
+          "scientificNote": "Value decays rapidly during meetings.",
+          "origin": "Desk Beverage Thermal Institute"
+        },
+        "pizza-oven": {
+          "name": "Pizza Oven",
+          "symbol": "pizza ovens",
+          "singularName": "pizza oven",
+          "pluralName": "pizza ovens",
+          "description": "The temperature where dough starts believing in itself.",
+          "scientificNote": "Italian approval pending formal hand gestures.",
+          "origin": "Serious Pizzeria Thermal Observatory"
+        },
+        "surface-of-sun": {
+          "name": "Surface of the Sun",
+          "symbol": "surfaces of the Sun",
+          "singularName": "surface of the Sun",
+          "pluralName": "surfaces of the Sun",
+          "description": "For measurements that have clearly exceeded toaster territory.",
+          "scientificNote": "Sunscreen is not a calibration strategy.",
+          "origin": "Unrequested Solar Standards Office"
+        }
+      },
+      "variantDisplay": {
+        "unitNamePattern": "{Variant} {unitName}",
+        "singularNamePattern": "{variant} {singular}",
+        "pluralNamePattern": "{variant} {plural}",
+        "symbolPattern": "{variant} {symbol}"
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "catverter.units/v1",
+  "kind": "localization",
+  "id": "catverter.core.length.en",
+  "displayName": "English Localization - Catverter Core Length",
+  "version": "1.0.1",
+  "author": "Catverter",
+  "description": "English localization for Catverter Core Length.",
+  "dependencies": [
+    {
+      "id": "catverter.core.length",
+      "minVersion": "1.0.1"
+    }
+  ],
+  "localizations": {
+    "en": {
+      "displayName": "Catverter Core Length",
+      "description": "Funny length units used directly and by speed ratios.",
+      "units": {
+        "sleeping-cat": {
+          "name": "Sleeping cat",
+          "symbol": "sleeping cats",
+          "singularName": "sleeping cat",
+          "pluralName": "sleeping cats",
+          "description": "A domestic cat occupying a peaceful horizontal standard.",
+          "scientificNote": "Measurements are valid only until the subject hears a food packet.",
+          "origin": "Feline Resting Length Standard"
+        },
+        "tail-length": {
+          "name": "Tail length",
+          "symbol": "tails",
+          "singularName": "tail",
+          "pluralName": "tails",
+          "description": "An expressive linear unit attached to the back of the reference cat.",
+          "scientificNote": "Tail mood may introduce curvature not represented here.",
+          "origin": "Appendage Metrology Annex"
+        },
+        "banana-length": {
+          "name": "Banana",
+          "symbol": "bananas",
+          "singularName": "banana",
+          "pluralName": "bananas",
+          "description": "The classic unit for scale, now in actual length.",
+          "scientificNote": "Straightening the banana voids the warranty.",
+          "origin": "Global Banana Reference Program"
+        },
+        "cat-tail": {
+          "name": "Cat tail",
+          "symbol": "cat tails",
+          "singularName": "cat tail",
+          "pluralName": "cat tails",
+          "description": "The average tail length of a reasonably cooperative cat.",
+          "scientificNote": "Measurements obtained without chasing the specimen.",
+          "origin": "Tail Calibration Bureau"
+        },
+        "loaf-cat-length": {
+          "name": "Loaf cat",
+          "symbol": "loaf cats",
+          "singularName": "loaf cat",
+          "pluralName": "loaf cats",
+          "description": "A cat measured in optimal loaf configuration.",
+          "scientificNote": "Front paws must not be visible.",
+          "origin": "Institute of Advanced Loaf Dynamics"
+        },
+        "stretched-cat": {
+          "name": "Stretched cat",
+          "symbol": "stretched cats",
+          "singularName": "stretched cat",
+          "pluralName": "stretched cats",
+          "description": "Maximum observed feline elongation after waking up.",
+          "scientificNote": "Stretch quality varies with nap satisfaction.",
+          "origin": "Elastic Feline Laboratory"
+        },
+        "cat-jump": {
+          "name": "Cat jump",
+          "symbol": "cat jumps",
+          "singularName": "cat jump",
+          "pluralName": "cat jumps",
+          "description": "Average horizontal leap during unexplained excitement.",
+          "scientificNote": "Commonly observed at 3 AM.",
+          "origin": "Nighttime Velocity Observatory"
+        },
+        "banana": {
+          "name": "Banana",
+          "symbol": "bananas",
+          "singularName": "banana",
+          "pluralName": "bananas",
+          "description": "The Internet's preferred reference unit.",
+          "scientificNote": "Curvature ignored for consistency.",
+          "origin": "Fruit Standards Committee"
+        },
+        "baguette": {
+          "name": "Baguette",
+          "symbol": "baguettes",
+          "singularName": "baguette",
+          "pluralName": "baguettes",
+          "description": "Traditional French length standard.",
+          "scientificNote": "Crunchiness does not affect calibration.",
+          "origin": "French Bakery Standards Committee"
+        },
+        "sofa": {
+          "name": "Sofa",
+          "symbol": "sofas",
+          "singularName": "sofa",
+          "pluralName": "sofas",
+          "description": "Domestic lounging apparatus.",
+          "scientificNote": "Cats assume ownership immediately.",
+          "origin": "Domestic Furniture Registry"
+        },
+        "city-bus": {
+          "name": "City bus",
+          "symbol": "city buses",
+          "singularName": "city bus",
+          "pluralName": "city buses",
+          "description": "Frequently used by journalists for dramatic effect.",
+          "scientificNote": "Usually late during measurements.",
+          "origin": "Department of Public Transport"
+        },
+        "blue-whale-length": {
+          "name": "Blue whale",
+          "symbol": "Blue whales",
+          "singularName": "blue whale",
+          "pluralName": "blue whales",
+          "description": "The largest regularly calibrated marine mammal.",
+          "scientificNote": "Measurements exclude dramatic splashes.",
+          "origin": "Marine Measurement Institute"
+        },
+        "t-rex": {
+          "name": "T-Rex",
+          "symbol": "T-Rexes",
+          "singularName": "T-Rex",
+          "pluralName": "T-Rexes",
+          "description": "Large extinct reptile.",
+          "scientificNote": "Arm length intentionally omitted.",
+          "origin": "Department of Historical Approximation"
+        },
+        "football-field": {
+          "name": "Football field",
+          "symbol": "football fields",
+          "singularName": "football field",
+          "pluralName": "football fields",
+          "description": "The international journalistic standard.",
+          "scientificNote": "Almost mandatory for news articles.",
+          "origin": "Newsroom Approximation Bureau"
+        },
+        "eiffel-tower": {
+          "name": "Eiffel Tower",
+          "symbol": "Eiffel Towers",
+          "singularName": "Eiffel Tower",
+          "pluralName": "Eiffel Towers",
+          "description": "Large Parisian calibration artifact.",
+          "scientificNote": "Tourists not included.",
+          "origin": "European Landmark Registry"
+        },
+        "giraffe": {
+          "name": "Giraffe",
+          "symbol": "Giraffes",
+          "singularName": "giraffe",
+          "pluralName": "giraffes",
+          "description": "Tall herbivore with excellent visibility.",
+          "scientificNote": "Neck measured separately during certification.",
+          "origin": "Long Neck Institute"
+        },
+        "spaghetti": {
+          "name": "Spaghetti strand",
+          "symbol": "spaghetti strands",
+          "singularName": "spaghetti strand",
+          "pluralName": "spaghetti strands",
+          "description": "An extremely inconvenient unit of length.",
+          "scientificNote": "Breakage probability increases with enthusiasm.",
+          "origin": "Italian Pasta Standards Board"
+        },
+        "supermarket-queue": {
+          "name": "Supermarket queue",
+          "symbol": "supermarket queues",
+          "singularName": "supermarket queue",
+          "pluralName": "supermarket queues",
+          "description": "Average queue immediately before your lunch break.",
+          "scientificNote": "Length increases when you're in a hurry.",
+          "origin": "Department of Everyday Frustration"
+        },
+        "ikea-instruction": {
+          "name": "IKEA instruction",
+          "symbol": "IKEA instructions",
+          "singularName": "IKEA instruction",
+          "pluralName": "IKEA instructions",
+          "description": "One page of an IKEA manual.",
+          "scientificNote": "Reading it remains optional.",
+          "origin": "Nordic Assembly Authority"
+        }
+      },
+      "variantDisplay": {
+        "unitNamePattern": "{Variant} {unitName}",
+        "singularNamePattern": "{variant} {singular}",
+        "pluralNamePattern": "{variant} {plural}",
+        "symbolPattern": "{variant} {symbol}"
+      }
+    }
+  }
+}

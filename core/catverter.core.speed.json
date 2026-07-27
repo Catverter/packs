@@ -1,126 +1,10 @@
 {
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.speed",
-  "displayName": "Catverter Core Speed",
+  "displayName": "Velocità Core Catverter",
   "version": "1.0.1",
   "author": "Catverter",
-  "description": "Funny speed ratio units built from core length and time units.",
-  "localizations": {
-    "it": {
-      "displayName": "Velocità Core Catverter",
-      "description": "Unità di velocità buffe costruite da lunghezze e tempi core.",
-      "ratioUnits": {
-        "cat-tail-per-tail-flick": {
-          "name": "Coda di gatto per scatto di coda",
-          "symbol": "code di gatto/scatto di coda",
-          "singularName": "coda di gatto per scatto di coda",
-          "pluralName": "code di gatto per scatto di coda",
-          "description": "Una velocità di fuga felina compatta.",
-          "scientificNote": "Valida quando la coda ha registrato lieve disapprovazione.",
-          "origin": "Banco Standard del Moto Felino"
-        },
-        "cat-jump-per-tail-flick": {
-          "name": "Salto di gatto per scatto di coda",
-          "symbol": "salti di gatto/scatto di coda",
-          "singularName": "salto di gatto per scatto di coda",
-          "pluralName": "salti di gatto per scatto di coda",
-          "description": "La velocità ufficiale del movimento inspiegabile delle 3 di notte.",
-          "scientificNote": "I ricercatori consigliano di non stare in corridoio.",
-          "origin": "Osservatorio della Velocità Notturna"
-        },
-        "stretched-cat-per-snack-request": {
-          "name": "Gatto stiracchiato per richiesta di snack",
-          "symbol": "gatti stiracchiati/richiesta di snack",
-          "singularName": "gatto stiracchiato per richiesta di snack",
-          "pluralName": "gatti stiracchiati per richiesta di snack",
-          "description": "Moto tranquillo misurato da un comitato affamato.",
-          "scientificNote": "Il soggetto può accelerare sentendo aprire una scatoletta.",
-          "origin": "Dipartimento Acquisizione Snack"
-        },
-        "banana-per-microwave-second": {
-          "name": "Banana per secondo da microonde",
-          "symbol": "banane/secondo da microonde",
-          "singularName": "banana per secondo da microonde",
-          "pluralName": "banane per secondo da microonde",
-          "description": "Velocità da cucina per oggetti leggermente impazienti.",
-          "scientificNote": "I secondi da microonde restano emotivamente più lunghi dei secondi SI.",
-          "origin": "Istituto del Tempo in Cucina"
-        },
-        "sofa-per-developer-hour": {
-          "name": "Divano per ora sviluppatore",
-          "symbol": "divani/ora sviluppatore",
-          "singularName": "divano per ora sviluppatore",
-          "pluralName": "divani per ora sviluppatore",
-          "description": "Progresso dopo che un piccolo refactoring diventa filosofia architetturale.",
-          "scientificNote": "La velocità diminuisce mentre si dà il nome alle cose.",
-          "origin": "Istituto di Cronometria Software"
-        },
-        "city-bus-per-quick-meeting": {
-          "name": "Autobus urbano per riunione veloce",
-          "symbol": "autobus urbani/riunione veloce",
-          "singularName": "autobus urbano per riunione veloce",
-          "pluralName": "autobus urbani per riunione veloce",
-          "description": "Una velocità da trasporto pubblico per sofferenze basate sul calendario.",
-          "scientificNote": "La durata della riunione si estende sotto pressione dell'ordine del giorno.",
-          "origin": "Comitato Standard Ufficio"
-        },
-        "football-field-per-pizza-delivery": {
-          "name": "Campo da football per consegna pizza",
-          "symbol": "campi da football/consegna pizza",
-          "singularName": "campo da football per consegna pizza",
-          "pluralName": "campi da football per consegna pizza",
-          "description": "Distanza da redazione divisa per latenza da fame.",
-          "scientificNote": "La vicinanza della pizza può causare distorsioni di velocità percepita.",
-          "origin": "Autorità Logistica Pizza"
-        },
-        "giraffe-per-snooze": {
-          "name": "Giraffa per snooze",
-          "symbol": "giraffe/snooze",
-          "singularName": "giraffa per snooze",
-          "pluralName": "giraffe per snooze",
-          "description": "Una misura alta e assonnata del progresso graduale.",
-          "scientificNote": "La lunghezza del collo viene revisionata separatamente dal comitato.",
-          "origin": "Divisione Ricerca sul Sonno"
-        },
-        "spaghetti-per-happy-cat-wink": {
-          "name": "Spaghetto per occhiolino di gatto felice",
-          "symbol": "spaghetti/occhiolino di gatto felice",
-          "singularName": "spaghetto per occhiolino di gatto felice",
-          "pluralName": "spaghetti per occhiolino di gatto felice",
-          "description": "Una velocità di pasta tenera con sfumature emotive.",
-          "scientificNote": "Le osservazioni scotte sono respinte dai revisori italiani.",
-          "origin": "Consiglio Italiano Standard Pasta"
-        },
-        "blue-whale-length-per-monday-morning": {
-          "name": "Balena azzurra per lunedì mattina",
-          "symbol": "balene azzurre/lunedì mattina",
-          "singularName": "balena azzurra per lunedì mattina",
-          "pluralName": "balene azzurre per lunedì mattina",
-          "description": "Un grande movimento distribuito sul più lungo fenomeno d'ufficio conosciuto.",
-          "scientificNote": "Dilatazione temporale confermata dagli studi sul posto di lavoro.",
-          "origin": "Dipartimento della Sofferenza Settimanale"
-        },
-        "t-rex-per-one-more-turn": {
-          "name": "T-Rex per un altro turno",
-          "symbol": "T-Rex/altri turni",
-          "singularName": "T-Rex per un altro turno",
-          "pluralName": "T-Rex per altri turni",
-          "description": "Progresso preistorico durante la negazione strategica dell'ora di dormire.",
-          "scientificNote": "Le braccia non influenzano i calcoli aerodinamici.",
-          "origin": "Laboratorio di Distorsione Temporale Interattiva"
-        },
-        "ikea-instruction-per-loading-bar-minute": {
-          "name": "Istruzione IKEA per minuto barra di caricamento",
-          "symbol": "istruzioni IKEA/minuto barra di caricamento",
-          "singularName": "istruzione IKEA per minuto barra di caricamento",
-          "pluralName": "istruzioni IKEA per minuto barra di caricamento",
-          "description": "Documentazione di montaggio che si muove alla velocità di un aggiornamento software.",
-          "scientificNote": "Le viti mancanti possono ridurre la fiducia ma non la velocità nominale.",
-          "origin": "Autorità Nordica di Montaggio"
-        }
-      }
-    }
-  },
+  "description": "Unità di velocità buffe costruite da lunghezze e tempi core.",
   "ratioUnits": [
     {
       "id": "cat-tail-per-tail-flick",
@@ -128,13 +12,17 @@
       "numeratorUnitId": "cat-tail",
       "denominatorUnitId": "tail-flick",
       "emoji": "🐈",
-      "description": "A compact feline escape velocity.",
-      "scientificNote": "Valid when the tail has registered mild disapproval.",
-      "origin": "Feline Motion Standards Desk",
+      "description": "Una velocità di fuga felina compatta.",
+      "scientificNote": "Valida quando la coda ha registrato lieve disapprovazione.",
+      "origin": "Banco Standard del Moto Felino",
       "tags": [
         "cats",
         "intuitive"
-      ]
+      ],
+      "name": "Coda di gatto per scatto di coda",
+      "symbol": "code di gatto/scatto di coda",
+      "singularName": "coda di gatto per scatto di coda",
+      "pluralName": "code di gatto per scatto di coda"
     },
     {
       "id": "cat-jump-per-tail-flick",
@@ -142,14 +30,18 @@
       "numeratorUnitId": "cat-jump",
       "denominatorUnitId": "tail-flick",
       "emoji": "⚡",
-      "description": "The official velocity of unexplained 3 AM movement.",
-      "scientificNote": "Researchers recommend not standing in the hallway.",
-      "origin": "Nighttime Velocity Observatory",
+      "description": "La velocità ufficiale del movimento inspiegabile delle 3 di notte.",
+      "scientificNote": "I ricercatori consigliano di non stare in corridoio.",
+      "origin": "Osservatorio della Velocità Notturna",
       "tags": [
         "cats",
         "animals",
         "pseudoScientific"
-      ]
+      ],
+      "name": "Salto di gatto per scatto di coda",
+      "symbol": "salti di gatto/scatto di coda",
+      "singularName": "salto di gatto per scatto di coda",
+      "pluralName": "salti di gatto per scatto di coda"
     },
     {
       "id": "stretched-cat-per-snack-request",
@@ -157,13 +49,17 @@
       "numeratorUnitId": "stretched-cat",
       "denominatorUnitId": "snack-request",
       "emoji": "🐈↔️",
-      "description": "Leisurely motion measured by a hungry committee.",
-      "scientificNote": "Subject may accelerate when hearing a can open.",
-      "origin": "Snack Acquisition Department",
+      "description": "Moto tranquillo misurato da un comitato affamato.",
+      "scientificNote": "Il soggetto può accelerare sentendo aprire una scatoletta.",
+      "origin": "Dipartimento Acquisizione Snack",
       "tags": [
         "cats",
         "food"
-      ]
+      ],
+      "name": "Gatto stiracchiato per richiesta di snack",
+      "symbol": "gatti stiracchiati/richiesta di snack",
+      "singularName": "gatto stiracchiato per richiesta di snack",
+      "pluralName": "gatti stiracchiati per richiesta di snack"
     },
     {
       "id": "banana-per-microwave-second",
@@ -171,13 +67,17 @@
       "numeratorUnitId": "banana",
       "denominatorUnitId": "microwave-second",
       "emoji": "🍌",
-      "description": "Kitchen-scale velocity for mildly impatient objects.",
-      "scientificNote": "Microwave seconds remain emotionally longer than SI seconds.",
-      "origin": "Kitchen Time Institute",
+      "description": "Velocità da cucina per oggetti leggermente impazienti.",
+      "scientificNote": "I secondi da microonde restano emotivamente più lunghi dei secondi SI.",
+      "origin": "Istituto del Tempo in Cucina",
       "tags": [
         "food",
         "intuitive"
-      ]
+      ],
+      "name": "Banana per secondo da microonde",
+      "symbol": "banane/secondo da microonde",
+      "singularName": "banana per secondo da microonde",
+      "pluralName": "banane per secondo da microonde"
     },
     {
       "id": "sofa-per-developer-hour",
@@ -185,13 +85,17 @@
       "numeratorUnitId": "sofa",
       "denominatorUnitId": "developer-hour",
       "emoji": "🛋️",
-      "description": "Progress after one small refactor becomes architectural philosophy.",
-      "scientificNote": "Velocity decreases while naming things.",
-      "origin": "Software Chronometry Institute",
+      "description": "Progresso dopo che un piccolo refactoring diventa filosofia architetturale.",
+      "scientificNote": "La velocità diminuisce mentre si dà il nome alle cose.",
+      "origin": "Istituto di Cronometria Software",
       "tags": [
         "geek",
         "household"
-      ]
+      ],
+      "name": "Divano per ora sviluppatore",
+      "symbol": "divani/ora sviluppatore",
+      "singularName": "divano per ora sviluppatore",
+      "pluralName": "divani per ora sviluppatore"
     },
     {
       "id": "city-bus-per-quick-meeting",
@@ -199,13 +103,17 @@
       "numeratorUnitId": "city-bus",
       "denominatorUnitId": "quick-meeting",
       "emoji": "🚌",
-      "description": "A transit-grade speed for calendar-based suffering.",
-      "scientificNote": "Meeting duration observed to stretch under agenda pressure.",
-      "origin": "Office Standards Committee",
+      "description": "Una velocità da trasporto pubblico per sofferenze basate sul calendario.",
+      "scientificNote": "La durata della riunione si estende sotto pressione dell'ordine del giorno.",
+      "origin": "Comitato Standard Ufficio",
       "tags": [
         "intuitive",
         "household"
-      ]
+      ],
+      "name": "Autobus urbano per riunione veloce",
+      "symbol": "autobus urbani/riunione veloce",
+      "singularName": "autobus urbano per riunione veloce",
+      "pluralName": "autobus urbani per riunione veloce"
     },
     {
       "id": "football-field-per-pizza-delivery",
@@ -213,13 +121,17 @@
       "numeratorUnitId": "football-field",
       "denominatorUnitId": "pizza-delivery",
       "emoji": "🏈",
-      "description": "Newsroom distance divided by hunger latency.",
-      "scientificNote": "Pizza proximity may cause perceived speed distortion.",
-      "origin": "Pizza Logistics Authority",
+      "description": "Distanza da redazione divisa per latenza da fame.",
+      "scientificNote": "La vicinanza della pizza può causare distorsioni di velocità percepita.",
+      "origin": "Autorità Logistica Pizza",
       "tags": [
         "food",
         "intuitive"
-      ]
+      ],
+      "name": "Campo da football per consegna pizza",
+      "symbol": "campi da football/consegna pizza",
+      "singularName": "campo da football per consegna pizza",
+      "pluralName": "campi da football per consegna pizza"
     },
     {
       "id": "giraffe-per-snooze",
@@ -227,12 +139,16 @@
       "numeratorUnitId": "giraffe",
       "denominatorUnitId": "snooze",
       "emoji": "🦒",
-      "description": "A tall, sleepy measure of gradual progress.",
-      "scientificNote": "Neck length reviewed separately by the committee.",
-      "origin": "Sleep Research Division",
+      "description": "Una misura alta e assonnata del progresso graduale.",
+      "scientificNote": "La lunghezza del collo viene revisionata separatamente dal comitato.",
+      "origin": "Divisione Ricerca sul Sonno",
       "tags": [
         "animals"
-      ]
+      ],
+      "name": "Giraffa per snooze",
+      "symbol": "giraffe/snooze",
+      "singularName": "giraffa per snooze",
+      "pluralName": "giraffe per snooze"
     },
     {
       "id": "spaghetti-per-happy-cat-wink",
@@ -240,13 +156,17 @@
       "numeratorUnitId": "spaghetti",
       "denominatorUnitId": "happy-cat-wink",
       "emoji": "🍝",
-      "description": "A tender pasta velocity with emotional undertones.",
-      "scientificNote": "Overcooked observations rejected by Italian reviewers.",
-      "origin": "Italian Pasta Standards Board",
+      "description": "Una velocità di pasta tenera con sfumature emotive.",
+      "scientificNote": "Le osservazioni scotte sono respinte dai revisori italiani.",
+      "origin": "Consiglio Italiano Standard Pasta",
       "tags": [
         "food",
         "cats"
-      ]
+      ],
+      "name": "Spaghetto per occhiolino di gatto felice",
+      "symbol": "spaghetti/occhiolino di gatto felice",
+      "singularName": "spaghetto per occhiolino di gatto felice",
+      "pluralName": "spaghetti per occhiolino di gatto felice"
     },
     {
       "id": "blue-whale-length-per-monday-morning",
@@ -254,13 +174,17 @@
       "numeratorUnitId": "blue-whale-length",
       "denominatorUnitId": "monday-morning",
       "emoji": "🐋",
-      "description": "Large movement spread across the longest known office phenomenon.",
-      "scientificNote": "Time dilation confirmed by workplace studies.",
-      "origin": "Department of Weekly Suffering",
+      "description": "Un grande movimento distribuito sul più lungo fenomeno d'ufficio conosciuto.",
+      "scientificNote": "Dilatazione temporale confermata dagli studi sul posto di lavoro.",
+      "origin": "Dipartimento della Sofferenza Settimanale",
       "tags": [
         "animals",
         "hugeThings"
-      ]
+      ],
+      "name": "Balena azzurra per lunedì mattina",
+      "symbol": "balene azzurre/lunedì mattina",
+      "singularName": "balena azzurra per lunedì mattina",
+      "pluralName": "balene azzurre per lunedì mattina"
     },
     {
       "id": "t-rex-per-one-more-turn",
@@ -268,13 +192,17 @@
       "numeratorUnitId": "t-rex",
       "denominatorUnitId": "one-more-turn",
       "emoji": "🦖",
-      "description": "Prehistoric progress during strategic denial of bedtime.",
-      "scientificNote": "Arms do not affect aerodynamic calculations.",
-      "origin": "Interactive Time Distortion Laboratory",
+      "description": "Progresso preistorico durante la negazione strategica dell'ora di dormire.",
+      "scientificNote": "Le braccia non influenzano i calcoli aerodinamici.",
+      "origin": "Laboratorio di Distorsione Temporale Interattiva",
       "tags": [
         "geek",
         "animals"
-      ]
+      ],
+      "name": "T-Rex per un altro turno",
+      "symbol": "T-Rex/altri turni",
+      "singularName": "T-Rex per un altro turno",
+      "pluralName": "T-Rex per altri turni"
     },
     {
       "id": "ikea-instruction-per-loading-bar-minute",
@@ -282,13 +210,18 @@
       "numeratorUnitId": "ikea-instruction",
       "denominatorUnitId": "loading-bar-minute",
       "emoji": "📖",
-      "description": "Assembly documentation moving at software-update speed.",
-      "scientificNote": "Missing screws may reduce confidence but not nominal velocity.",
-      "origin": "Nordic Assembly Authority",
+      "description": "Documentazione di montaggio che si muove alla velocità di un aggiornamento software.",
+      "scientificNote": "Le viti mancanti possono ridurre la fiducia ma non la velocità nominale.",
+      "origin": "Autorità Nordica di Montaggio",
       "tags": [
         "household",
         "geek"
-      ]
+      ],
+      "name": "Istruzione IKEA per minuto barra di caricamento",
+      "symbol": "istruzioni IKEA/minuto barra di caricamento",
+      "singularName": "istruzione IKEA per minuto barra di caricamento",
+      "pluralName": "istruzioni IKEA per minuto barra di caricamento"
     }
-  ]
+  ],
+  "kind": "units"
 }

@@ -11,7 +11,7 @@ This repository is the public Catverter unit catalog.
 
 ## Content Model
 
-Core and contribution packs use the same JSON format. English text belongs in the main unit fields. Translated text belongs under `localizations`, for example `localizations.it`.
+Core and contribution unit packs use Italian as their canonical text. English text belongs in separate `kind: "localization"` packs with `localizations.en`.
 
 Keep unit IDs stable once published. If a unit needs a better display name, change `name`, `singularName`, `pluralName`, or a localization instead of changing `id`.
 
