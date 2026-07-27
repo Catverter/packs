@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://catverter.dev/schema/catverter.pack-index.v1.schema.json",
+  "title": "Catverter Pack Index v1",
+  "type": "object",
+  "required": ["schemaVersion", "id", "displayName", "version", "author", "description", "packs"],
+  "properties": {
+    "schemaVersion": { "const": "catverter.pack-index/v1" },
+    "id": { "type": "string", "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$" },
+    "displayName": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$" },
+    "author": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "packs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/packEntry" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "packEntry": {
+      "type": "object",
+      "required": ["id", "kind", "displayName", "version", "author", "description", "downloadUrl"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$" },
+        "kind": { "enum": ["units", "localization"] },
+        "displayName": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$" },
+        "author": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "downloadUrl": { "type": "string", "minLength": 1 },
+        "homepageUrl": { "type": "string" },
+        "languages": { "type": "array", "items": { "type": "string" } },
+        "dependencies": { "type": "array", "items": { "$ref": "#/$defs/dependency" } },
+        "badges": { "type": "array", "items": { "enum": ["committeePick", "packOfTheMonth"] } },
+        "featuredOrder": { "type": "integer", "minimum": 0 },
+        "featuredReason": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "dependency": {
+      "type": "object",
+      "required": ["id", "minVersion"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$" },
+        "minVersion": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

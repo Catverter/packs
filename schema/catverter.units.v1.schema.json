@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://catverter.dev/schema/catverter.units.v1.schema.json",
+  "title": "Catverter Units Pack v1",
+  "type": "object",
+  "required": ["schemaVersion", "id", "displayName", "version", "author", "description"],
+  "properties": {
+    "schemaVersion": { "const": "catverter.units/v1" },
+    "kind": { "enum": ["units", "localization"] },
+    "id": { "$ref": "#/$defs/packId" },
+    "displayName": { "type": "string", "minLength": 1 },
+    "version": { "$ref": "#/$defs/version" },
+    "author": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "dependencies": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/dependency" }
+    },
+    "localizations": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/localization" }
+    },
+    "variantDisplay": { "$ref": "#/$defs/variantDisplay" },
+    "variantSettings": { "$ref": "#/$defs/variantSettings" },
+    "units": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/unit" }
+    },
+    "ratioUnits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/ratioUnit" }
+    },
+    "variants": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/variant" }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "packId": {
+      "type": "string",
+      "pattern": "^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$"
+    },
+    "dependency": {
+      "type": "object",
+      "required": ["id", "minVersion"],
+      "properties": {
+        "id": { "$ref": "#/$defs/packId" },
+        "minVersion": { "$ref": "#/$defs/version" }
+      },
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "required": ["id", "dimension", "name", "symbol", "emoji", "singularName", "pluralName", "description", "scientificNote", "origin", "baseFactor", "tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "dimension": { "enum": ["mass", "length", "time", "temperature"] },
+        "name": { "type": "string", "minLength": 1 },
+        "symbol": { "type": "string", "minLength": 1 },
+        "emoji": { "type": "string", "minLength": 1 },
+        "singularName": { "type": "string", "minLength": 1 },
+        "pluralName": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "scientificNote": { "type": "string", "minLength": 1 },
+        "origin": { "type": "string", "minLength": 1 },
+        "baseFactor": { "type": "number", "exclusiveMinimum": 0 },
+        "tags": { "type": "array", "items": { "$ref": "#/$defs/tag" }, "minItems": 1 },
+        "preferredMin": { "type": "number", "minimum": 0 },
+        "preferredMax": { "type": "number", "minimum": 0 },
+        "scientificAccuracy": { "$ref": "#/$defs/scientificAccuracy" },
+        "families": { "type": "array", "items": { "$ref": "#/$defs/family" } }
+      },
+      "additionalProperties": false
+    },
+    "ratioUnit": {
+      "type": "object",
+      "required": ["id", "dimension", "numeratorUnitId", "denominatorUnitId", "emoji", "description", "scientificNote", "origin", "tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "dimension": { "const": "speed" },
+        "numeratorUnitId": { "$ref": "#/$defs/id" },
+        "denominatorUnitId": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "symbol": { "type": "string", "minLength": 1 },
+        "emoji": { "type": "string", "minLength": 1 },
+        "singularName": { "type": "string", "minLength": 1 },
+        "pluralName": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "scientificNote": { "type": "string", "minLength": 1 },
+        "origin": { "type": "string", "minLength": 1 },
+        "tags": { "type": "array", "items": { "$ref": "#/$defs/tag" }, "minItems": 1 },
+        "preferredMin": { "type": "number", "minimum": 0 },
+        "preferredMax": { "type": "number", "minimum": 0 },
+        "scientificAccuracy": { "$ref": "#/$defs/scientificAccuracy" }
+      },
+      "additionalProperties": false
+    },
+    "variant": {
+      "type": "object",
+      "required": ["id", "adjective", "group"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "adjective": { "type": "string", "minLength": 1 },
+        "group": { "enum": ["mood", "size"] },
+        "appliesToFamilies": { "type": "array", "items": { "$ref": "#/$defs/family" } },
+        "factorMultiplier": { "type": "number" },
+        "emoji": { "type": "string" },
+        "additionalTags": { "type": "array", "items": { "$ref": "#/$defs/tag" } },
+        "unitNamePattern": { "type": "string" },
+        "singularNamePattern": { "type": "string" },
+        "pluralNamePattern": { "type": "string" },
+        "symbolPattern": { "type": "string" },
+        "descriptionPattern": { "type": "string" },
+        "scientificNotePattern": { "type": "string" },
+        "origin": { "type": "string" },
+        "scientificAccuracy": { "$ref": "#/$defs/scientificAccuracy" }
+      },
+      "additionalProperties": false
+    },
+    "variantSettings": {
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "enabledGroups": { "type": "array", "items": { "enum": ["mood", "size"] } },
+        "maxVariantDepth": { "type": "integer", "minimum": 0 },
+        "maxGeneratedVariantsPerBaseUnit": { "type": "integer", "minimum": 1 },
+        "variantSourceUnitIds": { "type": "array", "items": { "$ref": "#/$defs/id" } }
+      },
+      "additionalProperties": false
+    },
+    "variantDisplay": {
+      "type": "object",
+      "properties": {
+        "unitNamePattern": { "type": "string" },
+        "singularNamePattern": { "type": "string" },
+        "pluralNamePattern": { "type": "string" },
+        "symbolPattern": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "displayName": { "type": "string" },
+        "description": { "type": "string" },
+        "variantDisplay": { "$ref": "#/$defs/variantDisplay" },
+        "units": { "type": "object", "additionalProperties": { "$ref": "#/$defs/unitLocalization" } },
+        "ratioUnits": { "type": "object", "additionalProperties": { "$ref": "#/$defs/unitLocalization" } },
+        "variants": { "type": "object", "additionalProperties": { "$ref": "#/$defs/variantLocalization" } }
+      },
+      "additionalProperties": false
+    },
+    "unitLocalization": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "symbol": { "type": "string" },
+        "singularName": { "type": "string" },
+        "pluralName": { "type": "string" },
+        "description": { "type": "string" },
+        "scientificNote": { "type": "string" },
+        "origin": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "variantLocalization": {
+      "type": "object",
+      "properties": {
+        "adjective": { "type": "string" },
+        "unitNamePattern": { "type": "string" },
+        "singularNamePattern": { "type": "string" },
+        "pluralNamePattern": { "type": "string" },
+        "symbolPattern": { "type": "string" },
+        "descriptionPattern": { "type": "string" },
+        "scientificNotePattern": { "type": "string" },
+        "origin": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "tag": {
+      "enum": ["intuitive", "cats", "animals", "food", "household", "geek", "tinyThings", "hugeThings", "pseudoScientific"]
+    },
+    "family": {
+      "enum": ["abstract", "animal", "cat", "dog", "dinosaur", "food", "human", "householdObject", "appliance", "furniture", "landmark", "marineAnimal", "technology", "vehicle"]
+    },
+    "scientificAccuracy": {
+      "enum": ["exactDefinition", "reasonableEstimate", "committeeConsensus", "wildGuess"]
+    }
+  }
+}
