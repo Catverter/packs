@@ -2,9 +2,81 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.speed",
   "displayName": "Velocità Core Catverter",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "author": "Catverter",
   "description": "Unità di velocità buffe costruite da lunghezze e tempi core.",
+  "dimensions": [
+    {
+      "id": "speed",
+      "displayName": "Velocità",
+      "kind": "ratio",
+      "baseUnit": {
+        "id": "meter-per-second",
+        "name": "Metro al secondo",
+        "symbol": "m/s"
+      },
+      "inputUnits": [
+        {
+          "id": "meter-per-second",
+          "name": "Metro al secondo",
+          "symbol": "m/s",
+          "baseFactor": 1
+        },
+        {
+          "id": "meter-per-minute",
+          "name": "Metro al minuto",
+          "symbol": "m/min",
+          "baseFactor": 0.0166666666666666666666666667
+        },
+        {
+          "id": "meter-per-hour",
+          "name": "Metro all'ora",
+          "symbol": "m/h",
+          "baseFactor": 0.0002777777777777777777777778
+        },
+        {
+          "id": "kilometer-per-second",
+          "name": "Chilometro al secondo",
+          "symbol": "km/s",
+          "baseFactor": 1000
+        },
+        {
+          "id": "kilometer-per-minute",
+          "name": "Chilometro al minuto",
+          "symbol": "km/min",
+          "baseFactor": 16.666666666666666666666666667
+        },
+        {
+          "id": "kilometer-per-hour",
+          "name": "Chilometro all'ora",
+          "symbol": "km/h",
+          "baseFactor": 0.2777777777777777777777777778
+        },
+        {
+          "id": "centimeter-per-second",
+          "name": "Centimetro al secondo",
+          "symbol": "cm/s",
+          "baseFactor": 0.01
+        },
+        {
+          "id": "millimeter-per-second",
+          "name": "Millimetro al secondo",
+          "symbol": "mm/s",
+          "baseFactor": 0.001
+        }
+      ],
+      "defaultValue": "50",
+      "defaultInputUnitId": "kilometer-per-hour",
+      "ratio": {
+        "numeratorDimensionId": "length",
+        "denominatorDimensionId": "time",
+        "defaultNumeratorValue": "50",
+        "defaultNumeratorInputUnitId": "kilometer",
+        "defaultDenominatorValue": "1",
+        "defaultDenominatorInputUnitId": "hour"
+      }
+    }
+  ],
   "ratioUnits": [
     {
       "id": "cat-tail-per-tail-flick",

@@ -16,10 +16,14 @@
     "en": {
       "displayName": "Catverter Core Time",
       "description": "Funny time units used directly and by speed ratios.",
+      "dimensions": {
+        "time": {
+          "displayName": "Time"
+        }
+      },
       "units": {
         "tail-flick": {
           "name": "Tail flick",
-          "symbol": "tail flicks",
           "singularName": "tail flick",
           "pluralName": "tail flicks",
           "description": "The minimum observable interval of feline disapproval.",
@@ -28,7 +32,6 @@
         },
         "door-negotiation": {
           "name": "Cat-year",
-          "symbol": "cat-years",
           "singularName": "cat-year",
           "pluralName": "cat-years",
           "description": "One complete indoor/outdoor indecision cycle.",
@@ -37,7 +40,6 @@
         },
         "snack-request": {
           "name": "Snack request",
-          "symbol": "snack requests",
           "singularName": "snack request",
           "pluralName": "snack requests",
           "description": "The time between noticing a human and requesting food.",
@@ -46,7 +48,6 @@
         },
         "developer-hour": {
           "name": "Developer hour",
-          "symbol": "developer hours",
           "singularName": "developer hour",
           "pluralName": "developer hours",
           "description": "The amount of productive work before reorganizing the project structure.",
@@ -55,7 +56,6 @@
         },
         "meeting": {
           "name": "Meeting",
-          "symbol": "meetings",
           "singularName": "meeting",
           "pluralName": "meetings",
           "description": "A conventional administrative time sink.",
@@ -64,7 +64,6 @@
         },
         "angry-cat-wink": {
           "name": "Angry cat wink",
-          "symbol": "angry cat winks",
           "singularName": "angry cat wink",
           "pluralName": "angry cat winks",
           "description": "The shortest measurable expression of feline disappointment.",
@@ -73,7 +72,6 @@
         },
         "happy-cat-wink": {
           "name": "Happy cat wink",
-          "symbol": "happy cat winks",
           "singularName": "happy cat wink",
           "pluralName": "happy cat winks",
           "description": "A slow blink universally recognized as affection.",
@@ -82,7 +80,6 @@
         },
         "hunger-after-eating": {
           "name": "Hunger after eating",
-          "symbol": "hunger after eatings",
           "singularName": "hunger after eating",
           "pluralName": "hunger after eatings",
           "description": "Average delay before pretending starvation again.",
@@ -91,7 +88,6 @@
         },
         "programmer-minute": {
           "name": "Programmer minute",
-          "symbol": "programmer minutes",
           "singularName": "programmer minute",
           "pluralName": "programmer minutes",
           "description": "The time required to fix one tiny issue.",
@@ -100,7 +96,6 @@
         },
         "microwave-second": {
           "name": "Microwave second",
-          "symbol": "microwave seconds",
           "singularName": "microwave second",
           "pluralName": "microwave seconds",
           "description": "A second experienced while staring through the microwave door.",
@@ -109,7 +104,6 @@
         },
         "loading-bar-minute": {
           "name": "Loading bar minute",
-          "symbol": "loading bar minutes",
           "singularName": "loading bar minute",
           "pluralName": "loading bar minutes",
           "description": "Time perceived while staring at a loading indicator.",
@@ -118,7 +112,6 @@
         },
         "coffee-break": {
           "name": "Coffee break",
-          "symbol": "coffee breaks",
           "singularName": "coffee break",
           "pluralName": "coffee breaks",
           "description": "Nominal workplace productivity interruption.",
@@ -127,7 +120,6 @@
         },
         "monday-morning": {
           "name": "Monday morning",
-          "symbol": "Monday mornings",
           "singularName": "Monday morning",
           "pluralName": "Monday mornings",
           "description": "Longest naturally occurring temporal phenomenon.",
@@ -136,7 +128,6 @@
         },
         "snooze": {
           "name": "Snooze",
-          "symbol": "snoozes",
           "singularName": "snooze",
           "pluralName": "snoozes",
           "description": "The optimistic promise of 'just five more minutes'.",
@@ -145,7 +136,6 @@
         },
         "pizza-delivery": {
           "name": "Pizza delivery",
-          "symbol": "pizza deliveries",
           "singularName": "pizza delivery",
           "pluralName": "pizza deliveries",
           "description": "Average anticipation interval before dinner.",
@@ -154,7 +144,6 @@
         },
         "cat-nap": {
           "name": "Cat nap",
-          "symbol": "cat naps",
           "singularName": "cat nap",
           "pluralName": "cat naps",
           "description": "A short feline nap lasting approximately four hours.",
@@ -163,7 +152,6 @@
         },
         "netflix-episode": {
           "name": "Netflix episode",
-          "symbol": "Netflix episodes",
           "singularName": "Netflix episode",
           "pluralName": "Netflix episodes",
           "description": "The amount of time before saying 'just one more'.",
@@ -172,7 +160,6 @@
         },
         "one-more-turn": {
           "name": "One more turn",
-          "symbol": "one more turns",
           "singularName": "one more turn",
           "pluralName": "one more turns",
           "description": "Temporal anomaly observed in strategy games.",
@@ -181,7 +168,6 @@
         },
         "tomorrow": {
           "name": "Tomorrow",
-          "symbol": "tomorrows",
           "singularName": "tomorrow",
           "pluralName": "tomorrows",
           "description": "The preferred completion date of every procrastinator.",
@@ -190,7 +176,6 @@
         },
         "be-there-in-five": {
           "name": "Be There in Five",
-          "symbol": "Be There in Fives",
           "singularName": "Be There in Five",
           "pluralName": "Be There in Fives",
           "description": "The universally accepted estimate for an imminent arrival.",
@@ -199,7 +184,6 @@
         },
         "lost-sock-search": {
           "name": "Lost Sock Search",
-          "symbol": "Lost Sock Searches",
           "singularName": "Lost Sock Search",
           "pluralName": "Lost Sock Searches",
           "description": "Average duration spent looking for the missing sock.",
@@ -208,7 +192,6 @@
         },
         "windows-update": {
           "name": "Windows Update",
-          "symbol": "Windows Updates",
           "singularName": "Windows Update",
           "pluralName": "Windows Updates",
           "description": "Standard software maintenance interval.",
@@ -217,7 +200,6 @@
         },
         "quick-meeting": {
           "name": "Quick Meeting",
-          "symbol": "Quick Meetings",
           "singularName": "Quick Meeting",
           "pluralName": "Quick Meetings",
           "description": "A meeting confidently announced to last only fifteen minutes.",
@@ -226,7 +208,6 @@
         },
         "one-last-reel": {
           "name": "One Last Reel",
-          "symbol": "One Last Reels",
           "singularName": "One Last Reel",
           "pluralName": "One Last Reels",
           "description": "The amount of time represented by 'just one more'.",
@@ -235,7 +216,6 @@
         },
         "shower-thought": {
           "name": "Shower Thought",
-          "symbol": "Shower Thoughts",
           "singularName": "Shower Thought",
           "pluralName": "Shower Thoughts",
           "description": "Average interval before solving yesterday's problem.",
@@ -244,7 +224,6 @@
         },
         "pasta-al-dente": {
           "name": "Pasta al Dente",
-          "symbol": "Pasta al Dentes",
           "singularName": "Pasta al Dente",
           "pluralName": "Pasta al Dentes",
           "description": "The ideal waiting time according to every Italian grandmother.",
@@ -253,7 +232,6 @@
         },
         "steam-sale-browse": {
           "name": "Steam Sale Browse",
-          "symbol": "Steam Sale Browses",
           "singularName": "Steam Sale Browse",
           "pluralName": "Steam Sale Browses",
           "description": "Time required to buy games that will never be played.",
@@ -262,7 +240,6 @@
         },
         "ikea-trip": {
           "name": "IKEA Trip",
-          "symbol": "IKEA Trips",
           "singularName": "IKEA Trip",
           "pluralName": "IKEA Trips",
           "description": "Expected duration of buying one small item.",
@@ -271,7 +248,6 @@
         },
         "cat-comes-when-called": {
           "name": "Cat Comes When Called",
-          "symbol": "Cat Comes When Calleds",
           "singularName": "Cat Comes When Called",
           "pluralName": "Cat Comes When Calleds",
           "description": "Theoretical unit describing the delay before a cat voluntarily responds.",

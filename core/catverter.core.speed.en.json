@@ -16,6 +16,11 @@
     "en": {
       "displayName": "Catverter Core Speed",
       "description": "Funny speed ratio units built from core length and time units.",
+      "dimensions": {
+        "speed": {
+          "displayName": "Speed"
+        }
+      },
       "ratioUnits": {
         "cat-tail-per-tail-flick": {
           "description": "A compact feline escape velocity.",

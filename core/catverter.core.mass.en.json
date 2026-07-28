@@ -16,10 +16,14 @@
     "en": {
       "displayName": "Catverter Core Mass",
       "description": "Funny mass units and the default variant definitions.",
+      "dimensions": {
+        "mass": {
+          "displayName": "Mass"
+        }
+      },
       "units": {
         "kitten": {
           "name": "Kitten",
-          "symbol": "kittens",
           "singularName": "kitten",
           "pluralName": "kittens",
           "description": "A tiny warm-up unit for suspiciously small weights.",
@@ -28,7 +32,6 @@
         },
         "skinny-cat": {
           "name": "Skinny cat",
-          "symbol": "skinny cats",
           "singularName": "skinny cat",
           "pluralName": "skinny cats",
           "description": "The streamlined feline. Mostly opinions and bones.",
@@ -46,7 +49,6 @@
         },
         "old-cat": {
           "name": "Old cat",
-          "symbol": "old cats",
           "singularName": "old cat",
           "pluralName": "old cats",
           "description": "A senior cat with excellent nap credentials.",
@@ -55,7 +57,6 @@
         },
         "angry-cat": {
           "name": "Angry cat",
-          "symbol": "angry cats",
           "singularName": "angry cat",
           "pluralName": "angry cats",
           "description": "Comparable mass, substantially more attitude.",
@@ -64,7 +65,6 @@
         },
         "fat-cat": {
           "name": "Fat cat",
-          "symbol": "fat cats",
           "singularName": "fat cat",
           "pluralName": "fat cats",
           "description": "Scientifically optimized for naps.",
@@ -73,7 +73,6 @@
         },
         "maine-coon": {
           "name": "Maine Coon",
-          "symbol": "Maine Coons",
           "singularName": "Maine Coon",
           "pluralName": "Maine Coons",
           "description": "A large-cat unit for premium fluff density.",
@@ -91,7 +90,6 @@
         },
         "bowling-ball": {
           "name": "Bowling ball",
-          "symbol": "bowling balls",
           "singularName": "bowling ball",
           "pluralName": "bowling balls",
           "description": "Compact, round, and nicely visual.",
@@ -109,7 +107,6 @@
         },
         "microwave-oven": {
           "name": "Microwave oven",
-          "symbol": "microwaves",
           "singularName": "microwave oven",
           "pluralName": "microwaves",
           "description": "Kitchen appliance mass, because why not.",
@@ -118,7 +115,6 @@
         },
         "banana": {
           "name": "Banana",
-          "symbol": "bananas",
           "singularName": "banana",
           "pluralName": "bananas",
           "description": "For scale. The internet insisted.",
@@ -127,7 +123,6 @@
         },
         "potato": {
           "name": "Potato",
-          "symbol": "potatoes",
           "singularName": "potato",
           "pluralName": "potatoes",
           "description": "The dependable unit of pantry science.",
@@ -136,7 +131,6 @@
         },
         "pizza": {
           "name": "Pizza",
-          "symbol": "pizzas",
           "singularName": "pizza",
           "pluralName": "pizzas",
           "description": "A dinner-sized disc of approximate truth.",
@@ -145,7 +139,6 @@
         },
         "lego-brick": {
           "name": "LEGO brick",
-          "symbol": "LEGO bricks",
           "singularName": "LEGO brick",
           "pluralName": "LEGO bricks",
           "description": "Tiny, countable, and dangerous underfoot.",
@@ -172,7 +165,6 @@
         },
         "t-rex": {
           "name": "T. rex",
-          "symbol": "T. rexes",
           "singularName": "T. rex",
           "pluralName": "T. rexes",
           "description": "Large, extinct, and hard to fit in a kitchen.",
@@ -181,7 +173,6 @@
         },
         "loaf-cat": {
           "name": "Loaf cat",
-          "symbol": "loaf cats",
           "singularName": "loaf cat",
           "pluralName": "loaf cats",
           "description": "A cat in its aerodynamically optimized resting configuration.",
@@ -190,7 +181,6 @@
         },
         "sleepy-cat": {
           "name": "Sleepy cat",
-          "symbol": "sleepy cats",
           "singularName": "sleepy cat",
           "pluralName": "sleepy cats",
           "description": "A feline observed during one of its scheduled eighteen daily naps.",
@@ -199,7 +189,6 @@
         },
         "zooming-cat": {
           "name": "Zooming cats",
-          "symbol": "zooming cats",
           "singularName": "zooming cat",
           "pluralName": "zooming cats",
           "description": "A high-velocity cat usually encountered at 3:17 AM.",
@@ -208,7 +197,6 @@
         },
         "chihuahua": {
           "name": "Chihuahua",
-          "symbol": "Chihuahuas",
           "singularName": "Chihuahua",
           "pluralName": "Chihuahuas",
           "description": "A compact canine convinced it outweighs everything else.",
@@ -217,7 +205,6 @@
         },
         "labrador": {
           "name": "Labrador",
-          "symbol": "Labradors",
           "singularName": "Labrador",
           "pluralName": "Labradors",
           "description": "An excessively enthusiastic dog with questionable personal boundaries.",
@@ -226,7 +213,6 @@
         },
         "happy-cow": {
           "name": "Happy cow",
-          "symbol": "happy cows",
           "singularName": "happy cow",
           "pluralName": "happy cows",
           "description": "A content grazing specimen with above-average moo quality.",
@@ -235,7 +221,6 @@
         },
         "sheep": {
           "name": "Sheep",
-          "symbol": "sheep",
           "singularName": "sheep",
           "pluralName": "sheep",
           "description": "A fluffy unit primarily used in counting and accidental roadblocks.",
@@ -244,7 +229,6 @@
         },
         "rubber-duck": {
           "name": "Rubber duck",
-          "symbol": "rubber ducks",
           "singularName": "rubber duck",
           "pluralName": "rubber ducks",
           "description": "The internationally accepted debugging companion.",
@@ -253,7 +237,6 @@
         },
         "mechanical-keyboard": {
           "name": "Mechanical keyboard",
-          "symbol": "mechanical keyboards",
           "singularName": "mechanical keyboard",
           "pluralName": "mechanical keyboards",
           "description": "Preferred by software developers and office noise complaints alike.",
@@ -262,7 +245,6 @@
         },
         "refrigerator": {
           "name": "Refrigerator",
-          "symbol": "refrigerators",
           "singularName": "refrigerator",
           "pluralName": "refrigerators",
           "description": "Large domestic cooling apparatus.",
@@ -271,7 +253,6 @@
         },
         "croissant": {
           "name": "Croissant",
-          "symbol": "croissants",
           "singularName": "croissant",
           "pluralName": "croissants",
           "description": "A buttery unit with disappointing structural integrity.",
@@ -280,7 +261,6 @@
         },
         "parmesan-wheel": {
           "name": "Parmesan wheel",
-          "symbol": "Parmesan wheels",
           "singularName": "Parmesan wheel",
           "pluralName": "Parmesan wheels",
           "description": "An Italian-approved large culinary reference unit.",

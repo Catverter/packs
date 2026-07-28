@@ -2,15 +2,49 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.temperature",
   "displayName": "Temperatura Core Catverter",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "author": "Catverter",
   "description": "Unità di temperatura termodinamica buffe ancorate al kelvin.",
+  "dimensions": [
+    {
+      "id": "temperature",
+      "displayName": "Temperatura",
+      "baseUnit": {
+        "id": "kelvin",
+        "name": "Kelvin",
+        "symbol": "K"
+      },
+      "inputUnits": [
+        {
+          "id": "kelvin",
+          "name": "Kelvin",
+          "symbol": "K",
+          "baseFactor": 1
+        },
+        {
+          "id": "celsius",
+          "name": "Celsius",
+          "symbol": "°C",
+          "baseFactor": 1,
+          "baseOffset": 273.15
+        },
+        {
+          "id": "fahrenheit",
+          "name": "Fahrenheit",
+          "symbol": "°F",
+          "baseFactor": 0.5555555555555555555555555556,
+          "baseOffset": 255.37222222222222222222222224
+        }
+      ],
+      "defaultValue": "20",
+      "defaultInputUnitId": "celsius"
+    }
+  ],
   "units": [
     {
       "id": "freezer-breath",
       "dimension": "temperature",
       "name": "Respiro da congelatore",
-      "symbol": "respiri da congelatore",
       "emoji": "🧊",
       "singularName": "respiro da congelatore",
       "pluralName": "respiri da congelatore",
@@ -37,7 +71,6 @@
       "id": "room-temperature",
       "dimension": "temperature",
       "name": "Temperatura ambiente",
-      "symbol": "temperature ambiente",
       "emoji": "🛋️",
       "singularName": "temperatura ambiente",
       "pluralName": "temperature ambiente",
@@ -63,7 +96,6 @@
       "id": "cat-loaf-warmth",
       "dimension": "temperature",
       "name": "Calore da gatto a pagnotta",
-      "symbol": "calori da gatto a pagnotta",
       "emoji": "🍞",
       "singularName": "calore da gatto a pagnotta",
       "pluralName": "calori da gatto a pagnotta",
@@ -91,7 +123,6 @@
       "id": "hot-coffee",
       "dimension": "temperature",
       "name": "Caffè caldo",
-      "symbol": "caffè caldi",
       "emoji": "☕",
       "singularName": "caffè caldo",
       "pluralName": "caffè caldi",
@@ -118,7 +149,6 @@
       "id": "pizza-oven",
       "dimension": "temperature",
       "name": "Forno da pizza",
-      "symbol": "forni da pizza",
       "emoji": "🍕",
       "singularName": "forno da pizza",
       "pluralName": "forni da pizza",
@@ -144,7 +174,6 @@
       "id": "surface-of-sun",
       "dimension": "temperature",
       "name": "Superficie del Sole",
-      "symbol": "superfici del Sole",
       "emoji": "☀️",
       "singularName": "superficie del Sole",
       "pluralName": "superfici del Sole",

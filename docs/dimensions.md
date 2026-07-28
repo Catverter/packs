@@ -1,29 +1,55 @@
 # Dimension Policy
 
-Catverter currently supports contributor units for these dimensions:
+Catverter dimensions are data-driven. Core dimensions and contributor dimensions use the same pack shape: a units pack may declare a top-level `dimensions` array, then add `units` or `ratioUnits` that reference those dimension IDs.
+
+A pack can add units to a dimension when that dimension is either:
+
+- declared in the same pack
+- declared by an enabled dependency pack
+- declared by an enabled core pack
+
+## Simple Dimensions
+
+Use a simple dimension for scalar conversions where every input unit can convert to one base unit with:
+
+```text
+base value = input value * baseFactor + baseOffset
+```
+
+For ordinary linear units, omit `baseOffset` or set it to `0`. Temperature-style input units can use `baseOffset`, such as Celsius to kelvin.
+
+Example dimensions that fit this model:
 
 - `mass`
 - `length`
 - `time`
 - `temperature`
-- `speed` ratio units, built from length over time
+- `volume`
+- `area`
+- `data-size`
+- `energy`
 
-A new kind of unit, such as volume, area, pressure, data size, or currency, needs app support before ordinary packs can use it. Until the runtime supports custom dimensions, contributors should propose the dimension first instead of publishing packs that use unsupported dimension IDs.
+## Ratio Dimensions
 
-## New Dimension Proposal
+Use a ratio dimension when the output units are built from units in two other dimensions. Core `speed` is the first example: length over time.
 
-A proposal should include:
+A ratio dimension declares:
 
-- dimension ID, such as `volume`
-- display name
-- base unit, such as liter or cubic meter
-- expected SI/base conversion rule
-- at least three example input units
-- at least three funny output units
-- whether the dimension is simple linear, offset-based, or composite
+- `kind: "ratio"`
+- `ratio.numeratorDimensionId`
+- `ratio.denominatorDimensionId`
+- optional default numerator and denominator input values/units for the app input UI
 
-For the first app-supported version of new dimensions, prefer simple linear scalar dimensions. Composite dimensions can follow later once the runtime and UI have a stable model.
+The `ratioUnits` entries then reference unit IDs from the numerator and denominator dimensions.
 
-## Future Pack Shape
+## Contributor Rules
 
-Future dynamic dimensions should live beside their units in the pack that introduces them, rather than in a separate repository. Packs that merely add units to an existing dimension should reference that dimension ID.
+A contributor can propose a new dimension by publishing a normal units pack that contains:
+
+- at least one `dimensions` entry
+- input units for that dimension
+- at least one funny output unit, unless the pack only exists to define a dimension for other packs
+
+A contributor cannot redefine a dimension ID that is already provided by an enabled core pack or another enabled contributor pack. Additional packs should depend on the dimension-providing pack and add units using that dimension ID.
+
+For the first app-supported version of custom dimensions, prefer simple or ratio dimensions. Arbitrary formulas, live currency exchange, and other externally changing dimensions should wait for a later schema version.

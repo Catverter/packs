@@ -22,6 +22,10 @@
     },
     "variantDisplay": { "$ref": "#/$defs/variantDisplay" },
     "variantSettings": { "$ref": "#/$defs/variantSettings" },
+    "dimensions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/dimension" }
+    },
     "units": {
       "type": "array",
       "items": { "$ref": "#/$defs/unit" }
@@ -58,12 +62,66 @@
       },
       "additionalProperties": false
     },
-    "unit": {
+    "dimension": {
       "type": "object",
-      "required": ["id", "dimension", "name", "symbol", "emoji", "singularName", "pluralName", "description", "scientificNote", "origin", "baseFactor", "tags"],
+      "required": ["id", "displayName", "baseUnit", "inputUnits", "defaultValue", "defaultInputUnitId"],
       "properties": {
         "id": { "$ref": "#/$defs/id" },
-        "dimension": { "enum": ["mass", "length", "time", "temperature"] },
+        "displayName": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["simple", "ratio"] },
+        "baseUnit": { "$ref": "#/$defs/dimensionUnit" },
+        "inputUnits": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/dimensionInputUnit" },
+          "minItems": 1
+        },
+        "defaultValue": { "type": "string", "minLength": 1 },
+        "defaultInputUnitId": { "$ref": "#/$defs/id" },
+        "ratio": { "$ref": "#/$defs/ratioDimension" }
+      },
+      "additionalProperties": false
+    },
+    "dimensionUnit": {
+      "type": "object",
+      "required": ["id", "name", "symbol"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "symbol": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "dimensionInputUnit": {
+      "type": "object",
+      "required": ["id", "name", "symbol", "baseFactor"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "symbol": { "type": "string", "minLength": 1 },
+        "baseFactor": { "type": "number" },
+        "baseOffset": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "ratioDimension": {
+      "type": "object",
+      "required": ["numeratorDimensionId", "denominatorDimensionId"],
+      "properties": {
+        "numeratorDimensionId": { "$ref": "#/$defs/id" },
+        "denominatorDimensionId": { "$ref": "#/$defs/id" },
+        "defaultNumeratorValue": { "type": "string" },
+        "defaultNumeratorInputUnitId": { "$ref": "#/$defs/id" },
+        "defaultDenominatorValue": { "type": "string" },
+        "defaultDenominatorInputUnitId": { "$ref": "#/$defs/id" }
+      },
+      "additionalProperties": false
+    },
+    "unit": {
+      "type": "object",
+      "required": ["id", "dimension", "name", "emoji", "singularName", "pluralName", "description", "scientificNote", "origin", "baseFactor", "tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "dimension": { "$ref": "#/$defs/id" },
         "name": { "type": "string", "minLength": 1 },
         "symbol": { "type": "string", "minLength": 1 },
         "emoji": { "type": "string", "minLength": 1 },
@@ -87,7 +145,7 @@
       "required": ["id", "dimension", "numeratorUnitId", "denominatorUnitId", "emoji", "description", "scientificNote", "origin", "tags"],
       "properties": {
         "id": { "$ref": "#/$defs/id" },
-        "dimension": { "const": "speed" },
+        "dimension": { "$ref": "#/$defs/id" },
         "numeratorUnitId": { "$ref": "#/$defs/id" },
         "denominatorUnitId": { "$ref": "#/$defs/id" },
         "name": { "type": "string", "minLength": 1 },
@@ -177,9 +235,17 @@
         "displayName": { "type": "string" },
         "description": { "type": "string" },
         "variantDisplay": { "$ref": "#/$defs/variantDisplay" },
+        "dimensions": { "type": "object", "additionalProperties": { "$ref": "#/$defs/dimensionLocalization" } },
         "units": { "type": "object", "additionalProperties": { "$ref": "#/$defs/unitLocalization" } },
         "ratioUnits": { "type": "object", "additionalProperties": { "$ref": "#/$defs/unitLocalization" } },
         "variants": { "type": "object", "additionalProperties": { "$ref": "#/$defs/variantLocalization" } }
+      },
+      "additionalProperties": false
+    },
+    "dimensionLocalization": {
+      "type": "object",
+      "properties": {
+        "displayName": { "type": "string" }
       },
       "additionalProperties": false
     },

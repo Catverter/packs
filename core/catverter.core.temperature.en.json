@@ -16,10 +16,14 @@
     "en": {
       "displayName": "Catverter Core Temperature",
       "description": "Funny thermodynamic temperature units anchored in kelvin.",
+      "dimensions": {
+        "temperature": {
+          "displayName": "Temperature"
+        }
+      },
       "units": {
         "freezer-breath": {
           "name": "Freezer Breath",
-          "symbol": "freezer breaths",
           "singularName": "freezer breath",
           "pluralName": "freezer breaths",
           "description": "The air that reminds you what you forgot in the freezer.",
@@ -28,7 +32,6 @@
         },
         "room-temperature": {
           "name": "Room Temperature",
-          "symbol": "room temperatures",
           "singularName": "room temperature",
           "pluralName": "room temperatures",
           "description": "The default condition of rooms, excuses, and forgotten coffee.",
@@ -37,7 +40,6 @@
         },
         "cat-loaf-warmth": {
           "name": "Cat Loaf Warmth",
-          "symbol": "cat loaf warmths",
           "singularName": "cat loaf warmth",
           "pluralName": "cat loaf warmths",
           "description": "Compact feline heat generated in loaf mode.",
@@ -46,7 +48,6 @@
         },
         "hot-coffee": {
           "name": "Hot Coffee",
-          "symbol": "hot coffees",
           "singularName": "hot coffee",
           "pluralName": "hot coffees",
           "description": "The point at which productivity becomes a beverage.",
@@ -55,7 +56,6 @@
         },
         "pizza-oven": {
           "name": "Pizza Oven",
-          "symbol": "pizza ovens",
           "singularName": "pizza oven",
           "pluralName": "pizza ovens",
           "description": "The temperature where dough starts believing in itself.",
@@ -64,7 +64,6 @@
         },
         "surface-of-sun": {
           "name": "Surface of the Sun",
-          "symbol": "surfaces of the Sun",
           "singularName": "surface of the Sun",
           "pluralName": "surfaces of the Sun",
           "description": "For measurements that have clearly exceeded toaster territory.",

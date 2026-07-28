@@ -1,17 +1,55 @@
 {
   "schemaVersion": "catverter.units/v1",
-  "kind": "units",
   "id": "catverter.core.mass",
   "displayName": "Massa Core Catverter",
-  "version": "1.0.31",
+  "version": "1.0.2",
   "author": "Catverter",
-  "description": "Unit\u00E0 di massa decisamente pi\u00F9 comprensibili rispetto alle alternative degli stupidi umani.",
-  "variantDisplay": {
-    "unitNamePattern": "{unitName} {adjective}",
-    "singularNamePattern": "{singular} {adjective}",
-    "pluralNamePattern": "{plural} {adjectivePlural}",
-    "symbolPattern": "{symbol} {adjectivePlural}"
-  },
+  "description": "Unità di massa decisamente più comprensibili rispetto alle alternative degli stupidi umani.",
+  "dimensions": [
+    {
+      "id": "mass",
+      "displayName": "Massa",
+      "baseUnit": {
+        "id": "kilogram",
+        "name": "Chilogrammo",
+        "symbol": "kg"
+      },
+      "inputUnits": [
+        {
+          "id": "kilogram",
+          "name": "Chilogrammo",
+          "symbol": "kg",
+          "baseFactor": 1
+        },
+        {
+          "id": "gram",
+          "name": "Grammo",
+          "symbol": "g",
+          "baseFactor": 0.001
+        },
+        {
+          "id": "pound",
+          "name": "Libbra",
+          "symbol": "lb",
+          "baseFactor": 0.45359237
+        },
+        {
+          "id": "ounce",
+          "name": "Oncia",
+          "symbol": "oz",
+          "baseFactor": 0.028349523125
+        },
+        {
+          "id": "metric-ton",
+          "name": "Tonnellata",
+          "symbol": "t",
+          "baseFactor": 1000
+        }
+      ],
+      "defaultValue": "80",
+      "defaultInputUnitId": "kilogram"
+    }
+  ],
   "variantSettings": {
     "enabled": true,
     "maxVariantDepth": 1,
@@ -37,10 +75,10 @@
       "id": "kitten",
       "dimension": "mass",
       "name": "Gattino",
-      "emoji": "\uD83D\uDC31",
+      "emoji": "🐱",
       "singularName": "gattino",
       "pluralName": "gattini",
-      "description": "Una piccola unit\u00E0 di riscaldamento per pesi sospettosamente minuscoli.",
+      "description": "Una piccola unità di riscaldamento per pesi sospettosamente minuscoli.",
       "scientificNote": "I campioni vanno pesati prima che scoprano la ciotola.",
       "origin": "Comitato Felino Standard Catverter, 2026",
       "baseFactor": 0.8,
@@ -49,7 +87,25 @@
         "animals",
         "tinyThings"
       ],
-      "families": [],
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "skinny-cat",
+      "dimension": "mass",
+      "name": "Gatto magro",
+      "emoji": "🐱",
+      "singularName": "gatto magro",
+      "pluralName": "gatti magri",
+      "description": "Il felino aerodinamico. Soprattutto opinioni e ossa.",
+      "scientificNote": "Le misurazioni escludono lamentele drammatiche sulla sottoalimentazione.",
+      "origin": "Note sul campo dell'Istituto di Metrologia Felina",
+      "baseFactor": 2.8,
+      "tags": [
+        "cats",
+        "animals"
+      ],
       "grammar": {
         "gender": "masculine"
       }
@@ -58,11 +114,11 @@
       "id": "standard-cat",
       "dimension": "mass",
       "name": "Gatto",
-      "emoji": "\uD83D\uDC08",
+      "emoji": "🐈",
       "singularName": "gatto",
       "pluralName": "gatti",
       "description": "Il riferimento felino. Di solito ti sta giudicando.",
-      "scientificNote": "Tutti i Gatti Standard vengono calibrati annualmente dal Reparto Garanzia Qualit\u00E0.",
+      "scientificNote": "Tutti i Gatti Standard vengono calibrati annualmente dal Reparto Garanzia Qualità.",
       "origin": "Riferimento primario di massa Catverter",
       "baseFactor": 4.5,
       "tags": [
@@ -71,7 +127,6 @@
         "animals",
         "pseudoScientific"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -80,18 +135,56 @@
       "id": "old-cat",
       "dimension": "mass",
       "name": "Gatto anziano",
-      "emoji": "\uD83D\uDC74",
+      "emoji": "👴",
       "singularName": "gatto anziano",
       "pluralName": "gatti anziani",
       "description": "Un gatto senior con eccellenti credenziali da pisolino.",
-      "scientificNote": "Approvato solo se il soggetto si \u00E8 guadagnato almeno una coperta preferita.",
+      "scientificNote": "Approvato solo se il soggetto si è guadagnato almeno una coperta preferita.",
       "origin": "Allegato Gerontologico agli Standard Felini",
       "baseFactor": 3.9,
       "tags": [
         "cats",
         "animals"
       ],
-      "families": [],
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "angry-cat",
+      "dimension": "mass",
+      "name": "Gatto arrabbiato",
+      "emoji": "😾",
+      "singularName": "gatto arrabbiato",
+      "pluralName": "gatti arrabbiati",
+      "description": "Massa comparabile, atteggiamento sostanzialmente superiore.",
+      "scientificNote": "La massa può apparire maggiore mentre l'unità ti fissa direttamente.",
+      "origin": "Dipartimento della Gestione Difensiva",
+      "baseFactor": 4.8,
+      "tags": [
+        "cats",
+        "animals"
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "fat-cat",
+      "dimension": "mass",
+      "name": "Gatto cicciotto",
+      "emoji": "🦁",
+      "singularName": "gatto cicciotto",
+      "pluralName": "gatti cicciotti",
+      "description": "Scientificamente ottimizzato per i pisolini.",
+      "scientificNote": "Lo stato della cena deve essere registrato prima della calibrazione.",
+      "origin": "Registro Felino ad Alta Densità Catverter",
+      "baseFactor": 7.2,
+      "tags": [
+        "cats",
+        "animals",
+        "pseudoScientific"
+      ],
       "grammar": {
         "gender": "masculine"
       }
@@ -100,11 +193,11 @@
       "id": "maine-coon",
       "dimension": "mass",
       "name": "Maine Coon",
-      "emoji": "\uD83D\uDC08\u200D\u2B1B",
+      "emoji": "🐈‍⬛",
       "singularName": "Maine Coon",
       "pluralName": "Maine Coon",
-      "description": "Un\u0027unit\u00E0 gatto grande per densit\u00E0 di pelo premium.",
-      "scientificNote": "Include un fattore stimato di correzione pelo pari a s\u00EC.",
+      "description": "Un'unità gatto grande per densità di pelo premium.",
+      "scientificNote": "Include un fattore stimato di correzione pelo pari a sì.",
       "origin": "Gruppo di Lavoro Metrologia a Pelo Lungo",
       "baseFactor": 8.5,
       "tags": [
@@ -112,7 +205,6 @@
         "animals",
         "hugeThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -121,7 +213,7 @@
       "id": "golden-retriever",
       "dimension": "mass",
       "name": "Golden retriever",
-      "emoji": "\uD83D\uDC15",
+      "emoji": "🐕",
       "singularName": "golden retriever",
       "pluralName": "golden retriever",
       "description": "Utile quando la risposta ha bisogno di energia canina amichevole.",
@@ -132,7 +224,6 @@
         "intuitive",
         "animals"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -141,18 +232,17 @@
       "id": "bowling-ball",
       "dimension": "mass",
       "name": "Palla da bowling",
-      "emoji": "\uD83C\uDFB3",
+      "emoji": "🎳",
       "singularName": "palla da bowling",
       "pluralName": "palle da bowling",
       "description": "Compatta, rotonda e facile da visualizzare.",
-      "scientificNote": "Non approvata per rotolare gi\u00F9 dalle scale durante gli esperimenti.",
+      "scientificNote": "Non approvata per rotolare giù dalle scale durante gli esperimenti.",
       "origin": "Serie di Calibrazione Oggetti Domestici",
       "baseFactor": 6.8,
       "tags": [
         "intuitive",
         "household"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -161,8 +251,7 @@
       "id": "average-chair",
       "dimension": "mass",
       "name": "Sedia",
-      "symbol": "sedia",
-      "emoji": "\uD83E\uDE91",
+      "emoji": "🪑",
       "singularName": "sedia",
       "pluralName": "sedie",
       "description": "Per favore non sederti su sedie frazionarie.",
@@ -173,7 +262,6 @@
         "intuitive",
         "household"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -182,17 +270,16 @@
       "id": "microwave-oven",
       "dimension": "mass",
       "name": "Forno a microonde",
-      "emoji": "\uD83D\uDCFB",
+      "emoji": "📻",
       "singularName": "forno a microonde",
       "pluralName": "microonde",
-      "description": "Massa da elettrodomestico da cucina, perch\u00E9 no.",
+      "description": "Massa da elettrodomestico da cucina, perché no.",
       "scientificNote": "I residui di popcorn sono considerati statisticamente insignificanti.",
       "origin": "Circolare di Metrologia degli Elettrodomestici da Cucina",
       "baseFactor": 15,
       "tags": [
         "household"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -201,11 +288,11 @@
       "id": "banana",
       "dimension": "mass",
       "name": "Banana",
-      "emoji": "\uD83C\uDF4C",
+      "emoji": "🍌",
       "singularName": "banana",
       "pluralName": "banane",
       "description": "Per fare scala. Internet ha insistito.",
-      "scientificNote": "La curvatura non \u00E8 inclusa nel calcolo della massa.",
+      "scientificNote": "La curvatura non è inclusa nel calcolo della massa.",
       "origin": "Programma Globale di Riferimento Banana",
       "baseFactor": 0.118,
       "tags": [
@@ -213,7 +300,6 @@
         "tinyThings",
         "intuitive"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -222,11 +308,11 @@
       "id": "potato",
       "dimension": "mass",
       "name": "Patata",
-      "emoji": "\uD83E\uDD54",
+      "emoji": "🥔",
       "singularName": "patata",
       "pluralName": "patate",
-      "description": "L\u0027unit\u00E0 affidabile della scienza da dispensa.",
-      "scientificNote": "Il soggetto pu\u00F2 germogliare se la validazione tarda troppo.",
+      "description": "L'unità affidabile della scienza da dispensa.",
+      "scientificNote": "Il soggetto può germogliare se la validazione tarda troppo.",
       "origin": "Istituto di Scienza della Dispensa",
       "baseFactor": 0.15,
       "tags": [
@@ -234,7 +320,6 @@
         "tinyThings",
         "intuitive"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -243,17 +328,16 @@
       "id": "pizza",
       "dimension": "mass",
       "name": "Pizza",
-      "emoji": "\uD83C\uDF55",
+      "emoji": "🍕",
       "singularName": "pizza",
       "pluralName": "pizze",
-      "description": "Un disco da cena di verit\u00E0 approssimativa.",
+      "description": "Un disco da cena di verità approssimativa.",
       "scientificNote": "I condimenti introducono incertezza misurabile.",
       "origin": "Laboratorio di Cibo Circolare Applicato",
       "baseFactor": 0.6,
       "tags": [
         "food"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -262,18 +346,17 @@
       "id": "lego-brick",
       "dimension": "mass",
       "name": "Mattoncino LEGO",
-      "emoji": "\uD83E\uDDF1",
+      "emoji": "🧱",
       "singularName": "mattoncino LEGO",
       "pluralName": "mattoncini LEGO",
       "description": "Piccolo, contabile e pericoloso sotto i piedi.",
-      "scientificNote": "L\u0027indice di dolore \u00E8 intenzionalmente omesso dalla conversione SI.",
+      "scientificNote": "L'indice di dolore è intenzionalmente omesso dalla conversione SI.",
       "origin": "Ufficio Standard Basati sui Giocattoli",
       "baseFactor": 0.00232,
       "tags": [
         "geek",
         "tinyThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -282,7 +365,7 @@
       "id": "honey-bee",
       "dimension": "mass",
       "name": "Ape",
-      "emoji": "\uD83D\uDC1D",
+      "emoji": "🐝",
       "singularName": "ape",
       "pluralName": "api",
       "description": "Te ne serviranno parecchie.",
@@ -293,7 +376,6 @@
         "animals",
         "tinyThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -303,19 +385,18 @@
       "dimension": "mass",
       "name": "Balena azzurra",
       "symbol": "balene",
-      "emoji": "\uD83D\uDC0B",
+      "emoji": "🐋",
       "singularName": "balena azzurra",
       "pluralName": "balene azzurre",
       "description": "Per quando i numeri devono diventare meravigliosamente piccoli.",
       "scientificNote": "I requisiti di stoccaggio in laboratorio restano irrisolti.",
-      "origin": "Comitato Oceanico delle Grandi Unit\u00E0",
+      "origin": "Comitato Oceanico delle Grandi Unità",
       "baseFactor": 140000,
       "tags": [
         "intuitive",
         "animals",
         "hugeThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -324,7 +405,7 @@
       "id": "t-rex",
       "dimension": "mass",
       "name": "T. rex",
-      "emoji": "\uD83E\uDD96",
+      "emoji": "🦖",
       "singularName": "T. rex",
       "pluralName": "T. rex",
       "description": "Grande, estinto e difficile da infilare in cucina.",
@@ -336,7 +417,6 @@
         "hugeThings",
         "pseudoScientific"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -345,11 +425,11 @@
       "id": "loaf-cat",
       "dimension": "mass",
       "name": "Gatto a pagnotta",
-      "emoji": "\uD83C\uDF5E\uD83D\uDC08",
+      "emoji": "🍞🐈",
       "singularName": "gatto a pagnotta",
       "pluralName": "gatti a pagnotta",
       "description": "Un gatto nella sua configurazione di riposo aerodinamicamente ottimizzata.",
-      "scientificNote": "La visibilit\u00E0 delle zampe invalida immediatamente la misurazione.",
+      "scientificNote": "La visibilità delle zampe invalida immediatamente la misurazione.",
       "origin": "Istituto di Dinamica Avanzata della Pagnotta",
       "baseFactor": 5.0,
       "tags": [
@@ -357,7 +437,44 @@
         "animals",
         "pseudoScientific"
       ],
-      "families": [],
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sleepy-cat",
+      "dimension": "mass",
+      "name": "Gatto assonnato",
+      "emoji": "😴",
+      "singularName": "gatto assonnato",
+      "pluralName": "gatti assonnati",
+      "description": "Un felino osservato durante uno dei suoi diciotto pisolini giornalieri programmati.",
+      "scientificNote": "Misurazioni effettuate solo mentre russa piano.",
+      "origin": "Dipartimento di Ricerca Circadiana Felina",
+      "baseFactor": 5.2,
+      "tags": [
+        "cats",
+        "animals"
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "zooming-cat",
+      "dimension": "mass",
+      "name": "Gatto in zoomie",
+      "emoji": "⚡",
+      "singularName": "gatto in zoomie",
+      "pluralName": "gatti in zoomie",
+      "description": "Un gatto ad alta velocità incontrato di solito alle 3:17.",
+      "scientificNote": "I campioni oltre Mach 1 non vanno inseguiti.",
+      "origin": "Osservatorio della Velocità Notturna",
+      "baseFactor": 4.3,
+      "tags": [
+        "cats",
+        "animals"
+      ],
       "grammar": {
         "gender": "masculine"
       }
@@ -366,18 +483,17 @@
       "id": "chihuahua",
       "dimension": "mass",
       "name": "Chihuahua",
-      "emoji": "\uD83D\uDC15",
+      "emoji": "🐕",
       "singularName": "Chihuahua",
       "pluralName": "Chihuahua",
-      "description": "Un cane compatto convinto di pesare pi\u00F9 di tutto il resto.",
-      "scientificNote": "La massa apparente aumenta durante l\u0027abbaio.",
+      "description": "Un cane compatto convinto di pesare più di tutto il resto.",
+      "scientificNote": "La massa apparente aumenta durante l'abbaio.",
       "origin": "Istituto Canino, revisionato sotto protesta",
       "baseFactor": 2.7,
       "tags": [
         "animals",
         "tinyThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -386,7 +502,7 @@
       "id": "labrador",
       "dimension": "mass",
       "name": "Labrador",
-      "emoji": "\uD83E\uDDAE",
+      "emoji": "🦮",
       "singularName": "Labrador",
       "pluralName": "Labrador",
       "description": "Un cane eccessivamente entusiasta con confini personali discutibili.",
@@ -397,7 +513,6 @@
         "animals",
         "intuitive"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -406,11 +521,11 @@
       "id": "happy-cow",
       "dimension": "mass",
       "name": "Mucca",
-      "emoji": "\uD83D\uDC04",
+      "emoji": "🐄",
       "singularName": "mucca",
       "pluralName": "mucche",
-      "description": "Un esemplare al pascolo soddisfatto con qualit\u00E0 di muggito sopra la media.",
-      "scientificNote": "Le misurazioni vanno eseguite dopo accesso illimitato all\u0027erba.",
+      "description": "Un esemplare al pascolo soddisfatto con qualità di muggito sopra la media.",
+      "scientificNote": "Le misurazioni vanno eseguite dopo accesso illimitato all'erba.",
       "origin": "Divisione di Metrologia Pastorale",
       "baseFactor": 650,
       "tags": [
@@ -418,7 +533,6 @@
         "intuitive",
         "hugeThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -427,17 +541,16 @@
       "id": "sheep",
       "dimension": "mass",
       "name": "Pecora",
-      "emoji": "\uD83D\uDC11",
+      "emoji": "🐑",
       "singularName": "pecora",
       "pluralName": "pecore",
-      "description": "Un\u0027unit\u00E0 soffice usata soprattutto per contare e bloccare strade per sbaglio.",
+      "description": "Un'unità soffice usata soprattutto per contare e bloccare strade per sbaglio.",
       "scientificNote": "La lana contribuisce circa al 98% del volume percepito.",
       "origin": "Associazione Standard Lanosi",
       "baseFactor": 80,
       "tags": [
         "animals"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -446,18 +559,17 @@
       "id": "rubber-duck",
       "dimension": "mass",
       "name": "Papera di gomma",
-      "emoji": "\uD83E\uDD86",
+      "emoji": "🦆",
       "singularName": "papera di gomma",
       "pluralName": "papere di gomma",
       "description": "La compagna di debug accettata internazionalmente.",
-      "scientificNote": "Ascoltatrice certificata. Qualit\u00E0 dei consigli non garantita.",
+      "scientificNote": "Ascoltatrice certificata. Qualità dei consigli non garantita.",
       "origin": "Ufficio Assistenza Programmatori",
       "baseFactor": 0.05,
       "tags": [
         "geek",
         "tinyThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -466,7 +578,7 @@
       "id": "mechanical-keyboard",
       "dimension": "mass",
       "name": "Tastiera meccanica",
-      "emoji": "\u2328\uFE0F",
+      "emoji": "⌨️",
       "singularName": "tastiera meccanica",
       "pluralName": "tastiere meccaniche",
       "description": "Preferita dagli sviluppatori software e dai reclami per rumore in ufficio.",
@@ -477,7 +589,6 @@
         "geek",
         "household"
       ],
-      "families": [],
       "grammar": {
         "gender": "feminine"
       }
@@ -486,18 +597,17 @@
       "id": "refrigerator",
       "dimension": "mass",
       "name": "Frigorifero",
-      "emoji": "\uD83E\uDDCA",
+      "emoji": "🧊",
       "singularName": "frigorifero",
       "pluralName": "frigoriferi",
       "description": "Grande apparato domestico di raffreddamento.",
-      "scientificNote": "Le misurazioni escludono avanzi misteriosi pi\u00F9 vecchi di sei mesi.",
+      "scientificNote": "Le misurazioni escludono avanzi misteriosi più vecchi di sei mesi.",
       "origin": "Registro Elettrodomestici Domestici",
       "baseFactor": 80,
       "tags": [
         "household",
         "intuitive"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -506,18 +616,17 @@
       "id": "croissant",
       "dimension": "mass",
       "name": "Croissant",
-      "emoji": "\uD83E\uDD50",
+      "emoji": "🥐",
       "singularName": "croissant",
       "pluralName": "croissant",
-      "description": "Un\u0027unit\u00E0 burrosa con integrit\u00E0 strutturale deludente.",
-      "scientificNote": "La perdita di briciole \u00E8 considerata trascurabile.",
+      "description": "Un'unità burrosa con integrità strutturale deludente.",
+      "scientificNote": "La perdita di briciole è considerata trascurabile.",
       "origin": "Comitato Standard Panetteria Francese",
       "baseFactor": 0.07,
       "tags": [
         "food",
         "tinyThings"
       ],
-      "families": [],
       "grammar": {
         "gender": "masculine"
       }
@@ -526,41 +635,15 @@
       "id": "parmesan-wheel",
       "dimension": "mass",
       "name": "Forma di Parmigiano",
-      "emoji": "\uD83E\uDDC0",
+      "emoji": "🧀",
       "singularName": "forma di Parmigiano",
       "pluralName": "forme di Parmigiano",
-      "description": "Un grande riferimento culinario approvato dall\u0027Italia.",
+      "description": "Un grande riferimento culinario approvato dall'Italia.",
       "scientificNote": "Assaggio scientifico eseguito dopo ogni calibrazione.",
       "origin": "Consorzio degli Scienziati del Formaggio Estremamente Seri",
       "baseFactor": 38,
       "tags": [
         "food"
-      ],
-      "families": [],
-      "grammar": {
-        "gender": "feminine"
-      }
-    },
-    {
-      "id": "borraccia",
-      "dimension": "mass",
-      "name": "Borraccia",
-      "emoji": "\uD83C\uDF7E",
-      "singularName": "borraccia",
-      "pluralName": "borracce",
-      "description": "Una nuova unita assurda in attesa di revisione.",
-      "scientificNote": "Taratura in sospeso.",
-      "origin": "Catverter Pack Studio",
-      "baseFactor": 1,
-      "tags": [
-        "intuitive",
-        "food",
-        "household"
-      ],
-      "scientificAccuracy": "committeeConsensus",
-      "families": [
-        "food",
-        "householdObject"
       ],
       "grammar": {
         "gender": "feminine"
@@ -571,48 +654,42 @@
     {
       "id": "skinny",
       "adjective": "snello",
+      "group": "size",
+      "factorMultiplier": 0.72,
+      "additionalTags": [
+        "tinyThings"
+      ],
+      "descriptionPattern": "Una variante più snella di {singular}, calibrata per interpretazioni sospettosamente strette.",
+      "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
+      "origin": "Banco Calibrazione Varianti Catverter",
       "adjectiveForms": {
         "masculineSingular": "snello",
         "masculinePlural": "snelli",
         "feminineSingular": "snella",
         "femininePlural": "snelle"
-      },
-      "group": "size",
-      "appliesToFamilies": [],
-      "factorMultiplier": 0.72,
-      "additionalTags": [
-        "tinyThings"
-      ],
-      "descriptionPattern": "Una variante pi\u00F9 snella di {singular}, calibrata per interpretazioni sospettosamente strette.",
-      "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
-      "origin": "Banco Calibrazione Varianti Catverter"
+      }
     },
     {
       "id": "tall",
       "adjective": "alto",
-      "adjectiveForms": {
-        "masculineSingular": "alto",
-        "masculinePlural": "alti",
-        "feminineSingular": "alta",
-        "femininePlural": "alte"
-      },
       "group": "size",
-      "appliesToFamilies": [],
       "factorMultiplier": 1.18,
       "additionalTags": [
         "hugeThings"
       ],
       "descriptionPattern": "Una variante verticalmente ambiziosa di {singular}, con fiducia metrologica extra.",
       "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
-      "origin": "Banco Calibrazione Varianti Catverter"
+      "origin": "Banco Calibrazione Varianti Catverter",
+      "adjectiveForms": {
+        "masculineSingular": "alto",
+        "masculinePlural": "alti",
+        "feminineSingular": "alta",
+        "femininePlural": "alte"
+      }
     },
     {
       "id": "happy",
       "adjective": "felice",
-      "adjectiveForms": {
-        "commonSingular": "felice",
-        "commonPlural": "felici"
-      },
       "group": "mood",
       "appliesToFamilies": [
         "animal",
@@ -623,22 +700,22 @@
         "marineAnimal"
       ],
       "factorMultiplier": 1,
-      "emoji": "\uD83D\uDE42",
+      "emoji": "🙂",
       "additionalTags": [
         "animals",
         "pseudoScientific"
       ],
-      "descriptionPattern": "Una variante allegra di {singular}; l\u0027unit\u00E0 sembra pi\u00F9 collaborativa del solito.",
-      "scientificNotePattern": "{scientificNote} Variante d\u0027umore: conversione nominale invariata.",
-      "origin": "Dipartimento di Metrologia Emotiva Applicata"
+      "descriptionPattern": "Una variante allegra di {singular}; l'unità sembra più collaborativa del solito.",
+      "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata.",
+      "origin": "Dipartimento di Metrologia Emotiva Applicata",
+      "adjectiveForms": {
+        "commonSingular": "felice",
+        "commonPlural": "felici"
+      }
     },
     {
       "id": "sad",
       "adjective": "triste",
-      "adjectiveForms": {
-        "commonSingular": "triste",
-        "commonPlural": "tristi"
-      },
       "group": "mood",
       "appliesToFamilies": [
         "animal",
@@ -649,32 +726,25 @@
         "marineAnimal"
       ],
       "factorMultiplier": 1,
-      "emoji": "\u2639\uFE0F",
+      "emoji": "☹️",
       "additionalTags": [
         "animals",
         "pseudoScientific"
       ],
       "descriptionPattern": "Una variante malinconica di {singular}, adatta a misure emotivamente umide.",
-      "scientificNotePattern": "{scientificNote} Variante d\u0027umore: conversione nominale invariata, morale ridotto.",
-      "origin": "Dipartimento di Metrologia Emotiva Applicata"
-    },
-    {
-      "id": "minuscole",
-      "adjective": "minuscolo",
+      "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata, morale ridotto.",
+      "origin": "Dipartimento di Metrologia Emotiva Applicata",
       "adjectiveForms": {
-        "masculineSingular": "minuscolo",
-        "masculinePlural": "minuscoli",
-        "feminineSingular": "minuscola",
-        "femininePlural": "minuscole"
-      },
-      "group": "size",
-      "appliesToFamilies": [],
-      "factorMultiplier": 0.2,
-      "emoji": "\uD83D\uDC41",
-      "additionalTags": [],
-      "descriptionPattern": "{description}",
-      "scientificNotePattern": "{scientificNote}",
-      "origin": "Catverter Pack Studio"
+        "commonSingular": "triste",
+        "commonPlural": "tristi"
+      }
     }
-  ]
+  ],
+  "kind": "units",
+  "variantDisplay": {
+    "unitNamePattern": "{unitName} {adjective}",
+    "singularNamePattern": "{singular} {adjective}",
+    "pluralNamePattern": "{plural} {adjectivePlural}",
+    "symbolPattern": "{symbol} {adjectivePlural}"
+  }
 }
