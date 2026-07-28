@@ -77,7 +77,8 @@
         "preferredMin": { "type": "number", "minimum": 0 },
         "preferredMax": { "type": "number", "minimum": 0 },
         "scientificAccuracy": { "$ref": "#/$defs/scientificAccuracy" },
-        "families": { "type": "array", "items": { "$ref": "#/$defs/family" } }
+        "families": { "type": "array", "items": { "$ref": "#/$defs/family" } },
+        "grammar": { "$ref": "#/$defs/grammar" }
       },
       "additionalProperties": false
     },
@@ -100,7 +101,8 @@
         "tags": { "type": "array", "items": { "$ref": "#/$defs/tag" }, "minItems": 1 },
         "preferredMin": { "type": "number", "minimum": 0 },
         "preferredMax": { "type": "number", "minimum": 0 },
-        "scientificAccuracy": { "$ref": "#/$defs/scientificAccuracy" }
+        "scientificAccuracy": { "$ref": "#/$defs/scientificAccuracy" },
+        "grammar": { "$ref": "#/$defs/grammar" }
       },
       "additionalProperties": false
     },
@@ -110,6 +112,7 @@
       "properties": {
         "id": { "$ref": "#/$defs/id" },
         "adjective": { "type": "string", "minLength": 1 },
+        "adjectiveForms": { "$ref": "#/$defs/adjectiveForms" },
         "group": { "enum": ["mood", "size"] },
         "appliesToFamilies": { "type": "array", "items": { "$ref": "#/$defs/family" } },
         "factorMultiplier": { "type": "number" },
@@ -147,6 +150,27 @@
       },
       "additionalProperties": false
     },
+    "grammar": {
+      "type": "object",
+      "properties": {
+        "gender": { "enum": ["masculine", "feminine", "neuter", "common"] }
+      },
+      "additionalProperties": false
+    },
+    "adjectiveForms": {
+      "type": "object",
+      "properties": {
+        "masculineSingular": { "type": "string" },
+        "masculinePlural": { "type": "string" },
+        "feminineSingular": { "type": "string" },
+        "femininePlural": { "type": "string" },
+        "neuterSingular": { "type": "string" },
+        "neuterPlural": { "type": "string" },
+        "commonSingular": { "type": "string" },
+        "commonPlural": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
     "localization": {
       "type": "object",
       "properties": {
@@ -168,7 +192,8 @@
         "pluralName": { "type": "string" },
         "description": { "type": "string" },
         "scientificNote": { "type": "string" },
-        "origin": { "type": "string" }
+        "origin": { "type": "string" },
+        "grammar": { "$ref": "#/$defs/grammar" }
       },
       "additionalProperties": false
     },
@@ -176,6 +201,7 @@
       "type": "object",
       "properties": {
         "adjective": { "type": "string" },
+        "adjectiveForms": { "$ref": "#/$defs/adjectiveForms" },
         "unitNamePattern": { "type": "string" },
         "singularNamePattern": { "type": "string" },
         "pluralNamePattern": { "type": "string" },

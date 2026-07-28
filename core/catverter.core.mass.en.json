@@ -293,32 +293,48 @@
           "adjective": "skinny",
           "descriptionPattern": "A slimmer variant of {singular}, calibrated for suspiciously narrow interpretations.",
           "scientificNotePattern": "{scientificNote} Size variant multiplier: x{factor}.",
-          "origin": "Catverter Variant Calibration Desk"
+          "origin": "Catverter Variant Calibration Desk",
+          "adjectiveForms": {
+            "commonSingular": "skinny",
+            "commonPlural": "skinny"
+          }
         },
         "tall": {
           "adjective": "tall",
           "descriptionPattern": "A vertically ambitious variant of {singular} with extra measurement confidence.",
           "scientificNotePattern": "{scientificNote} Size variant multiplier: x{factor}.",
-          "origin": "Catverter Variant Calibration Desk"
+          "origin": "Catverter Variant Calibration Desk",
+          "adjectiveForms": {
+            "commonSingular": "tall",
+            "commonPlural": "tall"
+          }
         },
         "happy": {
           "adjective": "happy",
           "descriptionPattern": "A cheerful variant of {singular}; the unit appears more cooperative than usual.",
           "scientificNotePattern": "{scientificNote} Mood variant: nominal conversion unchanged.",
-          "origin": "Department of Applied Emotional Metrology"
+          "origin": "Department of Applied Emotional Metrology",
+          "adjectiveForms": {
+            "commonSingular": "happy",
+            "commonPlural": "happy"
+          }
         },
         "sad": {
           "adjective": "sad",
           "descriptionPattern": "A melancholic variant of {singular}, suitable for emotionally damp measurements.",
           "scientificNotePattern": "{scientificNote} Mood variant: nominal conversion unchanged, morale reduced.",
-          "origin": "Department of Applied Emotional Metrology"
+          "origin": "Department of Applied Emotional Metrology",
+          "adjectiveForms": {
+            "commonSingular": "sad",
+            "commonPlural": "sad"
+          }
         }
       },
       "variantDisplay": {
         "unitNamePattern": "{Variant} {unitName}",
-        "singularNamePattern": "{variant} {singular}",
-        "pluralNamePattern": "{variant} {plural}",
-        "symbolPattern": "{variant} {symbol}"
+        "singularNamePattern": "{adjective} {singular}",
+        "pluralNamePattern": "{adjective} {plural}",
+        "symbolPattern": "{adjective} {symbol}"
       }
     }
   }

@@ -28,7 +28,10 @@
         "appliance",
         "householdObject"
       ],
-      "scientificAccuracy": "reasonableEstimate"
+      "scientificAccuracy": "reasonableEstimate",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "room-temperature",
@@ -51,7 +54,10 @@
       "families": [
         "householdObject"
       ],
-      "scientificAccuracy": "committeeConsensus"
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "cat-loaf-warmth",
@@ -76,7 +82,10 @@
         "cat",
         "animal"
       ],
-      "scientificAccuracy": "reasonableEstimate"
+      "scientificAccuracy": "reasonableEstimate",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "hot-coffee",
@@ -100,7 +109,10 @@
       "families": [
         "food"
       ],
-      "scientificAccuracy": "reasonableEstimate"
+      "scientificAccuracy": "reasonableEstimate",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "pizza-oven",
@@ -123,7 +135,10 @@
       "families": [
         "food"
       ],
-      "scientificAccuracy": "reasonableEstimate"
+      "scientificAccuracy": "reasonableEstimate",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "surface-of-sun",
@@ -146,7 +161,10 @@
       "families": [
         "abstract"
       ],
-      "scientificAccuracy": "publishedAverages"
+      "scientificAccuracy": "publishedAverages",
+      "grammar": {
+        "gender": "feminine"
+      }
     }
   ],
   "kind": "units"

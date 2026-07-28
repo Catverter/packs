@@ -22,7 +22,10 @@
       "name": "Coda di gatto per scatto di coda",
       "symbol": "code di gatto/scatto di coda",
       "singularName": "coda di gatto per scatto di coda",
-      "pluralName": "code di gatto per scatto di coda"
+      "pluralName": "code di gatto per scatto di coda",
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "cat-jump-per-tail-flick",
@@ -41,7 +44,10 @@
       "name": "Salto di gatto per scatto di coda",
       "symbol": "salti di gatto/scatto di coda",
       "singularName": "salto di gatto per scatto di coda",
-      "pluralName": "salti di gatto per scatto di coda"
+      "pluralName": "salti di gatto per scatto di coda",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "stretched-cat-per-snack-request",
@@ -59,7 +65,10 @@
       "name": "Gatto stiracchiato per richiesta di snack",
       "symbol": "gatti stiracchiati/richiesta di snack",
       "singularName": "gatto stiracchiato per richiesta di snack",
-      "pluralName": "gatti stiracchiati per richiesta di snack"
+      "pluralName": "gatti stiracchiati per richiesta di snack",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "banana-per-microwave-second",
@@ -77,7 +86,10 @@
       "name": "Banana per secondo da microonde",
       "symbol": "banane/secondo da microonde",
       "singularName": "banana per secondo da microonde",
-      "pluralName": "banane per secondo da microonde"
+      "pluralName": "banane per secondo da microonde",
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "sofa-per-developer-hour",
@@ -95,7 +107,10 @@
       "name": "Divano per ora sviluppatore",
       "symbol": "divani/ora sviluppatore",
       "singularName": "divano per ora sviluppatore",
-      "pluralName": "divani per ora sviluppatore"
+      "pluralName": "divani per ora sviluppatore",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "city-bus-per-quick-meeting",
@@ -113,7 +128,10 @@
       "name": "Autobus urbano per riunione veloce",
       "symbol": "autobus urbani/riunione veloce",
       "singularName": "autobus urbano per riunione veloce",
-      "pluralName": "autobus urbani per riunione veloce"
+      "pluralName": "autobus urbani per riunione veloce",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "football-field-per-pizza-delivery",
@@ -131,7 +149,10 @@
       "name": "Campo da football per consegna pizza",
       "symbol": "campi da football/consegna pizza",
       "singularName": "campo da football per consegna pizza",
-      "pluralName": "campi da football per consegna pizza"
+      "pluralName": "campi da football per consegna pizza",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "giraffe-per-snooze",
@@ -148,7 +169,10 @@
       "name": "Giraffa per snooze",
       "symbol": "giraffe/snooze",
       "singularName": "giraffa per snooze",
-      "pluralName": "giraffe per snooze"
+      "pluralName": "giraffe per snooze",
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "spaghetti-per-happy-cat-wink",
@@ -166,7 +190,10 @@
       "name": "Spaghetto per occhiolino di gatto felice",
       "symbol": "spaghetti/occhiolino di gatto felice",
       "singularName": "spaghetto per occhiolino di gatto felice",
-      "pluralName": "spaghetti per occhiolino di gatto felice"
+      "pluralName": "spaghetti per occhiolino di gatto felice",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "blue-whale-length-per-monday-morning",
@@ -184,7 +211,10 @@
       "name": "Balena azzurra per lunedì mattina",
       "symbol": "balene azzurre/lunedì mattina",
       "singularName": "balena azzurra per lunedì mattina",
-      "pluralName": "balene azzurre per lunedì mattina"
+      "pluralName": "balene azzurre per lunedì mattina",
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "t-rex-per-one-more-turn",
@@ -202,7 +232,10 @@
       "name": "T-Rex per un altro turno",
       "symbol": "T-Rex/altri turni",
       "singularName": "T-Rex per un altro turno",
-      "pluralName": "T-Rex per altri turni"
+      "pluralName": "T-Rex per altri turni",
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "ikea-instruction-per-loading-bar-minute",
@@ -220,7 +253,10 @@
       "name": "Istruzione IKEA per minuto barra di caricamento",
       "symbol": "istruzioni IKEA/minuto barra di caricamento",
       "singularName": "istruzione IKEA per minuto barra di caricamento",
-      "pluralName": "istruzioni IKEA per minuto barra di caricamento"
+      "pluralName": "istruzioni IKEA per minuto barra di caricamento",
+      "grammar": {
+        "gender": "feminine"
+      }
     }
   ],
   "kind": "units"

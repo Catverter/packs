@@ -29,6 +29,7 @@ Use a `units` pack when adding simple scalar units to a supported dimension:
       "scientificNote": "La massa include aspettative cerimoniali ma esclude la zuppa.",
       "origin": "Banco standard cucina di esempio",
       "baseFactor": 0.018,
+      "grammar": { "gender": "masculine" },
       "tags": ["household", "tinyThings"]
     }
   ]
@@ -36,6 +37,39 @@ Use a `units` pack when adding simple scalar units to a supported dimension:
 ```
 
 `baseFactor` is the amount of the dimension base unit represented by one funny unit. For mass this is kilograms, for length meters, for time seconds, and for temperature kelvin.
+
+For Italian packs, add `grammar.gender` when a unit name has grammatical gender. Supported values are `masculine`, `feminine`, `neuter`, and `common`. Catverter uses this metadata to render variant names such as `gatto alto`, `gatti alti`, `sedia alta`, and `sedie alte`.
+
+## Add Variants With Italian Agreement
+
+Variants can provide `adjectiveForms` so generated unit names agree with the target unit. Use `{adjective}` for singular patterns and `{adjectivePlural}` for plural or symbol patterns.
+
+```json
+{
+  "variantDisplay": {
+    "unitNamePattern": "{unitName} {adjective}",
+    "singularNamePattern": "{singular} {adjective}",
+    "pluralNamePattern": "{plural} {adjectivePlural}",
+    "symbolPattern": "{symbol} {adjectivePlural}"
+  },
+  "variants": [
+    {
+      "id": "tall",
+      "adjective": "alto",
+      "adjectiveForms": {
+        "masculineSingular": "alto",
+        "masculinePlural": "alti",
+        "feminineSingular": "alta",
+        "femininePlural": "alte"
+      },
+      "group": "size",
+      "factorMultiplier": 1.18
+    }
+  ]
+}
+```
+
+For invariant adjectives, use `commonSingular` and `commonPlural`, for example `felice` and `felici`.
 
 ## Add Speed Ratio Units
 
@@ -71,7 +105,7 @@ Speed units reference existing length and time unit IDs:
 
 ## Add English Text
 
-Use `kind: "localization"` for translation-only packs. Localization packs should depend on the pack they translate and should not define units.
+Use `kind: "localization"` for translation-only packs. Localization packs should depend on the pack they translate and should not define units. They can also override localized `grammar` and `adjectiveForms` when agreement differs from the source language.
 
 ```json
 {

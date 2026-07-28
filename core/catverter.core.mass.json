@@ -42,7 +42,10 @@
         "cats",
         "animals",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "skinny-cat",
@@ -59,7 +62,10 @@
       "tags": [
         "cats",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "standard-cat",
@@ -78,7 +84,10 @@
         "cats",
         "animals",
         "pseudoScientific"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "old-cat",
@@ -95,7 +104,10 @@
       "tags": [
         "cats",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "angry-cat",
@@ -112,7 +124,10 @@
       "tags": [
         "cats",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "fat-cat",
@@ -130,7 +145,10 @@
         "cats",
         "animals",
         "pseudoScientific"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "maine-coon",
@@ -148,7 +166,10 @@
         "cats",
         "animals",
         "hugeThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "golden-retriever",
@@ -165,7 +186,10 @@
       "tags": [
         "intuitive",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "bowling-ball",
@@ -182,13 +206,16 @@
       "tags": [
         "intuitive",
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "average-chair",
       "dimension": "mass",
       "name": "Sedia",
-      "symbol": "sedie",
+      "symbol": "sedia",
       "emoji": "🪑",
       "singularName": "sedia",
       "pluralName": "sedie",
@@ -199,7 +226,10 @@
       "tags": [
         "intuitive",
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "microwave-oven",
@@ -215,7 +245,10 @@
       "baseFactor": 15,
       "tags": [
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "banana",
@@ -233,7 +266,10 @@
         "food",
         "tinyThings",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "potato",
@@ -251,7 +287,10 @@
         "food",
         "tinyThings",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "pizza",
@@ -267,7 +306,10 @@
       "baseFactor": 0.6,
       "tags": [
         "food"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "lego-brick",
@@ -284,7 +326,10 @@
       "tags": [
         "geek",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "honey-bee",
@@ -301,7 +346,10 @@
       "tags": [
         "animals",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "blue-whale",
@@ -319,7 +367,10 @@
         "intuitive",
         "animals",
         "hugeThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "t-rex",
@@ -337,7 +388,10 @@
         "animals",
         "hugeThings",
         "pseudoScientific"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "loaf-cat",
@@ -355,7 +409,10 @@
         "cats",
         "animals",
         "pseudoScientific"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "sleepy-cat",
@@ -372,7 +429,10 @@
       "tags": [
         "cats",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "zooming-cat",
@@ -389,7 +449,10 @@
       "tags": [
         "cats",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "chihuahua",
@@ -406,7 +469,10 @@
       "tags": [
         "animals",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "labrador",
@@ -423,7 +489,10 @@
       "tags": [
         "animals",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "happy-cow",
@@ -441,7 +510,10 @@
         "animals",
         "intuitive",
         "hugeThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "sheep",
@@ -457,7 +529,10 @@
       "baseFactor": 80,
       "tags": [
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "rubber-duck",
@@ -474,7 +549,10 @@
       "tags": [
         "geek",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "mechanical-keyboard",
@@ -491,7 +569,10 @@
       "tags": [
         "geek",
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "refrigerator",
@@ -508,7 +589,10 @@
       "tags": [
         "household",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "croissant",
@@ -525,7 +609,10 @@
       "tags": [
         "food",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "parmesan-wheel",
@@ -541,13 +628,16 @@
       "baseFactor": 38,
       "tags": [
         "food"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     }
   ],
   "variants": [
     {
       "id": "skinny",
-      "adjective": "snella",
+      "adjective": "snello",
       "group": "size",
       "factorMultiplier": 0.72,
       "additionalTags": [
@@ -555,11 +645,17 @@
       ],
       "descriptionPattern": "Una variante più snella di {singular}, calibrata per interpretazioni sospettosamente strette.",
       "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
-      "origin": "Banco Calibrazione Varianti Catverter"
+      "origin": "Banco Calibrazione Varianti Catverter",
+      "adjectiveForms": {
+        "masculineSingular": "snello",
+        "masculinePlural": "snelli",
+        "feminineSingular": "snella",
+        "femininePlural": "snelle"
+      }
     },
     {
       "id": "tall",
-      "adjective": "alta",
+      "adjective": "alto",
       "group": "size",
       "factorMultiplier": 1.18,
       "additionalTags": [
@@ -567,7 +663,13 @@
       ],
       "descriptionPattern": "Una variante verticalmente ambiziosa di {singular}, con fiducia metrologica extra.",
       "scientificNotePattern": "{scientificNote} Moltiplicatore variante dimensionale: x{factor}.",
-      "origin": "Banco Calibrazione Varianti Catverter"
+      "origin": "Banco Calibrazione Varianti Catverter",
+      "adjectiveForms": {
+        "masculineSingular": "alto",
+        "masculinePlural": "alti",
+        "feminineSingular": "alta",
+        "femininePlural": "alte"
+      }
     },
     {
       "id": "happy",
@@ -589,7 +691,11 @@
       ],
       "descriptionPattern": "Una variante allegra di {singular}; l'unità sembra più collaborativa del solito.",
       "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata.",
-      "origin": "Dipartimento di Metrologia Emotiva Applicata"
+      "origin": "Dipartimento di Metrologia Emotiva Applicata",
+      "adjectiveForms": {
+        "commonSingular": "felice",
+        "commonPlural": "felici"
+      }
     },
     {
       "id": "sad",
@@ -611,14 +717,18 @@
       ],
       "descriptionPattern": "Una variante malinconica di {singular}, adatta a misure emotivamente umide.",
       "scientificNotePattern": "{scientificNote} Variante d'umore: conversione nominale invariata, morale ridotto.",
-      "origin": "Dipartimento di Metrologia Emotiva Applicata"
+      "origin": "Dipartimento di Metrologia Emotiva Applicata",
+      "adjectiveForms": {
+        "commonSingular": "triste",
+        "commonPlural": "tristi"
+      }
     }
   ],
   "kind": "units",
   "variantDisplay": {
-    "unitNamePattern": "{unitName} in versione {variant}",
-    "singularNamePattern": "{singular} in versione {variant}",
-    "pluralNamePattern": "{plural} in versione {variant}",
-    "symbolPattern": "{symbol} in versione {variant}"
+    "unitNamePattern": "{unitName} {adjective}",
+    "singularNamePattern": "{singular} {adjective}",
+    "pluralNamePattern": "{plural} {adjectivePlural}",
+    "symbolPattern": "{symbol} {adjectivePlural}"
   }
 }

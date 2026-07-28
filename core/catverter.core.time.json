@@ -22,7 +22,10 @@
         "cats",
         "animals",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "door-negotiation",
@@ -40,7 +43,10 @@
         "cats",
         "pseudoScientific",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "snack-request",
@@ -57,7 +63,10 @@
       "tags": [
         "cats",
         "food"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "developer-hour",
@@ -75,7 +84,10 @@
         "geek",
         "pseudoScientific",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "meeting",
@@ -92,7 +104,10 @@
       "tags": [
         "intuitive",
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "angry-cat-wink",
@@ -109,7 +124,10 @@
       "tags": [
         "cats",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "happy-cat-wink",
@@ -125,7 +143,10 @@
       "baseFactor": 4,
       "tags": [
         "cats"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "hunger-after-eating",
@@ -141,7 +162,10 @@
       "baseFactor": 8,
       "tags": [
         "cats"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "programmer-minute",
@@ -157,7 +181,10 @@
       "baseFactor": 3600,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "microwave-second",
@@ -173,7 +200,10 @@
       "baseFactor": 3,
       "tags": [
         "food"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "loading-bar-minute",
@@ -189,7 +219,10 @@
       "baseFactor": 180,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "coffee-break",
@@ -205,7 +238,10 @@
       "baseFactor": 900,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "monday-morning",
@@ -221,7 +257,10 @@
       "baseFactor": 14400,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "snooze",
@@ -237,7 +276,10 @@
       "baseFactor": 540,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "pizza-delivery",
@@ -253,7 +295,10 @@
       "baseFactor": 1800,
       "tags": [
         "food"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "cat-nap",
@@ -269,7 +314,10 @@
       "baseFactor": 14400,
       "tags": [
         "cats"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "netflix-episode",
@@ -285,7 +333,10 @@
       "baseFactor": 2700,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "one-more-turn",
@@ -301,7 +352,10 @@
       "baseFactor": 7200,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "tomorrow",
@@ -317,7 +371,10 @@
       "baseFactor": 31536000,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "be-there-in-five",
@@ -333,7 +390,10 @@
       "baseFactor": 1200,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "lost-sock-search",
@@ -349,7 +409,10 @@
       "baseFactor": 840,
       "tags": [
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "windows-update",
@@ -365,7 +428,10 @@
       "baseFactor": 2280,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "quick-meeting",
@@ -382,7 +448,10 @@
       "tags": [
         "geek",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "one-last-reel",
@@ -398,7 +467,10 @@
       "baseFactor": 2820,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "shower-thought",
@@ -414,7 +486,10 @@
       "baseFactor": 600,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "pasta-al-dente",
@@ -431,7 +506,10 @@
       "tags": [
         "food",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "steam-sale-browse",
@@ -447,7 +525,10 @@
       "baseFactor": 10800,
       "tags": [
         "geek"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "ikea-trip",
@@ -463,7 +544,10 @@
       "baseFactor": 21600,
       "tags": [
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "cat-comes-when-called",
@@ -480,7 +564,10 @@
       "tags": [
         "cats",
         "pseudoScientific"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     }
   ],
   "kind": "units"

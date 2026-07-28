@@ -22,7 +22,10 @@
         "cats",
         "animals",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "tail-length",
@@ -40,7 +43,10 @@
         "cats",
         "animals",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "banana-length",
@@ -58,7 +64,10 @@
         "food",
         "tinyThings",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "cat-tail",
@@ -75,7 +84,10 @@
       "tags": [
         "cats",
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "loaf-cat-length",
@@ -91,7 +103,10 @@
       "baseFactor": 0.45,
       "tags": [
         "cats"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "stretched-cat",
@@ -107,7 +122,10 @@
       "baseFactor": 0.85,
       "tags": [
         "cats"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "cat-jump",
@@ -123,7 +141,10 @@
       "baseFactor": 1.5,
       "tags": [
         "cats"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "banana",
@@ -140,7 +161,10 @@
       "tags": [
         "food",
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "baguette",
@@ -156,7 +180,10 @@
       "baseFactor": 0.65,
       "tags": [
         "food"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "sofa",
@@ -172,7 +199,10 @@
       "baseFactor": 2.1,
       "tags": [
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "city-bus",
@@ -188,7 +218,10 @@
       "baseFactor": 12,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "blue-whale-length",
@@ -205,7 +238,10 @@
       "tags": [
         "animals",
         "hugeThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "t-rex",
@@ -221,7 +257,10 @@
       "baseFactor": 12,
       "tags": [
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "football-field",
@@ -237,7 +276,10 @@
       "baseFactor": 105,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "eiffel-tower",
@@ -253,7 +295,10 @@
       "baseFactor": 330,
       "tags": [
         "hugeThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "giraffe",
@@ -269,7 +314,10 @@
       "baseFactor": 5.2,
       "tags": [
         "animals"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "spaghetti",
@@ -286,7 +334,10 @@
       "tags": [
         "food",
         "tinyThings"
-      ]
+      ],
+      "grammar": {
+        "gender": "masculine"
+      }
     },
     {
       "id": "supermarket-queue",
@@ -302,7 +353,10 @@
       "baseFactor": 18,
       "tags": [
         "intuitive"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     },
     {
       "id": "ikea-instruction",
@@ -318,7 +372,10 @@
       "baseFactor": 0.297,
       "tags": [
         "household"
-      ]
+      ],
+      "grammar": {
+        "gender": "feminine"
+      }
     }
   ],
   "kind": "units"
