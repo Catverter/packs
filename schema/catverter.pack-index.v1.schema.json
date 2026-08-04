@@ -37,7 +37,8 @@
         "featuredReason": {
           "type": "object",
           "additionalProperties": { "type": "string" }
-        }
+        },
+        "contentRating": { "enum": ["general", "mature"] }
       },
       "additionalProperties": false
     },

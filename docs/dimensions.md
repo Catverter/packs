@@ -5,8 +5,7 @@ Catverter dimensions are data-driven. Core dimensions and contributor dimensions
 A pack can add units to a dimension when that dimension is either:
 
 - declared in the same pack
-- declared by an enabled dependency pack
-- declared by an enabled core pack
+- declared by an enabled dependency pack, including core packs such as `catverter.core.mass`
 
 ## Simple Dimensions
 
@@ -50,6 +49,6 @@ A contributor can propose a new dimension by publishing a normal units pack that
 - input units for that dimension
 - at least one funny output unit, unless the pack only exists to define a dimension for other packs
 
-A contributor cannot redefine a dimension ID that is already provided by an enabled core pack or another enabled contributor pack. Additional packs should depend on the dimension-providing pack and add units using that dimension ID.
+A contributor cannot redefine a dimension ID that is already provided by an enabled core pack or another enabled contributor pack. Additional packs must depend on the dimension-providing pack and add units using that dimension ID.
 
 For the first app-supported version of custom dimensions, prefer simple or ratio dimensions. Arbitrary formulas, live currency exchange, and other externally changing dimensions should wait for a later schema version.

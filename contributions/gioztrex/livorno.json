@@ -27,5 +27,11 @@
       "families": ["food"],
       "scientificAccuracy": "committeeConsensus"
     }
+  ],
+  "dependencies": [
+    {
+      "id": "catverter.core.mass",
+      "minVersion": "1.0.0"
+    }
   ]
 }

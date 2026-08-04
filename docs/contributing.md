@@ -6,7 +6,7 @@ Catverter unit packs use Italian as the canonical language. Add English or other
 
 ## Add Units To An Existing Dimension
 
-Use a `units` pack when adding simple scalar units to a supported dimension:
+Use a `units` pack when adding simple scalar units to a supported dimension. If the dimension is provided by a core or contributor pack, declare it in `dependencies`:
 
 ```json
 {
@@ -16,6 +16,9 @@ Use a `units` pack when adding simple scalar units to a supported dimension:
   "version": "1.0.0",
   "author": "Example Author",
   "description": "Aggiunge unità di massa a tema cucina.",
+  "dependencies": [
+    { "id": "catverter.core.mass", "minVersion": "1.0.0" }
+  ],
   "units": [
     {
       "id": "ceremonial-spoon",
