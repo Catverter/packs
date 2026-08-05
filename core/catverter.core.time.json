@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.time",
   "displayName": "Tempo Core Catverter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Catverter",
   "description": "Unità di tempo buffe usate direttamente e nei rapporti di velocità.",
   "dimensions": [
@@ -583,6 +583,1406 @@
       ],
       "grammar": {
         "gender": "masculine"
+      }
+    },
+    {
+      "id": "processor-tick-time",
+      "dimension": "time",
+      "name": "Tick di processore",
+      "emoji": "💻",
+      "singularName": "tick di processore",
+      "pluralName": "tick di processore",
+      "description": "Unità core di tempo per scale microscopiche: tick di processore.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1e-09,
+      "tags": [
+        "geek",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "camera-flash-time",
+      "dimension": "time",
+      "name": "Flash fotografico",
+      "emoji": "📸",
+      "singularName": "flash fotografico",
+      "pluralName": "flash fotografici",
+      "description": "Unità core di tempo per scale microscopiche: flash fotografico.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.0001,
+      "tags": [
+        "geek",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "keyboard-bounce-time",
+      "dimension": "time",
+      "name": "Rimbalzo di tasto",
+      "emoji": "⌨️",
+      "singularName": "rimbalzo di tasto",
+      "pluralName": "rimbalzi di tasto",
+      "description": "Unità core di tempo per scale minuscole: rimbalzo di tasto.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.005,
+      "tags": [
+        "geek",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "human-blink-time",
+      "dimension": "time",
+      "name": "Battito di ciglia",
+      "emoji": "👁️",
+      "singularName": "battito di ciglia",
+      "pluralName": "battiti di ciglia",
+      "description": "Unità core di tempo per scale quotidiane: battito di ciglia.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.1,
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-ear-twitch-time",
+      "dimension": "time",
+      "name": "Scatto d'orecchio felino",
+      "emoji": "🐈",
+      "singularName": "scatto d'orecchio felino",
+      "pluralName": "scatti d'orecchio felini",
+      "description": "Unità core di tempo per scale quotidiane: scatto d'orecchio felino.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.12,
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "notification-panic-time",
+      "dimension": "time",
+      "name": "Panico da notifica",
+      "emoji": "🔔",
+      "singularName": "panico da notifica",
+      "pluralName": "panici da notifica",
+      "description": "Unità core di tempo per scale quotidiane: panico da notifica.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.7,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "espresso-sip-time",
+      "dimension": "time",
+      "name": "Sorso di espresso",
+      "emoji": "☕",
+      "singularName": "sorso di espresso",
+      "pluralName": "sorsi di espresso",
+      "description": "Unità core di tempo per scale quotidiane: sorso di espresso.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1.5,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ad-skip-time",
+      "dimension": "time",
+      "name": "Attesa salta-annuncio",
+      "emoji": "📺",
+      "singularName": "attesa salta-annuncio",
+      "pluralName": "attese salta-annuncio",
+      "description": "Unità core di tempo per scale domestiche: attesa salta-annuncio.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 5.0,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-decision-time",
+      "dimension": "time",
+      "name": "Decisione felina",
+      "emoji": "🐈",
+      "singularName": "decisione felina",
+      "pluralName": "decisioni feline",
+      "description": "Unità core di tempo per scale domestiche: decisione felina.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 18.0,
+      "tags": [
+        "cats",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-treat-negotiation-time",
+      "dimension": "time",
+      "name": "Trattativa croccantino",
+      "emoji": "🥫",
+      "singularName": "trattativa croccantino",
+      "pluralName": "trattative croccantino",
+      "description": "Unità core di tempo per scale domestiche: trattativa croccantino.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 30.0,
+      "tags": [
+        "cats",
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "elevator-small-talk-time",
+      "dimension": "time",
+      "name": "Imbarazzo in ascensore",
+      "emoji": "🛗",
+      "singularName": "imbarazzo in ascensore",
+      "pluralName": "imbarazzi in ascensore",
+      "description": "Unità core di tempo per scale domestiche: imbarazzo in ascensore.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 22.0,
+      "tags": [
+        "intuitive",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "compiler-warmup-time",
+      "dimension": "time",
+      "name": "Riscaldamento compilatore",
+      "emoji": "💻",
+      "singularName": "riscaldamento compilatore",
+      "pluralName": "riscaldamenti compilatore",
+      "description": "Unità core di tempo per scale domestiche: riscaldamento compilatore.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 45.0,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-box-inspection-time",
+      "dimension": "time",
+      "name": "Ispezione scatola",
+      "emoji": "📦",
+      "singularName": "ispezione scatola",
+      "pluralName": "ispezioni scatola",
+      "description": "Unità core di tempo per scale domestiche: ispezione scatola.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 75.0,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "toothbrush-session-time",
+      "dimension": "time",
+      "name": "Sessione spazzolino",
+      "emoji": "🪥",
+      "singularName": "sessione spazzolino",
+      "pluralName": "sessioni spazzolino",
+      "description": "Unità core di tempo per scale importanti: sessione spazzolino.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 120.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "printer-warmup-time",
+      "dimension": "time",
+      "name": "Riscaldamento stampante",
+      "emoji": "🖨️",
+      "singularName": "riscaldamento stampante",
+      "pluralName": "riscaldamenti stampante",
+      "description": "Unità core di tempo per scale importanti: riscaldamento stampante.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 150.0,
+      "tags": [
+        "geek",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "router-reboot-time",
+      "dimension": "time",
+      "name": "Riavvio router",
+      "emoji": "📡",
+      "singularName": "riavvio router",
+      "pluralName": "riavvii router",
+      "description": "Unità core di tempo per scale importanti: riavvio router.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 180.0,
+      "tags": [
+        "geek",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tea-steep-time",
+      "dimension": "time",
+      "name": "Infusione del tè",
+      "emoji": "🫖",
+      "singularName": "infusione del tè",
+      "pluralName": "infusioni del tè",
+      "description": "Unità core di tempo per scale importanti: infusione del tè.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 240.0,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "gelato-melting-time",
+      "dimension": "time",
+      "name": "Scioglimento gelato",
+      "emoji": "🍦",
+      "singularName": "scioglimento gelato",
+      "pluralName": "scioglimenti gelato",
+      "description": "Unità core di tempo per scale importanti: scioglimento gelato.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 300.0,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "boiling-water-wait-time",
+      "dimension": "time",
+      "name": "Attesa dell'acqua che bolle",
+      "emoji": "🍲",
+      "singularName": "attesa dell'acqua che bolle",
+      "pluralName": "attese dell'acqua che bolle",
+      "description": "Unità core di tempo per scale importanti: attesa dell'acqua che bolle.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 420.0,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pizza-cooling-time",
+      "dimension": "time",
+      "name": "Raffreddamento pizza",
+      "emoji": "🍕",
+      "singularName": "raffreddamento pizza",
+      "pluralName": "raffreddamenti pizza",
+      "description": "Unità core di tempo per scale importanti: raffreddamento pizza.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 480.0,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "battery-one-percent-time",
+      "dimension": "time",
+      "name": "Ultimo uno percento",
+      "emoji": "🔋",
+      "singularName": "ultimo uno percento",
+      "pluralName": "ultimi uno percento",
+      "description": "Unità core di tempo per scale importanti: ultimo uno percento.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 600.0,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "oven-preheat-time",
+      "dimension": "time",
+      "name": "Preriscaldamento forno",
+      "emoji": "🔥",
+      "singularName": "preriscaldamento forno",
+      "pluralName": "preriscaldamenti forno",
+      "description": "Unità core di tempo per scale importanti: preriscaldamento forno.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 900.0,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "bus-missed-time",
+      "dimension": "time",
+      "name": "Autobus appena perso",
+      "emoji": "🚌",
+      "singularName": "autobus appena perso",
+      "pluralName": "autobus appena persi",
+      "description": "Unità core di tempo per scale importanti: autobus appena perso.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 900.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-stares-wall-time",
+      "dimension": "time",
+      "name": "Gatto che fissa il muro",
+      "emoji": "🐈",
+      "singularName": "gatto che fissa il muro",
+      "pluralName": "gatti che fissano il muro",
+      "description": "Unità core di tempo per scale importanti: gatto che fissa il muro.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 960.0,
+      "tags": [
+        "cats",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "train-delay-time",
+      "dimension": "time",
+      "name": "Ritardo ferroviario",
+      "emoji": "🚆",
+      "singularName": "ritardo ferroviario",
+      "pluralName": "ritardi ferroviari",
+      "description": "Unità core di tempo per scale importanti: ritardo ferroviario.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1500.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dog-walk-time",
+      "dimension": "time",
+      "name": "Passeggiata del cane",
+      "emoji": "🐕",
+      "singularName": "passeggiata del cane",
+      "pluralName": "passeggiate del cane",
+      "description": "Unità core di tempo per scale importanti: passeggiata del cane.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1800.0,
+      "tags": [
+        "animals",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "airport-security-time",
+      "dimension": "time",
+      "name": "Coda ai controlli",
+      "emoji": "🛂",
+      "singularName": "coda ai controlli",
+      "pluralName": "code ai controlli",
+      "description": "Unità core di tempo per scale importanti: coda ai controlli.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1800.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "baby-nap-time",
+      "dimension": "time",
+      "name": "Pisolino di neonato",
+      "emoji": "🍼",
+      "singularName": "pisolino di neonato",
+      "pluralName": "pisolini di neonato",
+      "description": "Unità core di tempo per scale importanti: pisolino di neonato.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 2400.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "merge-conflict-time",
+      "dimension": "time",
+      "name": "Conflitto di merge",
+      "emoji": "🧩",
+      "singularName": "conflitto di merge",
+      "pluralName": "conflitti di merge",
+      "description": "Unità core di tempo per scale importanti: conflitto di merge.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 2400.0,
+      "tags": [
+        "geek",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-sunbeam-session-time",
+      "dimension": "time",
+      "name": "Sessione nel raggio di sole",
+      "emoji": "☀️",
+      "singularName": "sessione nel raggio di sole",
+      "pluralName": "sessioni nel raggio di sole",
+      "description": "Unità core di tempo per scale importanti: sessione nel raggio di sole.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 2700.0,
+      "tags": [
+        "cats",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "train-commute-time",
+      "dimension": "time",
+      "name": "Pendolarismo ferroviario",
+      "emoji": "🚆",
+      "singularName": "pendolarismo ferroviario",
+      "pluralName": "pendolarismi ferroviari",
+      "description": "Unità core di tempo per scale importanti: pendolarismo ferroviario.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 3600.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "laundry-cycle-time",
+      "dimension": "time",
+      "name": "Ciclo lavatrice",
+      "emoji": "🧺",
+      "singularName": "ciclo lavatrice",
+      "pluralName": "cicli lavatrice",
+      "description": "Unità core di tempo per scale importanti: ciclo lavatrice.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 3600.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "concert-time",
+      "dimension": "time",
+      "name": "Concerto",
+      "emoji": "🎵",
+      "singularName": "concerto",
+      "pluralName": "concerti",
+      "description": "Unità core di tempo per scale importanti: concerto.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 7200.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "movie-runtime-time",
+      "dimension": "time",
+      "name": "Film medio",
+      "emoji": "🎬",
+      "singularName": "film medio",
+      "pluralName": "film medi",
+      "description": "Unità core di tempo per scale importanti: film medio.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 7200.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dishwasher-cycle-time",
+      "dimension": "time",
+      "name": "Ciclo lavastoviglie",
+      "emoji": "🍽️",
+      "singularName": "ciclo lavastoviglie",
+      "pluralName": "cicli lavastoviglie",
+      "description": "Unità core di tempo per scale importanti: ciclo lavastoviglie.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 7200.0,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sourdough-rise-time",
+      "dimension": "time",
+      "name": "Lievitazione sospetta",
+      "emoji": "🥖",
+      "singularName": "lievitazione sospetta",
+      "pluralName": "lievitazioni sospette",
+      "description": "Unità core di tempo per scale assurdamente grandi: lievitazione sospetta.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 14400.0,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "workday-time",
+      "dimension": "time",
+      "name": "Giornata lavorativa",
+      "emoji": "💼",
+      "singularName": "giornata lavorativa",
+      "pluralName": "giornate lavorative",
+      "description": "Unità core di tempo per scale assurdamente grandi: giornata lavorativa.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 28800.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-sleep-day-time",
+      "dimension": "time",
+      "name": "Giornata di sonno felino",
+      "emoji": "😴",
+      "singularName": "giornata di sonno felino",
+      "pluralName": "giornate di sonno felino",
+      "description": "Unità core di tempo per scale assurdamente grandi: giornata di sonno felino.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 57600.0,
+      "tags": [
+        "cats",
+        "animals"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "weekend-time",
+      "dimension": "time",
+      "name": "Weekend",
+      "emoji": "🏖️",
+      "singularName": "weekend",
+      "pluralName": "weekend",
+      "description": "Unità core di tempo per scale assurdamente grandi: weekend.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 172800.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "basil-wilting-time",
+      "dimension": "time",
+      "name": "Basilico che si arrende",
+      "emoji": "🌿",
+      "singularName": "basilico che si arrende",
+      "pluralName": "basilici che si arrendono",
+      "description": "Unità core di tempo per scale assurdamente grandi: basilico che si arrende.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 259200.0,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "reply-later-time",
+      "dimension": "time",
+      "name": "Rispondo dopo",
+      "emoji": "💬",
+      "singularName": "rispondo dopo",
+      "pluralName": "rispondo dopo",
+      "description": "Unità core di tempo per scale assurdamente grandi: rispondo dopo.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 604800.0,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "plant-watering-cycle-time",
+      "dimension": "time",
+      "name": "Ciclo annaffiatura pianta",
+      "emoji": "🪴",
+      "singularName": "ciclo annaffiatura pianta",
+      "pluralName": "cicli annaffiatura pianta",
+      "description": "Unità core di tempo per scale assurdamente grandi: ciclo annaffiatura pianta.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 604800.0,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "new-year-resolution-time",
+      "dimension": "time",
+      "name": "Proposito dell'anno nuovo",
+      "emoji": "🏃",
+      "singularName": "proposito dell'anno nuovo",
+      "pluralName": "propositi dell'anno nuovo",
+      "description": "Unità core di tempo per scale assurdamente grandi: proposito dell'anno nuovo.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 864000.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "software-sprint-time",
+      "dimension": "time",
+      "name": "Sprint software",
+      "emoji": "🧑‍💻",
+      "singularName": "sprint software",
+      "pluralName": "sprint software",
+      "description": "Unità core di tempo per scale assurdamente grandi: sprint software.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1209600.0,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "vacation-countdown-time",
+      "dimension": "time",
+      "name": "Conto alla rovescia ferie",
+      "emoji": "🏖️",
+      "singularName": "conto alla rovescia ferie",
+      "pluralName": "conti alla rovescia ferie",
+      "description": "Unità core di tempo per scale assurdamente grandi: conto alla rovescia ferie.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1209600.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "plant-realizes-neglect-time",
+      "dimension": "time",
+      "name": "Pianta che capisce",
+      "emoji": "🪴",
+      "singularName": "pianta che capisce",
+      "pluralName": "piante che capiscono",
+      "description": "Unità core di tempo per scale assurdamente grandi: pianta che capisce.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1209600.0,
+      "tags": [
+        "household",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-food-delivery-wait-time",
+      "dimension": "time",
+      "name": "Attesa crocchette online",
+      "emoji": "📦",
+      "singularName": "attesa crocchette online",
+      "pluralName": "attese crocchette online",
+      "description": "Unità core di tempo per scale assurdamente grandi: attesa crocchette online.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 172800.0,
+      "tags": [
+        "cats",
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "workweek-time",
+      "dimension": "time",
+      "name": "Settimana lavorativa",
+      "emoji": "💼",
+      "singularName": "settimana lavorativa",
+      "pluralName": "settimane lavorative",
+      "description": "Unità core di tempo per scale assurdamente grandi: settimana lavorativa.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 144000.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "monthly-subscription-time",
+      "dimension": "time",
+      "name": "Abbonamento mensile dimenticato",
+      "emoji": "💳",
+      "singularName": "abbonamento mensile dimenticato",
+      "pluralName": "abbonamenti mensili dimenticati",
+      "description": "Unità core di tempo per scale assurdamente grandi: abbonamento mensile dimenticato.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 2592000.0,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "panettone-season-time",
+      "dimension": "time",
+      "name": "Stagione panettone",
+      "emoji": "🎄",
+      "singularName": "stagione panettone",
+      "pluralName": "stagioni panettone",
+      "description": "Unità core di tempo per scale assurdamente grandi: stagione panettone.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 2592000.0,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "tax-return-season-time",
+      "dimension": "time",
+      "name": "Stagione dichiarazione redditi",
+      "emoji": "📄",
+      "singularName": "stagione dichiarazione redditi",
+      "pluralName": "stagioni dichiarazione redditi",
+      "description": "Unità core di tempo per scale assurdamente grandi: stagione dichiarazione redditi.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 5184000.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "photo-backup-time",
+      "dimension": "time",
+      "name": "Backup foto ignorato",
+      "emoji": "📷",
+      "singularName": "backup foto ignorato",
+      "pluralName": "backup foto ignorati",
+      "description": "Unità core di tempo per scale assurdamente grandi: backup foto ignorato.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 7776000.0,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "school-year-time",
+      "dimension": "time",
+      "name": "Anno scolastico",
+      "emoji": "🎒",
+      "singularName": "anno scolastico",
+      "pluralName": "anni scolastici",
+      "description": "Unità core di tempo per scale assurdamente grandi: anno scolastico.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 31536000.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-vaccination-cycle-time",
+      "dimension": "time",
+      "name": "Richiamo veterinario",
+      "emoji": "💉",
+      "singularName": "richiamo veterinario",
+      "pluralName": "richiami veterinari",
+      "description": "Unità core di tempo per scale assurdamente grandi: richiamo veterinario.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 31536000.0,
+      "tags": [
+        "cats",
+        "animals"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "phone-contract-time",
+      "dimension": "time",
+      "name": "Contratto telefonico",
+      "emoji": "📱",
+      "singularName": "contratto telefonico",
+      "pluralName": "contratti telefonici",
+      "description": "Unità core di tempo per scale assurdamente grandi: contratto telefonico.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 63072000.0,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "warranty-expiry-time",
+      "dimension": "time",
+      "name": "Garanzia appena scaduta",
+      "emoji": "🧾",
+      "singularName": "garanzia appena scaduta",
+      "pluralName": "garanzie appena scadute",
+      "description": "Unità core di tempo per scale assurdamente grandi: garanzia appena scaduta.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 63072000.0,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "olympic-cycle-time",
+      "dimension": "time",
+      "name": "Ciclo olimpico",
+      "emoji": "🏅",
+      "singularName": "ciclo olimpico",
+      "pluralName": "cicli olimpici",
+      "description": "Unità core di tempo per scale assurdamente grandi: ciclo olimpico.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 126144000.0,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "inbox-zero-time",
+      "dimension": "time",
+      "name": "Inbox zero teorica",
+      "emoji": "📧",
+      "singularName": "inbox zero teorica",
+      "pluralName": "inbox zero teoriche",
+      "description": "Unità core di tempo per scale assurdamente grandi: inbox zero teorica.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 315360000.0,
+      "tags": [
+        "geek",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "human-generation-time",
+      "dimension": "time",
+      "name": "Generazione umana",
+      "emoji": "🧬",
+      "singularName": "generazione umana",
+      "pluralName": "generazioni umane",
+      "description": "Unità core di tempo per scale assurdamente grandi: generazione umana.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 788400000.0,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "mortgage-time",
+      "dimension": "time",
+      "name": "Mutuo percepito",
+      "emoji": "🏠",
+      "singularName": "mutuo percepito",
+      "pluralName": "mutui percepiti",
+      "description": "Unità core di tempo per scale assurdamente grandi: mutuo percepito.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 946080000.0,
+      "tags": [
+        "household",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "internet-age-time",
+      "dimension": "time",
+      "name": "Era di Internet",
+      "emoji": "🌐",
+      "singularName": "era di Internet",
+      "pluralName": "ere di Internet",
+      "description": "Unità core di tempo per scale assurdamente grandi: era di Internet.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1261440000.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-nine-lives-time",
+      "dimension": "time",
+      "name": "Nove vite amministrative",
+      "emoji": "🐈",
+      "singularName": "nove vite amministrative",
+      "pluralName": "nove vite amministrative",
+      "description": "Unità core di tempo per scale assurdamente grandi: nove vite amministrative.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 2556144000.0,
+      "tags": [
+        "cats",
+        "pseudoScientific",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "roman-empire-time",
+      "dimension": "time",
+      "name": "Impero romano",
+      "emoji": "🏛️",
+      "singularName": "Impero romano",
+      "pluralName": "Imperi romani",
+      "description": "Unità core di tempo per scale assurdamente grandi: Impero romano.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 15768000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "geological-moment-time",
+      "dimension": "time",
+      "name": "Momento geologico",
+      "emoji": "🪨",
+      "singularName": "momento geologico",
+      "pluralName": "momenti geologici",
+      "description": "Unità core di tempo per scale assurdamente grandi: momento geologico.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 3155760000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dinosaur-vacation-time",
+      "dimension": "time",
+      "name": "Vacanza dei dinosauri",
+      "emoji": "🦖",
+      "singularName": "vacanza dei dinosauri",
+      "pluralName": "vacanze dei dinosauri",
+      "description": "Unità core di tempo per scale assurdamente grandi: vacanza dei dinosauri.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 31557600000000.0,
+      "tags": [
+        "animals",
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "mountain-erodes-time",
+      "dimension": "time",
+      "name": "Montagna che si annoia",
+      "emoji": "🏔️",
+      "singularName": "montagna che si annoia",
+      "pluralName": "montagne che si annoiano",
+      "description": "Unità core di tempo per scale assurdamente grandi: montagna che si annoia.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 315576000000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "continental-drift-time",
+      "dimension": "time",
+      "name": "Deriva continentale educata",
+      "emoji": "🌍",
+      "singularName": "deriva continentale educata",
+      "pluralName": "derive continentali educate",
+      "description": "Unità core di tempo per scale assurdamente grandi: deriva continentale educata.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 3155760000000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "universe-age-time",
+      "dimension": "time",
+      "name": "Età dell'universo",
+      "emoji": "🌌",
+      "singularName": "età dell'universo",
+      "pluralName": "età dell'universo",
+      "description": "Unità core di tempo per scale assurdamente grandi: età dell'universo.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 4.35e+17,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "espresso-machine-blink-time",
+      "dimension": "time",
+      "name": "Sbuffo macchina espresso",
+      "emoji": "☕",
+      "singularName": "sbuffo macchina espresso",
+      "pluralName": "sbuffi macchina espresso",
+      "description": "Unità core di tempo per scale domestiche: sbuffo macchina espresso.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 2.5,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-turns-away-time",
+      "dimension": "time",
+      "name": "Gatto che si gira offeso",
+      "emoji": "😾",
+      "singularName": "gatto che si gira offeso",
+      "pluralName": "gatti che si girano offesi",
+      "description": "Unità core di tempo per scale domestiche: gatto che si gira offeso.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 6.0,
+      "tags": [
+        "cats",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "calendar-page-time",
+      "dimension": "time",
+      "name": "Pagina di calendario",
+      "emoji": "📆",
+      "singularName": "pagina di calendario",
+      "pluralName": "pagine di calendario",
+      "description": "Unità core di tempo per scale assurdamente grandi: pagina di calendario.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 86400.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
       }
     }
   ],

@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.temperature",
   "displayName": "Temperatura Core Catverter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Catverter",
   "description": "Unità di temperatura termodinamica buffe ancorate al kelvin.",
   "dimensions": [
@@ -32,8 +32,8 @@
           "id": "fahrenheit",
           "name": "Fahrenheit",
           "symbol": "°F",
-          "baseFactor": 0.5555555555555555555555555556,
-          "baseOffset": 255.37222222222222222222222224
+          "baseFactor": 0.5555555555555556,
+          "baseOffset": 255.37222222222223
         }
       ],
       "defaultValue": "20",
@@ -193,6 +193,1845 @@
       "scientificAccuracy": "publishedAverages",
       "grammar": {
         "gender": "feminine"
+      }
+    },
+    {
+      "id": "near-absolute-zero-temperature",
+      "dimension": "temperature",
+      "name": "Quasi zero assoluto",
+      "emoji": "🧊",
+      "singularName": "quasi zero assoluto",
+      "pluralName": "quasi zero assoluti",
+      "description": "Unità core di temperatura per scale criogeniche: quasi zero assoluto.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1e-06,
+      "tags": [
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "deep-space-shadow-temperature",
+      "dimension": "temperature",
+      "name": "Ombra di spazio profondo",
+      "emoji": "🌌",
+      "singularName": "ombra di spazio profondo",
+      "pluralName": "ombre di spazio profondo",
+      "description": "Unità core di temperatura per scale criogeniche: ombra di spazio profondo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 2.7,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "liquid-helium-temperature",
+      "dimension": "temperature",
+      "name": "Elio liquido",
+      "emoji": "🧪",
+      "singularName": "elio liquido",
+      "pluralName": "eli liquidi",
+      "description": "Unità core di temperatura per scale criogeniche: elio liquido.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 4.2,
+      "tags": [
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "liquid-nitrogen-temperature",
+      "dimension": "temperature",
+      "name": "Azoto liquido",
+      "emoji": "🧊",
+      "singularName": "azoto liquido",
+      "pluralName": "azoti liquidi",
+      "description": "Unità core di temperatura per scale gelide: azoto liquido.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 77.0,
+      "tags": [
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dry-ice-temperature",
+      "dimension": "temperature",
+      "name": "Ghiaccio secco",
+      "emoji": "🧊",
+      "singularName": "ghiaccio secco",
+      "pluralName": "ghiacci secchi",
+      "description": "Unità core di temperatura per scale gelide: ghiaccio secco.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 194.65,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "polar-night-temperature",
+      "dimension": "temperature",
+      "name": "Notte polare",
+      "emoji": "🥶",
+      "singularName": "notte polare",
+      "pluralName": "notti polari",
+      "description": "Unità core di temperatura per scale gelide: notte polare.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 223.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "penguin-approval-temperature",
+      "dimension": "temperature",
+      "name": "Approvazione del pinguino",
+      "emoji": "🐧",
+      "singularName": "approvazione del pinguino",
+      "pluralName": "approvazioni del pinguino",
+      "description": "Unità core di temperatura per scale gelide: approvazione del pinguino.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 258.15,
+      "tags": [
+        "animals"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "gelato-freezer-temperature",
+      "dimension": "temperature",
+      "name": "Freezer del gelato",
+      "emoji": "🍦",
+      "singularName": "freezer del gelato",
+      "pluralName": "freezer del gelato",
+      "description": "Unità core di temperatura per scale gelide: freezer del gelato.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 255.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "winter-car-handle-temperature",
+      "dimension": "temperature",
+      "name": "Maniglia auto d'inverno",
+      "emoji": "🚗",
+      "singularName": "maniglia auto d'inverno",
+      "pluralName": "maniglie auto d'inverno",
+      "description": "Unità core di temperatura per scale gelide: maniglia auto d'inverno.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 263.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "snowball-temperature",
+      "dimension": "temperature",
+      "name": "Palla di neve",
+      "emoji": "☃️",
+      "singularName": "palla di neve",
+      "pluralName": "palle di neve",
+      "description": "Unità core di temperatura per scale gelide: palla di neve.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 263.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "winter-balcony-temperature",
+      "dimension": "temperature",
+      "name": "Balcone d'inverno",
+      "emoji": "❄️",
+      "singularName": "balcone d'inverno",
+      "pluralName": "balconi d'inverno",
+      "description": "Unità core di temperatura per scale gelide: balcone d'inverno.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 268.15,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ice-cream-panic-temperature",
+      "dimension": "temperature",
+      "name": "Panico del gelato",
+      "emoji": "🍦",
+      "singularName": "panico del gelato",
+      "pluralName": "panici del gelato",
+      "description": "Unità core di temperatura per scale gelide: panico del gelato.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 268.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "bus-stop-february-temperature",
+      "dimension": "temperature",
+      "name": "Fermata bus a febbraio",
+      "emoji": "🚌",
+      "singularName": "fermata bus a febbraio",
+      "pluralName": "fermate bus a febbraio",
+      "description": "Unità core di temperatura per scale gelide: fermata bus a febbraio.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 271.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "mountain-morning-temperature",
+      "dimension": "temperature",
+      "name": "Mattina in montagna",
+      "emoji": "🏔️",
+      "singularName": "mattina in montagna",
+      "pluralName": "mattine in montagna",
+      "description": "Unità core di temperatura per scale quotidiane: mattina in montagna.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 273.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "snowman-anxiety-temperature",
+      "dimension": "temperature",
+      "name": "Ansia del pupazzo di neve",
+      "emoji": "☃️",
+      "singularName": "ansia del pupazzo di neve",
+      "pluralName": "ansie del pupazzo di neve",
+      "description": "Unità core di temperatura per scale quotidiane: ansia del pupazzo di neve.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 274.15,
+      "tags": [
+        "intuitive",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-judgment-temperature",
+      "dimension": "temperature",
+      "name": "Giudizio felino",
+      "emoji": "😾",
+      "singularName": "giudizio felino",
+      "pluralName": "giudizi felini",
+      "description": "Unità core di temperatura per scale quotidiane: giudizio felino.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 276.15,
+      "tags": [
+        "cats",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "fridge-shelf-temperature",
+      "dimension": "temperature",
+      "name": "Ripiano del frigo",
+      "emoji": "🧊",
+      "singularName": "ripiano del frigo",
+      "pluralName": "ripiani del frigo",
+      "description": "Unità core di temperatura per scale quotidiane: ripiano del frigo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 277.15,
+      "tags": [
+        "household",
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "rainy-commute-temperature",
+      "dimension": "temperature",
+      "name": "Pendolarismo piovoso",
+      "emoji": "🌧️",
+      "singularName": "pendolarismo piovoso",
+      "pluralName": "pendolarismi piovosi",
+      "description": "Unità core di temperatura per scale quotidiane: pendolarismo piovoso.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 281.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "wet-socks-temperature",
+      "dimension": "temperature",
+      "name": "Calzini bagnati",
+      "emoji": "🧦",
+      "singularName": "calzini bagnati",
+      "pluralName": "calzini bagnati",
+      "description": "Unità core di temperatura per scale quotidiane: calzini bagnati.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 285.15,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "wine-cellar-temperature",
+      "dimension": "temperature",
+      "name": "Cantina seria",
+      "emoji": "🍷",
+      "singularName": "cantina seria",
+      "pluralName": "cantine serie",
+      "description": "Unità core di temperatura per scale quotidiane: cantina seria.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 285.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "spring-morning-temperature",
+      "dimension": "temperature",
+      "name": "Mattina di primavera",
+      "emoji": "🌱",
+      "singularName": "mattina di primavera",
+      "pluralName": "mattine di primavera",
+      "description": "Unità core di temperatura per scale quotidiane: mattina di primavera.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 288.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-water-bowl-temperature",
+      "dimension": "temperature",
+      "name": "Acqua della ciotola",
+      "emoji": "🐈",
+      "singularName": "acqua della ciotola",
+      "pluralName": "acque della ciotola",
+      "description": "Unità core di temperatura per scale quotidiane: acqua della ciotola.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 291.15,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "office-ac-temperature",
+      "dimension": "temperature",
+      "name": "Aria condizionata d'ufficio",
+      "emoji": "🏢",
+      "singularName": "aria condizionata d'ufficio",
+      "pluralName": "arie condizionate d'ufficio",
+      "description": "Unità core di temperatura per scale quotidiane: aria condizionata d'ufficio.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 294.15,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "forgotten-coffee-temperature",
+      "dimension": "temperature",
+      "name": "Caffè dimenticato",
+      "emoji": "☕",
+      "singularName": "caffè dimenticato",
+      "pluralName": "caffè dimenticati",
+      "description": "Unità core di temperatura per scale quotidiane: caffè dimenticato.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 299.15,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "server-room-temperature",
+      "dimension": "temperature",
+      "name": "Sala server",
+      "emoji": "🖥️",
+      "singularName": "sala server",
+      "pluralName": "sale server",
+      "description": "Unità core di temperatura per scale quotidiane: sala server.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 300.15,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "meeting-room-after-projector-temperature",
+      "dimension": "temperature",
+      "name": "Sala riunioni col proiettore",
+      "emoji": "📽️",
+      "singularName": "sala riunioni col proiettore",
+      "pluralName": "sale riunioni col proiettore",
+      "description": "Unità core di temperatura per scale quotidiane: sala riunioni col proiettore.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 301.15,
+      "tags": [
+        "geek",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "summer-room-temperature",
+      "dimension": "temperature",
+      "name": "Stanza estiva",
+      "emoji": "🪟",
+      "singularName": "stanza estiva",
+      "pluralName": "stanze estive",
+      "description": "Unità core di temperatura per scale quotidiane: stanza estiva.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 303.15,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pillow-warm-side-temperature",
+      "dimension": "temperature",
+      "name": "Lato caldo del cuscino",
+      "emoji": "🛏️",
+      "singularName": "lato caldo del cuscino",
+      "pluralName": "lati caldi del cuscino",
+      "description": "Unità core di temperatura per scale quotidiane: lato caldo del cuscino.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 305.15,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "blanket-fort-temperature",
+      "dimension": "temperature",
+      "name": "Fortezza di coperte",
+      "emoji": "🛏️",
+      "singularName": "fortezza di coperte",
+      "pluralName": "fortezze di coperte",
+      "description": "Unità core di temperatura per scale quotidiane: fortezza di coperte.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 307.15,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "chocolate-melting-temperature",
+      "dimension": "temperature",
+      "name": "Cioccolato che si arrende",
+      "emoji": "🍫",
+      "singularName": "cioccolato che si arrende",
+      "pluralName": "cioccolati che si arrendono",
+      "description": "Unità core di temperatura per scale quotidiane: cioccolato che si arrende.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 307.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "train-carriage-august-temperature",
+      "dimension": "temperature",
+      "name": "Vagone ad agosto",
+      "emoji": "🚆",
+      "singularName": "vagone ad agosto",
+      "pluralName": "vagoni ad agosto",
+      "description": "Unità core di temperatura per scale quotidiane: vagone ad agosto.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 308.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-purr-temperature",
+      "dimension": "temperature",
+      "name": "Fusa in grembo",
+      "emoji": "🐈",
+      "singularName": "fusa in grembo",
+      "pluralName": "fusa in grembo",
+      "description": "Unità core di temperatura per scale quotidiane: fusa in grembo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 309.15,
+      "tags": [
+        "cats",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "roman-summer-temperature",
+      "dimension": "temperature",
+      "name": "Estate romana",
+      "emoji": "🇮🇹",
+      "singularName": "estate romana",
+      "pluralName": "estati romane",
+      "description": "Unità core di temperatura per scale quotidiane: estate romana.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 310.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-belly-temperature",
+      "dimension": "temperature",
+      "name": "Pancia di gatto",
+      "emoji": "🐈",
+      "singularName": "pancia di gatto",
+      "pluralName": "pance di gatto",
+      "description": "Unità core di temperatura per scale quotidiane: pancia di gatto.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 311.15,
+      "tags": [
+        "cats",
+        "animals"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "human-fever-temperature",
+      "dimension": "temperature",
+      "name": "Febbre umana",
+      "emoji": "🤒",
+      "singularName": "febbre umana",
+      "pluralName": "febbri umane",
+      "description": "Unità core di temperatura per scale quotidiane: febbre umana.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 312.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "hot-bath-temperature",
+      "dimension": "temperature",
+      "name": "Bagno caldo",
+      "emoji": "🛁",
+      "singularName": "bagno caldo",
+      "pluralName": "bagni caldi",
+      "description": "Unità core di temperatura per scale quotidiane: bagno caldo.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 313.15,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-approved-sunbeam-temperature",
+      "dimension": "temperature",
+      "name": "Raggio di sole approvato",
+      "emoji": "🐈",
+      "singularName": "raggio di sole approvato",
+      "pluralName": "raggi di sole approvati",
+      "description": "Unità core di temperatura per scale culinarie: raggio di sole approvato.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 315.15,
+      "tags": [
+        "cats",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "committee-argument-temperature",
+      "dimension": "temperature",
+      "name": "Discussione del comitato",
+      "emoji": "📋",
+      "singularName": "discussione del comitato",
+      "pluralName": "discussioni del comitato",
+      "description": "Unità core di temperatura per scale culinarie: discussione del comitato.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 318.15,
+      "tags": [
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "laptop-lap-temperature",
+      "dimension": "temperature",
+      "name": "Portatile sulle ginocchia",
+      "emoji": "💻",
+      "singularName": "portatile sulle ginocchia",
+      "pluralName": "portatili sulle ginocchia",
+      "description": "Unità core di temperatura per scale culinarie: portatile sulle ginocchia.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 318.15,
+      "tags": [
+        "geek",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "desert-noon-temperature",
+      "dimension": "temperature",
+      "name": "Mezzogiorno nel deserto",
+      "emoji": "🏜️",
+      "singularName": "mezzogiorno nel deserto",
+      "pluralName": "mezzogiorni nel deserto",
+      "description": "Unità core di temperatura per scale culinarie: mezzogiorno nel deserto.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 318.15,
+      "tags": [
+        "hugeThings",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "phone-in-sun-temperature",
+      "dimension": "temperature",
+      "name": "Telefono lasciato al sole",
+      "emoji": "📱",
+      "singularName": "telefono lasciato al sole",
+      "pluralName": "telefoni lasciati al sole",
+      "description": "Unità core di temperatura per scale culinarie: telefono lasciato al sole.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 323.15,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "router-fever-temperature",
+      "dimension": "temperature",
+      "name": "Febbre del router",
+      "emoji": "📡",
+      "singularName": "febbre del router",
+      "pluralName": "febbri del router",
+      "description": "Unità core di temperatura per scale culinarie: febbre del router.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 328.15,
+      "tags": [
+        "geek",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "deadline-temperature",
+      "dimension": "temperature",
+      "name": "Scadenza imminente",
+      "emoji": "⏰",
+      "singularName": "scadenza imminente",
+      "pluralName": "scadenze imminenti",
+      "description": "Unità core di temperatura per scale culinarie: scadenza imminente.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 330.15,
+      "tags": [
+        "geek",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "sicilian-sidewalk-temperature",
+      "dimension": "temperature",
+      "name": "Marciapiede siciliano",
+      "emoji": "☀️",
+      "singularName": "marciapiede siciliano",
+      "pluralName": "marciapiedi siciliani",
+      "description": "Unità core di temperatura per scale culinarie: marciapiede siciliano.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 330.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "radiator-nap-temperature",
+      "dimension": "temperature",
+      "name": "Termosifone da pisolino",
+      "emoji": "🐈",
+      "singularName": "termosifone da pisolino",
+      "pluralName": "termosifoni da pisolino",
+      "description": "Unità core di temperatura per scale culinarie: termosifone da pisolino.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 333.15,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dashboard-in-sun-temperature",
+      "dimension": "temperature",
+      "name": "Cruscotto al sole",
+      "emoji": "🚗",
+      "singularName": "cruscotto al sole",
+      "pluralName": "cruscotti al sole",
+      "description": "Unità core di temperatura per scale culinarie: cruscotto al sole.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 333.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "asphalt-summer-temperature",
+      "dimension": "temperature",
+      "name": "Asfalto estivo",
+      "emoji": "🛣️",
+      "singularName": "asfalto estivo",
+      "pluralName": "asfalti estivi",
+      "description": "Unità core di temperatura per scale culinarie: asfalto estivo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 333.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "beach-sand-temperature",
+      "dimension": "temperature",
+      "name": "Sabbia assassina",
+      "emoji": "🏖️",
+      "singularName": "sabbia assassina",
+      "pluralName": "sabbie assassine",
+      "description": "Unità core di temperatura per scale culinarie: sabbia assassina.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 333.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pizza-box-temperature",
+      "dimension": "temperature",
+      "name": "Cartone pizza salvifico",
+      "emoji": "🍕",
+      "singularName": "cartone pizza salvifico",
+      "pluralName": "cartoni pizza salvifici",
+      "description": "Unità core di temperatura per scale culinarie: cartone pizza salvifico.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 333.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "hairdryer-temperature",
+      "dimension": "temperature",
+      "name": "Phon impaziente",
+      "emoji": "💨",
+      "singularName": "phon impaziente",
+      "pluralName": "phon impazienti",
+      "description": "Unità core di temperatura per scale culinarie: phon impaziente.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 333.15,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tea-cup-temperature",
+      "dimension": "temperature",
+      "name": "Tazza di tè",
+      "emoji": "🫖",
+      "singularName": "tazza di tè",
+      "pluralName": "tazze di tè",
+      "description": "Unità core di temperatura per scale culinarie: tazza di tè.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 343.15,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "soup-warning-temperature",
+      "dimension": "temperature",
+      "name": "Zuppa da soffiare",
+      "emoji": "🍲",
+      "singularName": "zuppa da soffiare",
+      "pluralName": "zuppe da soffiare",
+      "description": "Unità core di temperatura per scale culinarie: zuppa da soffiare.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 343.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "dishwasher-dry-temperature",
+      "dimension": "temperature",
+      "name": "Asciugatura lavastoviglie",
+      "emoji": "🍽️",
+      "singularName": "asciugatura lavastoviglie",
+      "pluralName": "asciugature lavastoviglie",
+      "description": "Unità core di temperatura per scale culinarie: asciugatura lavastoviglie.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 343.15,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "lasagna-core-temperature",
+      "dimension": "temperature",
+      "name": "Cuore della lasagna",
+      "emoji": "🍝",
+      "singularName": "cuore della lasagna",
+      "pluralName": "cuori della lasagna",
+      "description": "Unità core di temperatura per scale culinarie: cuore della lasagna.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 348.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "too-hot-coffee-temperature",
+      "dimension": "temperature",
+      "name": "Caffè traditore",
+      "emoji": "☕",
+      "singularName": "caffè traditore",
+      "pluralName": "caffè traditori",
+      "description": "Unità core di temperatura per scale culinarie: caffè traditore.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 353.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "gpu-under-load-temperature",
+      "dimension": "temperature",
+      "name": "GPU sotto carico",
+      "emoji": "🎮",
+      "singularName": "GPU sotto carico",
+      "pluralName": "GPU sotto carico",
+      "description": "Unità core di temperatura per scale culinarie: GPU sotto carico.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 358.15,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "sauna-temperature",
+      "dimension": "temperature",
+      "name": "Sauna ottimista",
+      "emoji": "🧖",
+      "singularName": "sauna ottimista",
+      "pluralName": "saune ottimiste",
+      "description": "Unità core di temperatura per scale culinarie: sauna ottimista.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 363.15,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "espresso-machine-temperature",
+      "dimension": "temperature",
+      "name": "Macchina espresso",
+      "emoji": "☕",
+      "singularName": "macchina espresso",
+      "pluralName": "macchine espresso",
+      "description": "Unità core di temperatura per scale culinarie: macchina espresso.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 365.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "fresh-bread-temperature",
+      "dimension": "temperature",
+      "name": "Pane appena sfornato",
+      "emoji": "🥖",
+      "singularName": "pane appena sfornato",
+      "pluralName": "pani appena sfornati",
+      "description": "Unità core di temperatura per scale culinarie: pane appena sfornato.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 368.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "boiling-water-temperature",
+      "dimension": "temperature",
+      "name": "Acqua che bolle",
+      "emoji": "💧",
+      "singularName": "acqua che bolle",
+      "pluralName": "acque che bollono",
+      "description": "Unità core di temperatura per scale culinarie: acqua che bolle.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 373.15,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "steam-burst-temperature",
+      "dimension": "temperature",
+      "name": "Sbuffo di vapore",
+      "emoji": "♨️",
+      "singularName": "sbuffo di vapore",
+      "pluralName": "sbuffi di vapore",
+      "description": "Unità core di temperatura per scale culinarie: sbuffo di vapore.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 383.15,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "espresso-boiler-temperature",
+      "dimension": "temperature",
+      "name": "Caldaia espresso",
+      "emoji": "☕",
+      "singularName": "caldaia espresso",
+      "pluralName": "caldaie espresso",
+      "description": "Unità core di temperatura per scale culinarie: caldaia espresso.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 393.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pressure-cooker-temperature",
+      "dimension": "temperature",
+      "name": "Pentola a pressione",
+      "emoji": "🍲",
+      "singularName": "pentola a pressione",
+      "pluralName": "pentole a pressione",
+      "description": "Unità core di temperatura per scale culinarie: pentola a pressione.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 393.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "ironed-shirt-temperature",
+      "dimension": "temperature",
+      "name": "Camicia appena stirata",
+      "emoji": "👔",
+      "singularName": "camicia appena stirata",
+      "pluralName": "camicie appena stirate",
+      "description": "Unità core di temperatura per scale culinarie: camicia appena stirata.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 423.15,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "oven-cookie-temperature",
+      "dimension": "temperature",
+      "name": "Forno biscotti",
+      "emoji": "🍪",
+      "singularName": "forno biscotti",
+      "pluralName": "forni biscotti",
+      "description": "Unità core di temperatura per scale culinarie: forno biscotti.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 453.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "frying-oil-temperature",
+      "dimension": "temperature",
+      "name": "Olio da frittura",
+      "emoji": "🍟",
+      "singularName": "olio da frittura",
+      "pluralName": "oli da frittura",
+      "description": "Unità core di temperatura per scale culinarie: olio da frittura.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 453.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "pan-temperature",
+      "dimension": "temperature",
+      "name": "Padella operativa",
+      "emoji": "🍳",
+      "singularName": "padella operativa",
+      "pluralName": "padelle operative",
+      "description": "Unità core di temperatura per scale culinarie: padella operativa.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 473.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cast-iron-pan-temperature",
+      "dimension": "temperature",
+      "name": "Ghisa vendicativa",
+      "emoji": "🍳",
+      "singularName": "ghisa vendicativa",
+      "pluralName": "ghise vendicative",
+      "description": "Unità core di temperatura per scale culinarie: ghisa vendicativa.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 523.15,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "grill-temperature",
+      "dimension": "temperature",
+      "name": "Griglia domenicale",
+      "emoji": "🔥",
+      "singularName": "griglia domenicale",
+      "pluralName": "griglie domenicali",
+      "description": "Unità core di temperatura per scale culinarie: griglia domenicale.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 573.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pizza-stone-temperature",
+      "dimension": "temperature",
+      "name": "Pietra refrattaria",
+      "emoji": "🍕",
+      "singularName": "pietra refrattaria",
+      "pluralName": "pietre refrattarie",
+      "description": "Unità core di temperatura per scale culinarie: pietra refrattaria.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 573.15,
+      "tags": [
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "soldering-iron-temperature",
+      "dimension": "temperature",
+      "name": "Saldatore",
+      "emoji": "🔧",
+      "singularName": "saldatore",
+      "pluralName": "saldatori",
+      "description": "Unità core di temperatura per scale culinarie: saldatore.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 623.15,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "wood-fired-oven-temperature",
+      "dimension": "temperature",
+      "name": "Forno a legna",
+      "emoji": "🍕",
+      "singularName": "forno a legna",
+      "pluralName": "forni a legna",
+      "description": "Unità core di temperatura per scale incandescenti: forno a legna.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 723.15,
+      "tags": [
+        "food",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "toaster-coil-temperature",
+      "dimension": "temperature",
+      "name": "Resistenza del tostapane",
+      "emoji": "🍞",
+      "singularName": "resistenza del tostapane",
+      "pluralName": "resistenze del tostapane",
+      "description": "Unità core di temperatura per scale incandescenti: resistenza del tostapane.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 973.15,
+      "tags": [
+        "household",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "campfire-temperature",
+      "dimension": "temperature",
+      "name": "Falò",
+      "emoji": "🔥",
+      "singularName": "falò",
+      "pluralName": "falò",
+      "description": "Unità core di temperatura per scale incandescenti: falò.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1073.15,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "bonfire-core-temperature",
+      "dimension": "temperature",
+      "name": "Cuore del falò",
+      "emoji": "🔥",
+      "singularName": "cuore del falò",
+      "pluralName": "cuori del falò",
+      "description": "Unità core di temperatura per scale incandescenti: cuore del falò.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1173.15,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "kiln-temperature",
+      "dimension": "temperature",
+      "name": "Forno ceramico",
+      "emoji": "🏺",
+      "singularName": "forno ceramico",
+      "pluralName": "forni ceramici",
+      "description": "Unità core di temperatura per scale incandescenti: forno ceramico.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1273.15,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "candle-flame-temperature",
+      "dimension": "temperature",
+      "name": "Fiamma di candela",
+      "emoji": "🕯️",
+      "singularName": "fiamma di candela",
+      "pluralName": "fiamme di candela",
+      "description": "Unità core di temperatura per scale incandescenti: fiamma di candela.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1273.15,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "volcano-hug-temperature",
+      "dimension": "temperature",
+      "name": "Abbraccio di vulcano",
+      "emoji": "🌋",
+      "singularName": "abbraccio di vulcano",
+      "pluralName": "abbracci di vulcano",
+      "description": "Unità core di temperatura per scale incandescenti: abbraccio di vulcano.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1273.15,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "lava-temperature",
+      "dimension": "temperature",
+      "name": "Lava",
+      "emoji": "🌋",
+      "singularName": "lava",
+      "pluralName": "lave",
+      "description": "Unità core di temperatura per scale incandescenti: lava.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1473.15,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "glass-furnace-temperature",
+      "dimension": "temperature",
+      "name": "Fornace da vetro",
+      "emoji": "🏭",
+      "singularName": "fornace da vetro",
+      "pluralName": "fornaci da vetro",
+      "description": "Unità core di temperatura per scale incandescenti: fornace da vetro.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1673.15,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "steel-forge-temperature",
+      "dimension": "temperature",
+      "name": "Forgia dell'acciaio",
+      "emoji": "⚒️",
+      "singularName": "forgia dell'acciaio",
+      "pluralName": "forgie dell'acciaio",
+      "description": "Unità core di temperatura per scale incandescenti: forgia dell'acciaio.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1773.15,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "meteor-entry-temperature",
+      "dimension": "temperature",
+      "name": "Meteora drammatica",
+      "emoji": "☄️",
+      "singularName": "meteora drammatica",
+      "pluralName": "meteore drammatiche",
+      "description": "Unità core di temperatura per scale incandescenti: meteora drammatica.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1900.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "rocket-nozzle-temperature",
+      "dimension": "temperature",
+      "name": "Ugello di razzo",
+      "emoji": "🚀",
+      "singularName": "ugello di razzo",
+      "pluralName": "ugelli di razzo",
+      "description": "Unità core di temperatura per scale astronomiche: ugello di razzo.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 3500.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sunspot-temperature",
+      "dimension": "temperature",
+      "name": "Macchia solare",
+      "emoji": "☀️",
+      "singularName": "macchia solare",
+      "pluralName": "macchie solari",
+      "description": "Unità core di temperatura per scale astronomiche: macchia solare.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 3800.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "plasma-cutter-temperature",
+      "dimension": "temperature",
+      "name": "Taglio al plasma",
+      "emoji": "⚡",
+      "singularName": "taglio al plasma",
+      "pluralName": "tagli al plasma",
+      "description": "Unità core di temperatura per scale astronomiche: taglio al plasma.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 25000.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "lightning-channel-temperature",
+      "dimension": "temperature",
+      "name": "Canale di fulmine",
+      "emoji": "⚡",
+      "singularName": "canale di fulmine",
+      "pluralName": "canali di fulmine",
+      "description": "Unità core di temperatura per scale astronomiche: canale di fulmine.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 30000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "white-dwarf-temperature",
+      "dimension": "temperature",
+      "name": "Nana bianca",
+      "emoji": "⭐",
+      "singularName": "nana bianca",
+      "pluralName": "nane bianche",
+      "description": "Unità core di temperatura per scale astronomiche: nana bianca.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 100000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "solar-corona-temperature",
+      "dimension": "temperature",
+      "name": "Corona solare",
+      "emoji": "☀️",
+      "singularName": "corona solare",
+      "pluralName": "corone solari",
+      "description": "Unità core di temperatura per scale astronomiche: corona solare.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "supernova-leftover-temperature",
+      "dimension": "temperature",
+      "name": "Avanzo di supernova",
+      "emoji": "💥",
+      "singularName": "avanzo di supernova",
+      "pluralName": "avanzi di supernova",
+      "description": "Unità core di temperatura per scale astronomiche: avanzo di supernova.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 10000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sun-core-temperature",
+      "dimension": "temperature",
+      "name": "Nucleo del Sole",
+      "emoji": "☀️",
+      "singularName": "nucleo del Sole",
+      "pluralName": "nuclei del Sole",
+      "description": "Unità core di temperatura per scale astronomiche: nucleo del Sole.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 15000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "quasar-tantrum-temperature",
+      "dimension": "temperature",
+      "name": "Capriccio di quasar",
+      "emoji": "🌌",
+      "singularName": "capriccio di quasar",
+      "pluralName": "capricci di quasar",
+      "description": "Unità core di temperatura per scale astronomiche: capriccio di quasar.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 100000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "neutron-star-sneeze-temperature",
+      "dimension": "temperature",
+      "name": "Starnuto di stella di neutroni",
+      "emoji": "🌟",
+      "singularName": "starnuto di stella di neutroni",
+      "pluralName": "starnuti di stella di neutroni",
+      "description": "Unità core di temperatura per scale astronomiche: starnuto di stella di neutroni.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1000000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "perfect-pasta-water-temperature",
+      "dimension": "temperature",
+      "name": "Acqua della pasta quasi pronta",
+      "emoji": "🍝",
+      "singularName": "acqua della pasta quasi pronta",
+      "pluralName": "acque della pasta quasi pronte",
+      "description": "Unità core di temperatura per scale culinarie: acqua della pasta quasi pronta.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 371.15,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-refuses-cold-floor-temperature",
+      "dimension": "temperature",
+      "name": "Pavimento rifiutato dal gatto",
+      "emoji": "🐾",
+      "singularName": "pavimento rifiutato dal gatto",
+      "pluralName": "pavimenti rifiutati dal gatto",
+      "description": "Unità core di temperatura per scale quotidiane: pavimento rifiutato dal gatto.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 286.15,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
       }
     }
   ],

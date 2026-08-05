@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.speed",
   "displayName": "Velocità Core Catverter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Catverter",
   "description": "Unità di velocità buffe costruite da lunghezze e tempi core.",
   "dimensions": [
@@ -26,13 +26,13 @@
           "id": "meter-per-minute",
           "name": "Metro al minuto",
           "symbol": "m/min",
-          "baseFactor": 0.0166666666666666666666666667
+          "baseFactor": 0.016666666666666666
         },
         {
           "id": "meter-per-hour",
           "name": "Metro all'ora",
           "symbol": "m/h",
-          "baseFactor": 0.0002777777777777777777777778
+          "baseFactor": 0.0002777777777777778
         },
         {
           "id": "kilometer-per-second",
@@ -44,13 +44,13 @@
           "id": "kilometer-per-minute",
           "name": "Chilometro al minuto",
           "symbol": "km/min",
-          "baseFactor": 16.666666666666666666666666667
+          "baseFactor": 16.666666666666668
         },
         {
           "id": "kilometer-per-hour",
           "name": "Chilometro all'ora",
           "symbol": "km/h",
-          "baseFactor": 0.2777777777777777777777777778
+          "baseFactor": 0.2777777777777778
         },
         {
           "id": "centimeter-per-second",
@@ -326,6 +326,2056 @@
       "symbol": "istruzioni IKEA/minuto barra di caricamento",
       "singularName": "istruzione IKEA per minuto barra di caricamento",
       "pluralName": "istruzioni IKEA per minuto barra di caricamento",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "messina-strait-length-per-continental-drift-time",
+      "dimension": "speed",
+      "numeratorUnitId": "messina-strait-length",
+      "denominatorUnitId": "continental-drift-time",
+      "emoji": "🌊",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Stretto di Messina per deriva continentale educata",
+      "symbol": "Stretti di Messina/deriva continentale educata",
+      "singularName": "Stretto di Messina per deriva continentale educata",
+      "pluralName": "Stretti di Messina per deriva continentale educata",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ladybug-length-per-mortgage-time",
+      "dimension": "speed",
+      "numeratorUnitId": "ladybug-length",
+      "denominatorUnitId": "mortgage-time",
+      "emoji": "🐞",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "animals",
+        "tinyThings",
+        "household",
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "name": "Coccinella per mutuo percepito",
+      "symbol": "coccinelle/mutuo percepito",
+      "singularName": "coccinella per mutuo percepito",
+      "pluralName": "coccinelle per mutuo percepito",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pillow-length-per-roman-empire-time",
+      "dimension": "speed",
+      "numeratorUnitId": "pillow-length",
+      "denominatorUnitId": "roman-empire-time",
+      "emoji": "🛏️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "hugeThings",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Cuscino per Impero romano",
+      "symbol": "cuscini/Impero romano",
+      "singularName": "cuscino per Impero romano",
+      "pluralName": "cuscini per Impero romano",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "grand-canyon-length-per-continental-drift-time",
+      "dimension": "speed",
+      "numeratorUnitId": "grand-canyon-length",
+      "denominatorUnitId": "continental-drift-time",
+      "emoji": "🏜️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Grand Canyon per deriva continentale educata",
+      "symbol": "Grand Canyon/deriva continentale educata",
+      "singularName": "Grand Canyon per deriva continentale educata",
+      "pluralName": "Grand Canyon per deriva continentale educata",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "hair-width-length-per-cat-food-delivery-wait-time",
+      "dimension": "speed",
+      "numeratorUnitId": "hair-width-length",
+      "denominatorUnitId": "cat-food-delivery-wait-time",
+      "emoji": "💇",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "tinyThings",
+        "intuitive",
+        "cats",
+        "food",
+        "pseudoScientific"
+      ],
+      "name": "Spessore di capello per attesa crocchette online",
+      "symbol": "spessori di capello/attesa crocchette online",
+      "singularName": "spessore di capello per attesa crocchette online",
+      "pluralName": "spessori di capello per attesa crocchette online",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "earth-to-iss-length-per-mountain-erodes-time",
+      "dimension": "speed",
+      "numeratorUnitId": "earth-to-iss-length",
+      "denominatorUnitId": "mountain-erodes-time",
+      "emoji": "🛰️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "geek",
+        "hugeThings",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Distanza dalla ISS per montagna che si annoia",
+      "symbol": "distanze dalla ISS/montagna che si annoia",
+      "singularName": "distanza dalla ISS per montagna che si annoia",
+      "pluralName": "distanze dalla ISS per montagna che si annoia",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "city-bus-per-cat-comes-when-called",
+      "dimension": "speed",
+      "numeratorUnitId": "city-bus",
+      "denominatorUnitId": "cat-comes-when-called",
+      "emoji": "🚌",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "cats",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Autobus urbano per gatto chiamato",
+      "symbol": "bus/gatto chiamato",
+      "singularName": "autobus urbano per gatto chiamato",
+      "pluralName": "autobus urbani per gatto chiamato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "spaghetti-per-school-year-time",
+      "dimension": "speed",
+      "numeratorUnitId": "spaghetti",
+      "denominatorUnitId": "school-year-time",
+      "emoji": "🍝",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive",
+        "pseudoScientific"
+      ],
+      "name": "Spaghetto per anno scolastico",
+      "symbol": "spaghetti/anno scolastico",
+      "singularName": "spaghetto per anno scolastico",
+      "pluralName": "spaghetti per anno scolastico",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "virus-length-per-cat-turns-away-time",
+      "dimension": "speed",
+      "numeratorUnitId": "virus-length",
+      "denominatorUnitId": "cat-turns-away-time",
+      "emoji": "🦠",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "tinyThings",
+        "pseudoScientific",
+        "cats"
+      ],
+      "name": "Virus molto teorico per gatto che si gira offeso",
+      "symbol": "virus molto teorici/gatto che si gira offeso",
+      "singularName": "virus molto teorico per gatto che si gira offeso",
+      "pluralName": "virus molto teorici per gatto che si gira offeso",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "spaghetti-per-photo-backup-time",
+      "dimension": "speed",
+      "numeratorUnitId": "spaghetti",
+      "denominatorUnitId": "photo-backup-time",
+      "emoji": "🍝",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "food",
+        "tinyThings",
+        "geek",
+        "pseudoScientific"
+      ],
+      "name": "Spaghetto per backup foto ignorato",
+      "symbol": "spaghetti/backup foto ignorato",
+      "singularName": "spaghetto per backup foto ignorato",
+      "pluralName": "spaghetti per backup foto ignorato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "door-height-length-per-tomorrow",
+      "dimension": "speed",
+      "numeratorUnitId": "door-height-length",
+      "denominatorUnitId": "tomorrow",
+      "emoji": "🚪",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "geek",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Altezza di porta per domani",
+      "symbol": "altezze di porta/domani",
+      "singularName": "altezza di porta per domani",
+      "pluralName": "altezze di porta per domani",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "smartphone-length-per-plant-realizes-neglect-time",
+      "dimension": "speed",
+      "numeratorUnitId": "smartphone-length",
+      "denominatorUnitId": "plant-realizes-neglect-time",
+      "emoji": "📱",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "geek",
+        "intuitive",
+        "household",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Smartphone per pianta che capisce",
+      "symbol": "smartphone/pianta che capisce",
+      "singularName": "smartphone per pianta che capisce",
+      "pluralName": "smartphone per pianta che capisce",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "pencil-length-per-new-year-resolution-time",
+      "dimension": "speed",
+      "numeratorUnitId": "pencil-length",
+      "denominatorUnitId": "new-year-resolution-time",
+      "emoji": "✏️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Matita per proposito dell'anno nuovo",
+      "symbol": "matite/proposito dell'anno nuovo",
+      "singularName": "matita per proposito dell'anno nuovo",
+      "pluralName": "matite per proposito dell'anno nuovo",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "keyboard-length-per-vacation-countdown-time",
+      "dimension": "speed",
+      "numeratorUnitId": "keyboard-length",
+      "denominatorUnitId": "vacation-countdown-time",
+      "emoji": "⌨️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "geek",
+        "household",
+        "intuitive",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Tastiera per conto alla rovescia ferie",
+      "symbol": "tastiere/conto alla rovescia ferie",
+      "singularName": "tastiera per conto alla rovescia ferie",
+      "pluralName": "tastiere per conto alla rovescia ferie",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "burj-khalifa-height-length-per-internet-age-time",
+      "dimension": "speed",
+      "numeratorUnitId": "burj-khalifa-height-length",
+      "denominatorUnitId": "internet-age-time",
+      "emoji": "🏙️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "geek",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Burj Khalifa per era di Internet",
+      "symbol": "Burj Khalifa/era di Internet",
+      "singularName": "Burj Khalifa per era di Internet",
+      "pluralName": "Burj Khalifa per era di Internet",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "smartphone-length-per-workweek-time",
+      "dimension": "speed",
+      "numeratorUnitId": "smartphone-length",
+      "denominatorUnitId": "workweek-time",
+      "emoji": "📱",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "geek",
+        "intuitive",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Smartphone per settimana lavorativa",
+      "symbol": "smartphone/settimana lavorativa",
+      "singularName": "smartphone per settimana lavorativa",
+      "pluralName": "smartphone per settimana lavorativa",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ikea-instruction-per-cat-food-delivery-wait-time",
+      "dimension": "speed",
+      "numeratorUnitId": "ikea-instruction",
+      "denominatorUnitId": "cat-food-delivery-wait-time",
+      "emoji": "📖",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "cats",
+        "food",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Istruzione IKEA per attesa crocchette online",
+      "symbol": "istruzioni IKEA/attesa crocchette online",
+      "singularName": "istruzione IKEA per attesa crocchette online",
+      "pluralName": "istruzioni IKEA per attesa crocchette online",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-paw-length-per-sourdough-rise-time",
+      "dimension": "speed",
+      "numeratorUnitId": "cat-paw-length",
+      "denominatorUnitId": "sourdough-rise-time",
+      "emoji": "🐾",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings",
+        "food",
+        "pseudoScientific"
+      ],
+      "name": "Zampa di gatto per lievitazione sospetta",
+      "symbol": "zampe di gatto/lievitazione sospetta",
+      "singularName": "zampa di gatto per lievitazione sospetta",
+      "pluralName": "zampe di gatto per lievitazione sospetta",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "coffee-bean-length-per-meeting",
+      "dimension": "speed",
+      "numeratorUnitId": "coffee-bean-length",
+      "denominatorUnitId": "meeting",
+      "emoji": "☕",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive",
+        "household",
+        "pseudoScientific"
+      ],
+      "name": "Chicco di caffè per riunione",
+      "symbol": "chicchi di caffè/riunione",
+      "singularName": "chicco di caffè per riunione",
+      "pluralName": "chicchi di caffè per riunione",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-island-length-per-human-generation-time",
+      "dimension": "speed",
+      "numeratorUnitId": "small-island-length",
+      "denominatorUnitId": "human-generation-time",
+      "emoji": "🏝️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive",
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "name": "Isola piccola per generazione umana",
+      "symbol": "isole piccole/generazione umana",
+      "singularName": "isola piccola per generazione umana",
+      "pluralName": "isole piccole per generazione umana",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "shipping-container-length-per-vacation-countdown-time",
+      "dimension": "speed",
+      "numeratorUnitId": "shipping-container-length",
+      "denominatorUnitId": "vacation-countdown-time",
+      "emoji": "📦",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive",
+        "tinyThings"
+      ],
+      "name": "Container marittimo per conto alla rovescia ferie",
+      "symbol": "container marittimi/conto alla rovescia ferie",
+      "singularName": "container marittimo per conto alla rovescia ferie",
+      "pluralName": "container marittimi per conto alla rovescia ferie",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "apartment-loop-length-per-monthly-subscription-time",
+      "dimension": "speed",
+      "numeratorUnitId": "apartment-loop-length",
+      "denominatorUnitId": "monthly-subscription-time",
+      "emoji": "🏠",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "geek",
+        "tinyThings"
+      ],
+      "name": "Giro casa per mese dimenticato",
+      "symbol": "giro casa/mese dimenticato",
+      "singularName": "giro casa per mese dimenticato",
+      "pluralName": "giri casa per mese dimenticato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tail-length-per-sourdough-rise-time",
+      "dimension": "speed",
+      "numeratorUnitId": "tail-length",
+      "denominatorUnitId": "sourdough-rise-time",
+      "emoji": "〰️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings",
+        "food"
+      ],
+      "name": "Lunghezza di coda per lievitazione sospetta",
+      "symbol": "code/lievitazione sospetta",
+      "singularName": "coda per lievitazione sospetta",
+      "pluralName": "code per lievitazione sospetta",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "apartment-loop-length-per-software-sprint-time",
+      "dimension": "speed",
+      "numeratorUnitId": "apartment-loop-length",
+      "denominatorUnitId": "software-sprint-time",
+      "emoji": "🏠",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "geek",
+        "tinyThings"
+      ],
+      "name": "Giro dell'appartamento per sprint software",
+      "symbol": "giri dell'appartamento/sprint software",
+      "singularName": "giro dell'appartamento per sprint software",
+      "pluralName": "giri dell'appartamento per sprint software",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "swimming-pool-length-per-plant-realizes-neglect-time",
+      "dimension": "speed",
+      "numeratorUnitId": "swimming-pool-length",
+      "denominatorUnitId": "plant-realizes-neglect-time",
+      "emoji": "🏊",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "household",
+        "pseudoScientific",
+        "tinyThings"
+      ],
+      "name": "Piscina olimpica per pianta che capisce",
+      "symbol": "piscine olimpiche/pianta che capisce",
+      "singularName": "piscina olimpica per pianta che capisce",
+      "pluralName": "piscine olimpiche per pianta che capisce",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "ant-length-per-snack-request",
+      "dimension": "speed",
+      "numeratorUnitId": "ant-length",
+      "denominatorUnitId": "snack-request",
+      "emoji": "🐜",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "animals",
+        "tinyThings",
+        "cats",
+        "food"
+      ],
+      "name": "Formica per richiesta di snack",
+      "symbol": "formiche/richiesta di snack",
+      "singularName": "formica per richiesta di snack",
+      "pluralName": "formiche per richiesta di snack",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "door-width-length-per-steam-sale-browse",
+      "dimension": "speed",
+      "numeratorUnitId": "door-width-length",
+      "denominatorUnitId": "steam-sale-browse",
+      "emoji": "🚪",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "geek",
+        "tinyThings"
+      ],
+      "name": "Larghezza di porta per giro nei saldi Steam",
+      "symbol": "larghezze di porta/giro nei saldi Steam",
+      "singularName": "larghezza di porta per giro nei saldi Steam",
+      "pluralName": "larghezze di porta per giro nei saldi Steam",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "spaghetti-per-netflix-episode",
+      "dimension": "speed",
+      "numeratorUnitId": "spaghetti",
+      "denominatorUnitId": "netflix-episode",
+      "emoji": "🍝",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive"
+      ],
+      "name": "Spaghetto per episodio Netflix",
+      "symbol": "spaghetti/episodio Netflix",
+      "singularName": "spaghetto per episodio Netflix",
+      "pluralName": "spaghetti per episodio Netflix",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "loaf-cat-length-per-train-commute-time",
+      "dimension": "speed",
+      "numeratorUnitId": "loaf-cat-length",
+      "denominatorUnitId": "train-commute-time",
+      "emoji": "🍞🐈",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "cats",
+        "intuitive",
+        "tinyThings"
+      ],
+      "name": "Gatto a pagnotta per pendolarismo ferroviario",
+      "symbol": "gatti a pagnotta/pendolarismo ferroviario",
+      "singularName": "gatto a pagnotta per pendolarismo ferroviario",
+      "pluralName": "gatti a pagnotta per pendolarismo ferroviario",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ikea-instruction-per-pizza-delivery",
+      "dimension": "speed",
+      "numeratorUnitId": "ikea-instruction",
+      "denominatorUnitId": "pizza-delivery",
+      "emoji": "📖",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "food",
+        "tinyThings"
+      ],
+      "name": "Istruzione IKEA per consegna pizza",
+      "symbol": "istruzioni IKEA/consegna pizza",
+      "singularName": "istruzione IKEA per consegna pizza",
+      "pluralName": "istruzioni IKEA per consegna pizza",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "train-platform-length-per-vacation-countdown-time",
+      "dimension": "speed",
+      "numeratorUnitId": "train-platform-length",
+      "denominatorUnitId": "vacation-countdown-time",
+      "emoji": "🚉",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive",
+        "tinyThings"
+      ],
+      "name": "Binario di stazione per conto alla rovescia ferie",
+      "symbol": "binari di stazione/conto alla rovescia ferie",
+      "singularName": "binario di stazione per conto alla rovescia ferie",
+      "pluralName": "binari di stazione per conto alla rovescia ferie",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sleeping-cat-per-pizza-delivery",
+      "dimension": "speed",
+      "numeratorUnitId": "sleeping-cat",
+      "denominatorUnitId": "pizza-delivery",
+      "emoji": "😴",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "cats",
+        "animals",
+        "intuitive",
+        "food",
+        "tinyThings"
+      ],
+      "name": "Gatto addormentato per consegna pizza",
+      "symbol": "gatti addormentati/consegna pizza",
+      "singularName": "gatto addormentato per consegna pizza",
+      "pluralName": "gatti addormentati per consegna pizza",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "parking-space-length-per-cat-nap",
+      "dimension": "speed",
+      "numeratorUnitId": "parking-space-length",
+      "denominatorUnitId": "cat-nap",
+      "emoji": "🅿️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "cats",
+        "tinyThings"
+      ],
+      "name": "Posto auto per pisolino felino",
+      "symbol": "posti auto/pisolino felino",
+      "singularName": "posto auto per pisolino felino",
+      "pluralName": "posti auto per pisolino felino",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "grand-canyon-length-per-mortgage-time",
+      "dimension": "speed",
+      "numeratorUnitId": "grand-canyon-length",
+      "denominatorUnitId": "mortgage-time",
+      "emoji": "🏜️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "household",
+        "tinyThings"
+      ],
+      "name": "Grand Canyon per mutuo percepito",
+      "symbol": "Grand Canyon/mutuo percepito",
+      "singularName": "Grand Canyon per mutuo percepito",
+      "pluralName": "Grand Canyon per mutuo percepito",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-car-length-per-concert-time",
+      "dimension": "speed",
+      "numeratorUnitId": "small-car-length",
+      "denominatorUnitId": "concert-time",
+      "emoji": "🚗",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "name": "Auto compatta per concerto",
+      "symbol": "auto compatte/concerto",
+      "singularName": "auto compatta per concerto",
+      "pluralName": "auto compatte per concerto",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "sofa-per-meeting",
+      "dimension": "speed",
+      "numeratorUnitId": "sofa",
+      "denominatorUnitId": "meeting",
+      "emoji": "🛋️",
+      "description": "Moto lentissimo, adatto a fenomeni che si spostano solo quando nessuno guarda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "tinyThings"
+      ],
+      "name": "Divano per riunione",
+      "symbol": "divani/riunione",
+      "singularName": "divano per riunione",
+      "pluralName": "divani per riunione",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "euro-coin-diameter-length-per-elevator-small-talk-time",
+      "dimension": "speed",
+      "numeratorUnitId": "euro-coin-diameter-length",
+      "denominatorUnitId": "elevator-small-talk-time",
+      "emoji": "🪙",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "tinyThings",
+        "household"
+      ],
+      "name": "Diametro di moneta per imbarazzo in ascensore",
+      "symbol": "diametri di moneta/imbarazzo in ascensore",
+      "singularName": "diametro di moneta per imbarazzo in ascensore",
+      "pluralName": "diametri di moneta per imbarazzo in ascensore",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sofa-per-train-delay-time",
+      "dimension": "speed",
+      "numeratorUnitId": "sofa",
+      "denominatorUnitId": "train-delay-time",
+      "emoji": "🛋️",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "name": "Divano per ritardo ferroviario",
+      "symbol": "divani/ritardo ferroviario",
+      "singularName": "divano per ritardo ferroviario",
+      "pluralName": "divani per ritardo ferroviario",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-jump-per-lost-sock-search",
+      "dimension": "speed",
+      "numeratorUnitId": "cat-jump",
+      "denominatorUnitId": "lost-sock-search",
+      "emoji": "🐈⬆️",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "name": "Salto di gatto per ricerca del calzino perduto",
+      "symbol": "salti di gatto/ricerca del calzino perduto",
+      "singularName": "salto di gatto per ricerca del calzino perduto",
+      "pluralName": "salti di gatto per ricerca del calzino perduto",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "guitar-length-per-boiling-water-wait-time",
+      "dimension": "speed",
+      "numeratorUnitId": "guitar-length",
+      "denominatorUnitId": "boiling-water-wait-time",
+      "emoji": "🎸",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "food"
+      ],
+      "name": "Chitarra per attesa dell'acqua che bolle",
+      "symbol": "chitarre/attesa dell'acqua che bolle",
+      "singularName": "chitarra per attesa dell'acqua che bolle",
+      "pluralName": "chitarre per attesa dell'acqua che bolle",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "central-park-length-per-software-sprint-time",
+      "dimension": "speed",
+      "numeratorUnitId": "central-park-length",
+      "denominatorUnitId": "software-sprint-time",
+      "emoji": "🌳",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "geek"
+      ],
+      "name": "Central Park per sprint software",
+      "symbol": "Central Park/sprint software",
+      "singularName": "Central Park per sprint software",
+      "pluralName": "Central Park per sprint software",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "library-shelf-row-length-per-dishwasher-cycle-time",
+      "dimension": "speed",
+      "numeratorUnitId": "library-shelf-row-length",
+      "denominatorUnitId": "dishwasher-cycle-time",
+      "emoji": "📚",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "name": "Scaffale biblioteca per ciclo lavastoviglie",
+      "symbol": "scaffale/ciclo lavastoviglie",
+      "singularName": "scaffale biblioteca per ciclo lavastoviglie",
+      "pluralName": "scaffali biblioteca per ciclo lavastoviglie",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "guitar-length-per-router-reboot-time",
+      "dimension": "speed",
+      "numeratorUnitId": "guitar-length",
+      "denominatorUnitId": "router-reboot-time",
+      "emoji": "🎸",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "geek"
+      ],
+      "name": "Chitarra per riavvio router",
+      "symbol": "chitarre/riavvio router",
+      "singularName": "chitarra per riavvio router",
+      "pluralName": "chitarre per riavvio router",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "soccer-field-length-per-cat-nap",
+      "dimension": "speed",
+      "numeratorUnitId": "soccer-field-length",
+      "denominatorUnitId": "cat-nap",
+      "emoji": "⚽",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "cats"
+      ],
+      "name": "Campo da calcio per pisolino felino",
+      "symbol": "campi da calcio/pisolino felino",
+      "singularName": "campo da calcio per pisolino felino",
+      "pluralName": "campi da calcio per pisolino felino",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tennis-court-length-per-baby-nap-time",
+      "dimension": "speed",
+      "numeratorUnitId": "tennis-court-length",
+      "denominatorUnitId": "baby-nap-time",
+      "emoji": "🎾",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive"
+      ],
+      "name": "Campo da tennis per pisolino di neonato",
+      "symbol": "campi da tennis/pisolino di neonato",
+      "singularName": "campo da tennis per pisolino di neonato",
+      "pluralName": "campi da tennis per pisolino di neonato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "english-channel-length-per-monthly-subscription-time",
+      "dimension": "speed",
+      "numeratorUnitId": "english-channel-length",
+      "denominatorUnitId": "monthly-subscription-time",
+      "emoji": "🌊",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "geek",
+        "intuitive"
+      ],
+      "name": "Canale Manica per mese dimenticato",
+      "symbol": "Manica/mese dimenticato",
+      "singularName": "Canale Manica per mese dimenticato",
+      "pluralName": "Canali Manica per mese dimenticato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "parking-space-length-per-gelato-melting-time",
+      "dimension": "speed",
+      "numeratorUnitId": "parking-space-length",
+      "denominatorUnitId": "gelato-melting-time",
+      "emoji": "🅿️",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "name": "Posto auto per scioglimento gelato",
+      "symbol": "posti auto/scioglimento gelato",
+      "singularName": "posto auto per scioglimento gelato",
+      "pluralName": "posti auto per scioglimento gelato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "blue-whale-length-per-be-there-in-five",
+      "dimension": "speed",
+      "numeratorUnitId": "blue-whale-length",
+      "denominatorUnitId": "be-there-in-five",
+      "emoji": "🐋",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "animals",
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Balena azzurra per arrivo tra cinque",
+      "symbol": "balene azzurre/arrivo tra cinque",
+      "singularName": "balena azzurra per arrivo tra cinque",
+      "pluralName": "balene azzurre per arrivo tra cinque",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "apartment-loop-length-per-be-there-in-five",
+      "dimension": "speed",
+      "numeratorUnitId": "apartment-loop-length",
+      "denominatorUnitId": "be-there-in-five",
+      "emoji": "🏠",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "name": "Giro dell'appartamento per arrivo tra cinque",
+      "symbol": "giri dell'appartamento/arrivo tra cinque",
+      "singularName": "giro dell'appartamento per arrivo tra cinque",
+      "pluralName": "giri dell'appartamento per arrivo tra cinque",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "burj-khalifa-height-length-per-ikea-trip",
+      "dimension": "speed",
+      "numeratorUnitId": "burj-khalifa-height-length",
+      "denominatorUnitId": "ikea-trip",
+      "emoji": "🏙️",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "household"
+      ],
+      "name": "Burj Khalifa per gita all'IKEA",
+      "symbol": "Burj Khalifa/gita all'IKEA",
+      "singularName": "Burj Khalifa per gita all'IKEA",
+      "pluralName": "Burj Khalifa per gita all'IKEA",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "blue-whale-length-per-snooze",
+      "dimension": "speed",
+      "numeratorUnitId": "blue-whale-length",
+      "denominatorUnitId": "snooze",
+      "emoji": "🐋",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "animals",
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Balena azzurra per snooze",
+      "symbol": "balene azzurre/snooze",
+      "singularName": "balena azzurra per snooze",
+      "pluralName": "balene azzurre per snooze",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "city-bus-per-router-reboot-time",
+      "dimension": "speed",
+      "numeratorUnitId": "city-bus",
+      "denominatorUnitId": "router-reboot-time",
+      "emoji": "🚌",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "geek",
+        "household"
+      ],
+      "name": "Autobus urbano per riavvio router",
+      "symbol": "autobus urbani/riavvio router",
+      "singularName": "autobus urbano per riavvio router",
+      "pluralName": "autobus urbani per riavvio router",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "train-platform-length-per-netflix-episode",
+      "dimension": "speed",
+      "numeratorUnitId": "train-platform-length",
+      "denominatorUnitId": "netflix-episode",
+      "emoji": "🚉",
+      "description": "Velocità da pazienza quotidiana, con progresso visibile solo a osservatori indulgenti.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Binario di stazione per episodio Netflix",
+      "symbol": "binari di stazione/episodio Netflix",
+      "singularName": "binario di stazione per episodio Netflix",
+      "pluralName": "binari di stazione per episodio Netflix",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "eiffel-tower-per-one-last-reel",
+      "dimension": "speed",
+      "numeratorUnitId": "eiffel-tower",
+      "denominatorUnitId": "one-last-reel",
+      "emoji": "🗼",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "geek"
+      ],
+      "name": "Torre Eiffel per ultimo reel",
+      "symbol": "Torri Eiffel/ultimo reel",
+      "singularName": "Torre Eiffel per ultimo reel",
+      "pluralName": "Torri Eiffel per ultimo reel",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "marathon-length-per-basil-wilting-time",
+      "dimension": "speed",
+      "numeratorUnitId": "marathon-length",
+      "denominatorUnitId": "basil-wilting-time",
+      "emoji": "🏃",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "hugeThings",
+        "food",
+        "household"
+      ],
+      "name": "Maratona per basilico che si arrende",
+      "symbol": "maratone/basilico che si arrende",
+      "singularName": "maratona per basilico che si arrende",
+      "pluralName": "maratone per basilico che si arrende",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "football-field-per-pizza-cooling-time",
+      "dimension": "speed",
+      "numeratorUnitId": "football-field",
+      "denominatorUnitId": "pizza-cooling-time",
+      "emoji": "🏈",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "name": "Campo da football per raffreddamento pizza",
+      "symbol": "campi da football/raffreddamento pizza",
+      "singularName": "campo da football per raffreddamento pizza",
+      "pluralName": "campi da football per raffreddamento pizza",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "mall-corridor-length-per-battery-one-percent-time",
+      "dimension": "speed",
+      "numeratorUnitId": "mall-corridor-length",
+      "denominatorUnitId": "battery-one-percent-time",
+      "emoji": "🛍️",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "hugeThings",
+        "geek",
+        "intuitive"
+      ],
+      "name": "Corridoio mall per ultimo 1%",
+      "symbol": "mall/1%",
+      "singularName": "corridoio mall per ultimo 1%",
+      "pluralName": "corridoi mall per ultimo 1%",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "football-stadium-lap-length-per-cat-stares-wall-time",
+      "dimension": "speed",
+      "numeratorUnitId": "football-stadium-lap-length",
+      "denominatorUnitId": "cat-stares-wall-time",
+      "emoji": "🏟️",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "hugeThings",
+        "cats",
+        "pseudoScientific"
+      ],
+      "name": "Giro di stadio per gatto che fissa il muro",
+      "symbol": "giri di stadio/gatto che fissa il muro",
+      "singularName": "giro di stadio per gatto che fissa il muro",
+      "pluralName": "giri di stadio per gatto che fissa il muro",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "supermarket-aisle-length-per-door-negotiation",
+      "dimension": "speed",
+      "numeratorUnitId": "supermarket-aisle-length",
+      "denominatorUnitId": "door-negotiation",
+      "emoji": "🛒",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "cats",
+        "pseudoScientific"
+      ],
+      "name": "Corsia del supermercato per anno-gatto",
+      "symbol": "corsie del supermercato/anno-gatto",
+      "singularName": "corsia del supermercato per anno-gatto",
+      "pluralName": "corsie del supermercato per anno-gatto",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "door-height-length-per-espresso-machine-blink-time",
+      "dimension": "speed",
+      "numeratorUnitId": "door-height-length",
+      "denominatorUnitId": "espresso-machine-blink-time",
+      "emoji": "🚪",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "intuitive",
+        "food"
+      ],
+      "name": "Altezza di porta per sbuffo macchina espresso",
+      "symbol": "altezze di porta/sbuffo macchina espresso",
+      "singularName": "altezza di porta per sbuffo macchina espresso",
+      "pluralName": "altezze di porta per sbuffo macchina espresso",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "everest-height-length-per-dishwasher-cycle-time",
+      "dimension": "speed",
+      "numeratorUnitId": "everest-height-length",
+      "denominatorUnitId": "dishwasher-cycle-time",
+      "emoji": "🏔️",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "household"
+      ],
+      "name": "Everest per ciclo lavastoviglie",
+      "symbol": "Everest/ciclo lavastoviglie",
+      "singularName": "Everest per ciclo lavastoviglie",
+      "pluralName": "Everest per ciclo lavastoviglie",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "italy-boot-step-length-per-cat-sleep-day-time",
+      "dimension": "speed",
+      "numeratorUnitId": "italy-boot-step-length",
+      "denominatorUnitId": "cat-sleep-day-time",
+      "emoji": "🇮🇹",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "cats",
+        "animals"
+      ],
+      "name": "Passo stivale per sonno felino",
+      "symbol": "passo stivale/sonno",
+      "singularName": "passo stivale per sonno felino",
+      "pluralName": "passi stivale per sonno felino",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-village-length-per-battery-one-percent-time",
+      "dimension": "speed",
+      "numeratorUnitId": "small-village-length",
+      "denominatorUnitId": "battery-one-percent-time",
+      "emoji": "🏘️",
+      "description": "Velocità leggibile per umani, gatti e strumenti che hanno dormito abbastanza.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "geek",
+        "intuitive"
+      ],
+      "name": "Paese piccolo per ultimo uno percento",
+      "symbol": "paesi piccoli/ultimo uno percento",
+      "singularName": "paese piccolo per ultimo uno percento",
+      "pluralName": "paesi piccoli per ultimo uno percento",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "everest-height-length-per-baby-nap-time",
+      "dimension": "speed",
+      "numeratorUnitId": "everest-height-length",
+      "denominatorUnitId": "baby-nap-time",
+      "emoji": "🏔️",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Everest per pisolino di neonato",
+      "symbol": "Everest/pisolino di neonato",
+      "singularName": "Everest per pisolino di neonato",
+      "pluralName": "Everest per pisolino di neonato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "baguette-per-cat-ear-twitch-time",
+      "dimension": "speed",
+      "numeratorUnitId": "baguette",
+      "denominatorUnitId": "cat-ear-twitch-time",
+      "emoji": "🥖",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "food",
+        "cats",
+        "animals",
+        "tinyThings"
+      ],
+      "name": "Baguette per scatto d'orecchio felino",
+      "symbol": "baguette/scatto d'orecchio felino",
+      "singularName": "baguette per scatto d'orecchio felino",
+      "pluralName": "baguette per scatto d'orecchio felino",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "mall-corridor-length-per-elevator-small-talk-time",
+      "dimension": "speed",
+      "numeratorUnitId": "mall-corridor-length",
+      "denominatorUnitId": "elevator-small-talk-time",
+      "emoji": "🛍️",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Corridoio mall per imbarazzo ascensore",
+      "symbol": "mall/imbarazzo",
+      "singularName": "corridoio mall per imbarazzo ascensore",
+      "pluralName": "corridoi mall per imbarazzo ascensore",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "lake-como-length-per-programmer-minute",
+      "dimension": "speed",
+      "numeratorUnitId": "lake-como-length",
+      "denominatorUnitId": "programmer-minute",
+      "emoji": "🏞️",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "geek"
+      ],
+      "name": "Lago Como per minuto programmatore",
+      "symbol": "Lago Como/min prog",
+      "singularName": "Lago Como per minuto programmatore",
+      "pluralName": "Laghi Como per minuto programmatore",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "rome-ring-road-length-per-laundry-cycle-time",
+      "dimension": "speed",
+      "numeratorUnitId": "rome-ring-road-length",
+      "denominatorUnitId": "laundry-cycle-time",
+      "emoji": "🛣️",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "household",
+        "intuitive"
+      ],
+      "name": "Grande Raccordo Anulare per ciclo lavatrice",
+      "symbol": "Grandi Raccordi Anulari/ciclo lavatrice",
+      "singularName": "Grande Raccordo Anulare per ciclo lavatrice",
+      "pluralName": "Grandi Raccordi Anulari per ciclo lavatrice",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "swimming-pool-length-per-espresso-sip-time",
+      "dimension": "speed",
+      "numeratorUnitId": "swimming-pool-length",
+      "denominatorUnitId": "espresso-sip-time",
+      "emoji": "🏊",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "food"
+      ],
+      "name": "Piscina olimpica per sorso di espresso",
+      "symbol": "piscine olimpiche/sorso di espresso",
+      "singularName": "piscina olimpica per sorso di espresso",
+      "pluralName": "piscine olimpiche per sorso di espresso",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "t-rex-per-tail-flick",
+      "dimension": "speed",
+      "numeratorUnitId": "t-rex",
+      "denominatorUnitId": "tail-flick",
+      "emoji": "🦖",
+      "description": "Andatura vivace che il comitato consiglia di non inseguire con le ciabatte.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "animals",
+        "cats",
+        "tinyThings"
+      ],
+      "name": "T-Rex per scatto di coda",
+      "symbol": "T-Rex/scatto di coda",
+      "singularName": "T-Rex per scatto di coda",
+      "pluralName": "T-Rex per scatto di coda",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "marathon-length-per-snooze",
+      "dimension": "speed",
+      "numeratorUnitId": "marathon-length",
+      "denominatorUnitId": "snooze",
+      "emoji": "🏃",
+      "description": "Velocità seria, da certificare con sopracciglia alzate e distanza di sicurezza.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "name": "Maratona per snooze",
+      "symbol": "maratone/snooze",
+      "singularName": "maratona per snooze",
+      "pluralName": "maratone per snooze",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cruise-ship-length-per-espresso-machine-blink-time",
+      "dimension": "speed",
+      "numeratorUnitId": "cruise-ship-length",
+      "denominatorUnitId": "espresso-machine-blink-time",
+      "emoji": "🚢",
+      "description": "Velocità seria, da certificare con sopracciglia alzate e distanza di sicurezza.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "food",
+        "intuitive"
+      ],
+      "name": "Nave da crociera per sbuffo macchina espresso",
+      "symbol": "navi da crociera/sbuffo macchina espresso",
+      "singularName": "nave da crociera per sbuffo macchina espresso",
+      "pluralName": "navi da crociera per sbuffo macchina espresso",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "jupiter-diameter-length-per-reply-later-time",
+      "dimension": "speed",
+      "numeratorUnitId": "jupiter-diameter-length",
+      "denominatorUnitId": "reply-later-time",
+      "emoji": "🪐",
+      "description": "Velocità seria, da certificare con sopracciglia alzate e distanza di sicurezza.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "geek",
+        "intuitive"
+      ],
+      "name": "Diametro di Giove per rispondo dopo",
+      "symbol": "diametri di Giove/rispondo dopo",
+      "singularName": "diametro di Giove per rispondo dopo",
+      "pluralName": "diametri di Giove per rispondo dopo",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "po-river-length-per-train-delay-time",
+      "dimension": "speed",
+      "numeratorUnitId": "po-river-length",
+      "denominatorUnitId": "train-delay-time",
+      "emoji": "🌊",
+      "description": "Velocità seria, da certificare con sopracciglia alzate e distanza di sicurezza.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Fiume Po per ritardo ferroviario",
+      "symbol": "Fiumi Po/ritardo ferroviario",
+      "singularName": "Fiume Po per ritardo ferroviario",
+      "pluralName": "Fiumi Po per ritardo ferroviario",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "grand-canyon-length-per-snooze",
+      "dimension": "speed",
+      "numeratorUnitId": "grand-canyon-length",
+      "denominatorUnitId": "snooze",
+      "emoji": "🏜️",
+      "description": "Velocità seria, da certificare con sopracciglia alzate e distanza di sicurezza.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "intuitive"
+      ],
+      "name": "Grand Canyon per snooze",
+      "symbol": "Grand Canyon/snooze",
+      "singularName": "Grand Canyon per snooze",
+      "pluralName": "Grand Canyon per snooze",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sun-diameter-length-per-new-year-resolution-time",
+      "dimension": "speed",
+      "numeratorUnitId": "sun-diameter-length",
+      "denominatorUnitId": "new-year-resolution-time",
+      "emoji": "☀️",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "intuitive"
+      ],
+      "name": "Diametro del Sole per proposito dell'anno nuovo",
+      "symbol": "diametri del Sole/proposito dell'anno nuovo",
+      "singularName": "diametro del Sole per proposito dell'anno nuovo",
+      "pluralName": "diametri del Sole per proposito dell'anno nuovo",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tail-length-per-camera-flash-time",
+      "dimension": "speed",
+      "numeratorUnitId": "tail-length",
+      "denominatorUnitId": "camera-flash-time",
+      "emoji": "〰️",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings",
+        "geek",
+        "hugeThings"
+      ],
+      "name": "Lunghezza di coda per flash fotografico",
+      "symbol": "code/flash fotografico",
+      "singularName": "coda per flash fotografico",
+      "pluralName": "code per flash fotografico",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "earth-radius-length-per-bus-missed-time",
+      "dimension": "speed",
+      "numeratorUnitId": "earth-radius-length",
+      "denominatorUnitId": "bus-missed-time",
+      "emoji": "🌍",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "intuitive"
+      ],
+      "name": "Raggio terrestre per autobus appena perso",
+      "symbol": "raggi terrestri/autobus appena perso",
+      "singularName": "raggio terrestre per autobus appena perso",
+      "pluralName": "raggi terrestri per autobus appena perso",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "fridge-height-length-per-camera-flash-time",
+      "dimension": "speed",
+      "numeratorUnitId": "fridge-height-length",
+      "denominatorUnitId": "camera-flash-time",
+      "emoji": "🧊",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "household",
+        "geek",
+        "tinyThings",
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "name": "Altezza di frigorifero per flash fotografico",
+      "symbol": "altezze di frigorifero/flash fotografico",
+      "singularName": "altezza di frigorifero per flash fotografico",
+      "pluralName": "altezze di frigorifero per flash fotografico",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "geostationary-orbit-height-length-per-lost-sock-search",
+      "dimension": "speed",
+      "numeratorUnitId": "geostationary-orbit-height-length",
+      "denominatorUnitId": "lost-sock-search",
+      "emoji": "🛰️",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "geek",
+        "hugeThings",
+        "household",
+        "pseudoScientific"
+      ],
+      "name": "Quota GEO per calzino perduto",
+      "symbol": "GEO/calzino",
+      "singularName": "quota GEO per calzino perduto",
+      "pluralName": "quote GEO per calzino perduto",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "geostationary-orbit-height-length-per-gelato-melting-time",
+      "dimension": "speed",
+      "numeratorUnitId": "geostationary-orbit-height-length",
+      "denominatorUnitId": "gelato-melting-time",
+      "emoji": "🛰️",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "geek",
+        "hugeThings",
+        "food",
+        "intuitive",
+        "pseudoScientific"
+      ],
+      "name": "Quota geostazionaria per scioglimento gelato",
+      "symbol": "quote geostazionarie/scioglimento gelato",
+      "singularName": "quota geostazionaria per scioglimento gelato",
+      "pluralName": "quote geostazionarie per scioglimento gelato",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "moon-distance-length-per-be-there-in-five",
+      "dimension": "speed",
+      "numeratorUnitId": "moon-distance-length",
+      "denominatorUnitId": "be-there-in-five",
+      "emoji": "🌕",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "intuitive"
+      ],
+      "name": "Distanza Terra-Luna per arrivo tra cinque",
+      "symbol": "distanze Terra-Luna/arrivo tra cinque",
+      "singularName": "distanza Terra-Luna per arrivo tra cinque",
+      "pluralName": "distanze Terra-Luna per arrivo tra cinque",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pluto-commute-length-per-tax-return-season-time",
+      "dimension": "speed",
+      "numeratorUnitId": "pluto-commute-length",
+      "denominatorUnitId": "tax-return-season-time",
+      "emoji": "🪐",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "intuitive"
+      ],
+      "name": "Pendolarismo Plutone per stagione tasse",
+      "symbol": "Plutone/tasse",
+      "singularName": "pendolarismo Plutone per stagione tasse",
+      "pluralName": "pendolarismi Plutone per stagione tasse",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "astronomical-unit-length-per-ikea-trip",
+      "dimension": "speed",
+      "numeratorUnitId": "astronomical-unit-length",
+      "denominatorUnitId": "ikea-trip",
+      "emoji": "🪐",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "household"
+      ],
+      "name": "Unità astronomica per gita all'IKEA",
+      "symbol": "unità astronomiche/gita all'IKEA",
+      "singularName": "unità astronomica per gita all'IKEA",
+      "pluralName": "unità astronomiche per gita all'IKEA",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "jupiter-diameter-length-per-microwave-second",
+      "dimension": "speed",
+      "numeratorUnitId": "jupiter-diameter-length",
+      "denominatorUnitId": "microwave-second",
+      "emoji": "🪐",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "food"
+      ],
+      "name": "Diametro di Giove per secondo da microonde",
+      "symbol": "diametri di Giove/secondo da microonde",
+      "singularName": "diametro di Giove per secondo da microonde",
+      "pluralName": "diametri di Giove per secondo da microonde",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sun-diameter-length-per-happy-cat-wink",
+      "dimension": "speed",
+      "numeratorUnitId": "sun-diameter-length",
+      "denominatorUnitId": "happy-cat-wink",
+      "emoji": "☀️",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "cats"
+      ],
+      "name": "Diametro del Sole per occhiolino di gatto felice",
+      "symbol": "diametri del Sole/occhiolino di gatto felice",
+      "singularName": "diametro del Sole per occhiolino di gatto felice",
+      "pluralName": "diametri del Sole per occhiolino di gatto felice",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "pluto-commute-length-per-lost-sock-search",
+      "dimension": "speed",
+      "numeratorUnitId": "pluto-commute-length",
+      "denominatorUnitId": "lost-sock-search",
+      "emoji": "🪐",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "household"
+      ],
+      "name": "Pendolarismo Plutone per calzino perduto",
+      "symbol": "Plutone/calzino",
+      "singularName": "pendolarismo Plutone per calzino perduto",
+      "pluralName": "pendolarismi Plutone per calzino perduto",
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "milky-way-width-length-per-mortgage-time",
+      "dimension": "speed",
+      "numeratorUnitId": "milky-way-width-length",
+      "denominatorUnitId": "mortgage-time",
+      "emoji": "🌌",
+      "description": "Velocità assurdamente alta, archiviata nel reparto non provare in corridoio.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Rapporti di Velocità Core Catverter",
+      "tags": [
+        "hugeThings",
+        "pseudoScientific",
+        "household"
+      ],
+      "name": "Larghezza della Via Lattea per mutuo percepito",
+      "symbol": "larghezze della Via Lattea/mutuo percepito",
+      "singularName": "larghezza della Via Lattea per mutuo percepito",
+      "pluralName": "larghezze della Via Lattea per mutuo percepito",
+      "scientificAccuracy": "committeeConsensus",
       "grammar": {
         "gender": "feminine"
       }

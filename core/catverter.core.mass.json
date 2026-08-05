@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.mass",
   "displayName": "Massa Core Catverter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Catverter",
   "description": "Unità di massa decisamente più comprensibili rispetto alle alternative degli stupidi umani.",
   "dimensions": [
@@ -645,6 +645,1395 @@
       "tags": [
         "food"
       ],
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "dust-speck-mass",
+      "dimension": "mass",
+      "name": "Granello di polvere",
+      "emoji": "✨",
+      "singularName": "granello di polvere",
+      "pluralName": "granelli di polvere",
+      "description": "Unità core di massa per scale microscopiche: granello di polvere.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 7.5e-10,
+      "tags": [
+        "tinyThings",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "grain-of-salt-mass",
+      "dimension": "mass",
+      "name": "Granello di sale",
+      "emoji": "🧂",
+      "singularName": "granello di sale",
+      "pluralName": "granelli di sale",
+      "description": "Unità core di massa per scale microscopiche: granello di sale.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 6e-08,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sesame-seed-mass",
+      "dimension": "mass",
+      "name": "Seme di sesamo",
+      "emoji": "🌱",
+      "singularName": "seme di sesamo",
+      "pluralName": "semi di sesamo",
+      "description": "Unità core di massa per scale microscopiche: seme di sesamo.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 3e-06,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "rice-grain-mass",
+      "dimension": "mass",
+      "name": "Chicco di riso",
+      "emoji": "🍚",
+      "singularName": "chicco di riso",
+      "pluralName": "chicchi di riso",
+      "description": "Unità core di massa per scale microscopiche: chicco di riso.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 2.5e-05,
+      "tags": [
+        "food",
+        "tinyThings",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "paperclip-mass",
+      "dimension": "mass",
+      "name": "Graffetta",
+      "emoji": "📎",
+      "singularName": "graffetta",
+      "pluralName": "graffette",
+      "description": "Unità core di massa per scale minuscole: graffetta.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.001,
+      "tags": [
+        "household",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "teabag-mass",
+      "dimension": "mass",
+      "name": "Bustina di tè",
+      "emoji": "🫖",
+      "singularName": "bustina di tè",
+      "pluralName": "bustine di tè",
+      "description": "Unità core di massa per scale minuscole: bustina di tè.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.002,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "ping-pong-ball-mass",
+      "dimension": "mass",
+      "name": "Pallina da ping pong",
+      "emoji": "🏓",
+      "singularName": "pallina da ping pong",
+      "pluralName": "palline da ping pong",
+      "description": "Unità core di massa per scale minuscole: pallina da ping pong.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.0027,
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "sugar-cube-mass",
+      "dimension": "mass",
+      "name": "Zolletta di zucchero",
+      "emoji": "🧊",
+      "singularName": "zolletta di zucchero",
+      "pluralName": "zollette di zucchero",
+      "description": "Unità core di massa per scale minuscole: zolletta di zucchero.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.004,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "espresso-pod-mass",
+      "dimension": "mass",
+      "name": "Capsula di espresso",
+      "emoji": "☕",
+      "singularName": "capsula di espresso",
+      "pluralName": "capsule di espresso",
+      "description": "Unità core di massa per scale minuscole: capsula di espresso.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.006,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "one-euro-coin-mass",
+      "dimension": "mass",
+      "name": "Moneta da un euro",
+      "emoji": "🪙",
+      "singularName": "moneta da un euro",
+      "pluralName": "monete da un euro",
+      "description": "Unità core di massa per scale minuscole: moneta da un euro.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.0075,
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "usb-stick-mass",
+      "dimension": "mass",
+      "name": "Chiavetta USB",
+      "emoji": "💾",
+      "singularName": "chiavetta USB",
+      "pluralName": "chiavette USB",
+      "description": "Unità core di massa per scale minuscole: chiavetta USB.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.012,
+      "tags": [
+        "geek",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "house-key-mass",
+      "dimension": "mass",
+      "name": "Chiave di casa",
+      "emoji": "🔑",
+      "singularName": "chiave di casa",
+      "pluralName": "chiavi di casa",
+      "description": "Unità core di massa per scale minuscole: chiave di casa.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.015,
+      "tags": [
+        "household",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "aa-battery-mass",
+      "dimension": "mass",
+      "name": "Pila AA",
+      "emoji": "🔋",
+      "singularName": "pila AA",
+      "pluralName": "pile AA",
+      "description": "Unità core di massa per scale minuscole: pila AA.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.024,
+      "tags": [
+        "household",
+        "geek",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "mouse-toy-mass",
+      "dimension": "mass",
+      "name": "Topino giocattolo",
+      "emoji": "🐭",
+      "singularName": "topino giocattolo",
+      "pluralName": "topini giocattolo",
+      "description": "Unità core di massa per scale minuscole: topino giocattolo.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.025,
+      "tags": [
+        "cats",
+        "household",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "rubber-eraser-mass",
+      "dimension": "mass",
+      "name": "Gomma da cancellare",
+      "emoji": "✏️",
+      "singularName": "gomma da cancellare",
+      "pluralName": "gomme da cancellare",
+      "description": "Unità core di massa per scale minuscole: gomma da cancellare.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.03,
+      "tags": [
+        "household",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "tennis-ball-mass",
+      "dimension": "mass",
+      "name": "Pallina da tennis",
+      "emoji": "🎾",
+      "singularName": "pallina da tennis",
+      "pluralName": "palline da tennis",
+      "description": "Unità core di massa per scale minuscole: pallina da tennis.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.058,
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "egg-mass",
+      "dimension": "mass",
+      "name": "Uovo",
+      "emoji": "🥚",
+      "singularName": "uovo",
+      "pluralName": "uova",
+      "description": "Unità core di massa per scale minuscole: uovo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.06,
+      "tags": [
+        "food",
+        "intuitive",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "chocolate-bar-mass",
+      "dimension": "mass",
+      "name": "Tavoletta di cioccolato",
+      "emoji": "🍫",
+      "singularName": "tavoletta di cioccolato",
+      "pluralName": "tavolette di cioccolato",
+      "description": "Unità core di massa per scale quotidiane: tavoletta di cioccolato.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.1,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "apple-mass",
+      "dimension": "mass",
+      "name": "Mela",
+      "emoji": "🍎",
+      "singularName": "mela",
+      "pluralName": "mele",
+      "description": "Unità core di massa per scale quotidiane: mela.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.18,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "smartphone-mass",
+      "dimension": "mass",
+      "name": "Smartphone",
+      "emoji": "📱",
+      "singularName": "smartphone",
+      "pluralName": "smartphone",
+      "description": "Unità core di massa per scale quotidiane: smartphone.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.18,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "orange-mass",
+      "dimension": "mass",
+      "name": "Arancia",
+      "emoji": "🍊",
+      "singularName": "arancia",
+      "pluralName": "arance",
+      "description": "Unità core di massa per scale quotidiane: arancia.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.2,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-bowl-mass",
+      "dimension": "mass",
+      "name": "Ciotola del gatto",
+      "emoji": "🥣",
+      "singularName": "ciotola del gatto",
+      "pluralName": "ciotole del gatto",
+      "description": "Unità core di massa per scale quotidiane: ciotola del gatto.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.25,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "espresso-cup-mass",
+      "dimension": "mass",
+      "name": "Tazzina da espresso",
+      "emoji": "☕",
+      "singularName": "tazzina da espresso",
+      "pluralName": "tazzine da espresso",
+      "description": "Unità core di massa per scale quotidiane: tazzina da espresso.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.25,
+      "tags": [
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "shoe-mass",
+      "dimension": "mass",
+      "name": "Scarpa",
+      "emoji": "👟",
+      "singularName": "scarpa",
+      "pluralName": "scarpe",
+      "description": "Unità core di massa per scale quotidiane: scarpa.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.35,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "ceramic-mug-mass",
+      "dimension": "mass",
+      "name": "Tazza di ceramica",
+      "emoji": "☕",
+      "singularName": "tazza di ceramica",
+      "pluralName": "tazze di ceramica",
+      "description": "Unità core di massa per scale quotidiane: tazza di ceramica.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.35,
+      "tags": [
+        "household",
+        "food"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "hardcover-book-mass",
+      "dimension": "mass",
+      "name": "Libro rilegato",
+      "emoji": "📚",
+      "singularName": "libro rilegato",
+      "pluralName": "libri rilegati",
+      "description": "Unità core di massa per scale quotidiane: libro rilegato.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.8,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "pair-of-shoes-mass",
+      "dimension": "mass",
+      "name": "Paio di scarpe",
+      "emoji": "👟",
+      "singularName": "paio di scarpe",
+      "pluralName": "paia di scarpe",
+      "description": "Unità core di massa per scale quotidiane: paio di scarpe.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.8,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tablet-mass",
+      "dimension": "mass",
+      "name": "Tablet",
+      "emoji": "📱",
+      "singularName": "tablet",
+      "pluralName": "tablet",
+      "description": "Unità core di massa per scale quotidiane: tablet.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.5,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "water-bottle-mass",
+      "dimension": "mass",
+      "name": "Borraccia piena",
+      "emoji": "🚰",
+      "singularName": "borraccia piena",
+      "pluralName": "borracce piene",
+      "description": "Unità core di massa per scale quotidiane: borraccia piena.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.5,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "laptop-mass",
+      "dimension": "mass",
+      "name": "Portatile",
+      "emoji": "💻",
+      "singularName": "portatile",
+      "pluralName": "portatili",
+      "description": "Unità core di massa per scale quotidiane: portatile.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1.4,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "gaming-laptop-mass",
+      "dimension": "mass",
+      "name": "Portatile gaming",
+      "emoji": "💻",
+      "singularName": "portatile gaming",
+      "pluralName": "portatili gaming",
+      "description": "Unità core di massa per scale domestiche: portatile gaming.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 2.6,
+      "tags": [
+        "geek"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "vacuum-cleaner-mass",
+      "dimension": "mass",
+      "name": "Aspirapolvere",
+      "emoji": "🧹",
+      "singularName": "aspirapolvere",
+      "pluralName": "aspirapolvere",
+      "description": "Unità core di massa per scale domestiche: aspirapolvere.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 6.5,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "grocery-bag-mass",
+      "dimension": "mass",
+      "name": "Borsa della spesa",
+      "emoji": "🛍️",
+      "singularName": "borsa della spesa",
+      "pluralName": "borse della spesa",
+      "description": "Unità core di massa per scale domestiche: borsa della spesa.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 6.0,
+      "tags": [
+        "household",
+        "food",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "backpack-mass",
+      "dimension": "mass",
+      "name": "Zaino pieno",
+      "emoji": "🎒",
+      "singularName": "zaino pieno",
+      "pluralName": "zaini pieni",
+      "description": "Unità core di massa per scale domestiche: zaino pieno.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 5.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "bag-of-litter-mass",
+      "dimension": "mass",
+      "name": "Sacco di lettiera",
+      "emoji": "🐈",
+      "singularName": "sacco di lettiera",
+      "pluralName": "sacchi di lettiera",
+      "description": "Unità core di massa per scale domestiche: sacco di lettiera.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 10.0,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "car-tire-mass",
+      "dimension": "mass",
+      "name": "Pneumatico",
+      "emoji": "🛞",
+      "singularName": "pneumatico",
+      "pluralName": "pneumatici",
+      "description": "Unità core di massa per scale domestiche: pneumatico.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 9.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "office-chair-mass",
+      "dimension": "mass",
+      "name": "Sedia da ufficio",
+      "emoji": "💺",
+      "singularName": "sedia da ufficio",
+      "pluralName": "sedie da ufficio",
+      "description": "Unità core di massa per scale domestiche: sedia da ufficio.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 12.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "bicycle-mass",
+      "dimension": "mass",
+      "name": "Bicicletta",
+      "emoji": "🚲",
+      "singularName": "bicicletta",
+      "pluralName": "biciclette",
+      "description": "Unità core di massa per scale domestiche: bicicletta.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 14.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "small-dog-mass",
+      "dimension": "mass",
+      "name": "Cane piccolo",
+      "emoji": "🐕",
+      "singularName": "cane piccolo",
+      "pluralName": "cani piccoli",
+      "description": "Unità core di massa per scale domestiche: cane piccolo.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 8.0,
+      "tags": [
+        "animals",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dishwasher-mass",
+      "dimension": "mass",
+      "name": "Lavastoviglie",
+      "emoji": "🍽️",
+      "singularName": "lavastoviglie",
+      "pluralName": "lavastoviglie",
+      "description": "Unità core di massa per scale domestiche: lavastoviglie.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 45.0,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "sofa-mass",
+      "dimension": "mass",
+      "name": "Divano a tre posti",
+      "emoji": "🛋️",
+      "singularName": "divano a tre posti",
+      "pluralName": "divani a tre posti",
+      "description": "Unità core di massa per scale domestiche: divano a tre posti.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 55.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "washing-machine-mass",
+      "dimension": "mass",
+      "name": "Lavatrice",
+      "emoji": "🧺",
+      "singularName": "lavatrice",
+      "pluralName": "lavatrici",
+      "description": "Unità core di massa per scale domestiche: lavatrice.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 70.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "single-mattress-mass",
+      "dimension": "mass",
+      "name": "Materasso singolo",
+      "emoji": "🛏️",
+      "singularName": "materasso singolo",
+      "pluralName": "materassi singoli",
+      "description": "Unità core di massa per scale domestiche: materasso singolo.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 22.0,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "adult-human-mass",
+      "dimension": "mass",
+      "name": "Umano adulto",
+      "emoji": "🧍",
+      "singularName": "umano adulto",
+      "pluralName": "umani adulti",
+      "description": "Unità core di massa per scale domestiche: umano adulto.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 70.0,
+      "tags": [
+        "intuitive",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sumo-wrestler-mass",
+      "dimension": "mass",
+      "name": "Lottatore di sumo",
+      "emoji": "🤼",
+      "singularName": "lottatore di sumo",
+      "pluralName": "lottatori di sumo",
+      "description": "Unità core di massa per scale importanti: lottatore di sumo.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 180.0,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "vespa-scooter-mass",
+      "dimension": "mass",
+      "name": "Vespa",
+      "emoji": "🛵",
+      "singularName": "Vespa",
+      "pluralName": "Vespe",
+      "description": "Unità core di massa per scale importanti: Vespa.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 115.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "motorcycle-mass",
+      "dimension": "mass",
+      "name": "Motocicletta",
+      "emoji": "🏍️",
+      "singularName": "motocicletta",
+      "pluralName": "motociclette",
+      "description": "Unità core di massa per scale importanti: motocicletta.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 200.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "grand-piano-mass",
+      "dimension": "mass",
+      "name": "Pianoforte a coda",
+      "emoji": "🎹",
+      "singularName": "pianoforte a coda",
+      "pluralName": "pianoforti a coda",
+      "description": "Unità core di massa per scale importanti: pianoforte a coda.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 300.0,
+      "tags": [
+        "household",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "horse-mass",
+      "dimension": "mass",
+      "name": "Cavallo",
+      "emoji": "🐎",
+      "singularName": "cavallo",
+      "pluralName": "cavalli",
+      "description": "Unità core di massa per scale importanti: cavallo.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 500.0,
+      "tags": [
+        "animals",
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "brown-bear-mass",
+      "dimension": "mass",
+      "name": "Orso bruno",
+      "emoji": "🐻",
+      "singularName": "orso bruno",
+      "pluralName": "orsi bruni",
+      "description": "Unità core di massa per scale importanti: orso bruno.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 350.0,
+      "tags": [
+        "animals",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "server-rack-mass",
+      "dimension": "mass",
+      "name": "Armadio server",
+      "emoji": "🖥️",
+      "singularName": "armadio server",
+      "pluralName": "armadi server",
+      "description": "Unità core di massa per scale importanti: armadio server.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 900.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-car-mass",
+      "dimension": "mass",
+      "name": "Auto compatta",
+      "emoji": "🚗",
+      "singularName": "auto compatta",
+      "pluralName": "auto compatte",
+      "description": "Unità core di massa per scale importanti: auto compatta.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1200.0,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "hippo-mass",
+      "dimension": "mass",
+      "name": "Ippopotamo",
+      "emoji": "🦛",
+      "singularName": "ippopotamo",
+      "pluralName": "ippopotami",
+      "description": "Unità core di massa per scale importanti: ippopotamo.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1500.0,
+      "tags": [
+        "animals",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "delivery-van-mass",
+      "dimension": "mass",
+      "name": "Furgone",
+      "emoji": "🚚",
+      "singularName": "furgone",
+      "pluralName": "furgoni",
+      "description": "Unità core di massa per scale importanti: furgone.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 2500.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tractor-mass",
+      "dimension": "mass",
+      "name": "Trattore",
+      "emoji": "🚜",
+      "singularName": "trattore",
+      "pluralName": "trattori",
+      "description": "Unità core di massa per scale importanti: trattore.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 6000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "city-bus-mass",
+      "dimension": "mass",
+      "name": "Autobus pieno",
+      "emoji": "🚌",
+      "singularName": "autobus pieno",
+      "pluralName": "autobus pieni",
+      "description": "Unità core di massa per scale assurdamente grandi: autobus pieno.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 12000.0,
+      "tags": [
+        "hugeThings",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "fire-truck-mass",
+      "dimension": "mass",
+      "name": "Camion dei pompieri",
+      "emoji": "🚒",
+      "singularName": "camion dei pompieri",
+      "pluralName": "camion dei pompieri",
+      "description": "Unità core di massa per scale assurdamente grandi: camion dei pompieri.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 18000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "shipping-container-empty-mass",
+      "dimension": "mass",
+      "name": "Container vuoto",
+      "emoji": "📦",
+      "singularName": "container vuoto",
+      "pluralName": "container vuoti",
+      "description": "Unità core di massa per scale importanti: container vuoto.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 2300.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "shipping-container-full-mass",
+      "dimension": "mass",
+      "name": "Container pieno",
+      "emoji": "📦",
+      "singularName": "container pieno",
+      "pluralName": "container pieni",
+      "description": "Unità core di massa per scale assurdamente grandi: container pieno.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 30000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "railway-car-mass",
+      "dimension": "mass",
+      "name": "Vagone ferroviario",
+      "emoji": "🚃",
+      "singularName": "vagone ferroviario",
+      "pluralName": "vagoni ferroviari",
+      "description": "Unità core di massa per scale assurdamente grandi: vagone ferroviario.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 40000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "passenger-airplane-mass",
+      "dimension": "mass",
+      "name": "Aereo passeggeri",
+      "emoji": "✈️",
+      "singularName": "aereo passeggeri",
+      "pluralName": "aerei passeggeri",
+      "description": "Unità core di massa per scale assurdamente grandi: aereo passeggeri.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 70000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "space-shuttle-mass",
+      "dimension": "mass",
+      "name": "Space Shuttle",
+      "emoji": "🚀",
+      "singularName": "Space Shuttle",
+      "pluralName": "Space Shuttle",
+      "description": "Unità core di massa per scale assurdamente grandi: Space Shuttle.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 78000.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "statue-of-liberty-mass",
+      "dimension": "mass",
+      "name": "Statua della Libertà",
+      "emoji": "🗽",
+      "singularName": "Statua della Libertà",
+      "pluralName": "Statue della Libertà",
+      "description": "Unità core di massa per scale assurdamente grandi: Statua della Libertà.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 204000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "blue-whale-family-mass",
+      "dimension": "mass",
+      "name": "Famiglia di balene azzurre",
+      "emoji": "🐋",
+      "singularName": "famiglia di balene azzurre",
+      "pluralName": "famiglie di balene azzurre",
+      "description": "Unità core di massa per scale assurdamente grandi: famiglia di balene azzurre.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 400000.0,
+      "tags": [
+        "animals",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "eiffel-tower-mass",
+      "dimension": "mass",
+      "name": "Torre Eiffel pesata",
+      "emoji": "🗼",
+      "singularName": "Torre Eiffel pesata",
+      "pluralName": "Torri Eiffel pesate",
+      "description": "Unità core di massa per scale assurdamente grandi: Torre Eiffel pesata.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 10100000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cruise-ship-mass",
+      "dimension": "mass",
+      "name": "Nave da crociera",
+      "emoji": "🚢",
+      "singularName": "nave da crociera",
+      "pluralName": "navi da crociera",
+      "description": "Unità core di massa per scale assurdamente grandi: nave da crociera.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 100000000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "small-asteroid-mass",
+      "dimension": "mass",
+      "name": "Piccolo asteroide",
+      "emoji": "☄️",
+      "singularName": "piccolo asteroide",
+      "pluralName": "piccoli asteroidi",
+      "description": "Unità core di massa per scale assurdamente grandi: piccolo asteroide.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1000000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "etna-eruption-load-mass",
+      "dimension": "mass",
+      "name": "Carico di eruzione dell'Etna",
+      "emoji": "🌋",
+      "singularName": "carico di eruzione dell'Etna",
+      "pluralName": "carichi di eruzione dell'Etna",
+      "description": "Unità core di massa per scale assurdamente grandi: carico di eruzione dell'Etna.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 100000000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "earth-atmosphere-mass",
+      "dimension": "mass",
+      "name": "Atmosfera terrestre",
+      "emoji": "🌍",
+      "singularName": "atmosfera terrestre",
+      "pluralName": "atmosfere terrestri",
+      "description": "Unità core di massa per scale assurdamente grandi: atmosfera terrestre.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 5.15e+18,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "ocean-water-mass",
+      "dimension": "mass",
+      "name": "Acqua degli oceani",
+      "emoji": "🌊",
+      "singularName": "acqua degli oceani",
+      "pluralName": "acque degli oceani",
+      "description": "Unità core di massa per scale assurdamente grandi: acqua degli oceani.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1.4e+21,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
       "grammar": {
         "gender": "feminine"
       }

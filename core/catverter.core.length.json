@@ -2,7 +2,7 @@
   "schemaVersion": "catverter.units/v1",
   "id": "catverter.core.length",
   "displayName": "Lunghezza Core Catverter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Catverter",
   "description": "Unità di lunghezza buffe usate direttamente e nei rapporti di velocità.",
   "dimensions": [
@@ -405,6 +405,1594 @@
       "tags": [
         "household"
       ],
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "hydrogen-atom-length",
+      "dimension": "length",
+      "name": "Atomo di idrogeno",
+      "emoji": "⚛️",
+      "singularName": "atomo di idrogeno",
+      "pluralName": "atomi di idrogeno",
+      "description": "Unità core di lunghezza per scale microscopiche: atomo di idrogeno.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1e-10,
+      "tags": [
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "dna-helix-turn-length",
+      "dimension": "length",
+      "name": "Giro di DNA",
+      "emoji": "🧬",
+      "singularName": "giro di DNA",
+      "pluralName": "giri di DNA",
+      "description": "Unità core di lunghezza per scale microscopiche: giro di DNA.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 3.4e-09,
+      "tags": [
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "virus-length",
+      "dimension": "length",
+      "name": "Virus molto teorico",
+      "emoji": "🦠",
+      "singularName": "virus molto teorico",
+      "pluralName": "virus molto teorici",
+      "description": "Unità core di lunghezza per scale microscopiche: virus molto teorico.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1e-07,
+      "tags": [
+        "tinyThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "hair-width-length",
+      "dimension": "length",
+      "name": "Spessore di capello",
+      "emoji": "💇",
+      "singularName": "spessore di capello",
+      "pluralName": "spessori di capello",
+      "description": "Unità core di lunghezza per scale microscopiche: spessore di capello.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 7e-05,
+      "tags": [
+        "tinyThings",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "paper-thickness-length",
+      "dimension": "length",
+      "name": "Spessore di foglio",
+      "emoji": "📄",
+      "singularName": "spessore di foglio",
+      "pluralName": "spessori di foglio",
+      "description": "Unità core di lunghezza per scale microscopiche: spessore di foglio.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.0001,
+      "tags": [
+        "household",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "credit-card-thickness-length",
+      "dimension": "length",
+      "name": "Spessore di carta",
+      "emoji": "💳",
+      "singularName": "spessore di carta",
+      "pluralName": "spessori di carta",
+      "description": "Unità core di lunghezza per scale microscopiche: spessore di carta.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.00076,
+      "tags": [
+        "household",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ant-length",
+      "dimension": "length",
+      "name": "Formica",
+      "emoji": "🐜",
+      "singularName": "formica",
+      "pluralName": "formiche",
+      "description": "Unità core di lunghezza per scale minuscole: formica.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.005,
+      "tags": [
+        "animals",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "rice-grain-length",
+      "dimension": "length",
+      "name": "Chicco di riso",
+      "emoji": "🍚",
+      "singularName": "chicco di riso",
+      "pluralName": "chicchi di riso",
+      "description": "Unità core di lunghezza per scale minuscole: chicco di riso.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.007,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "ladybug-length",
+      "dimension": "length",
+      "name": "Coccinella",
+      "emoji": "🐞",
+      "singularName": "coccinella",
+      "pluralName": "coccinelle",
+      "description": "Unità core di lunghezza per scale minuscole: coccinella.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.008,
+      "tags": [
+        "animals",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "coffee-bean-length",
+      "dimension": "length",
+      "name": "Chicco di caffè",
+      "emoji": "☕",
+      "singularName": "chicco di caffè",
+      "pluralName": "chicchi di caffè",
+      "description": "Unità core di lunghezza per scale minuscole: chicco di caffè.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.011,
+      "tags": [
+        "food",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "euro-coin-diameter-length",
+      "dimension": "length",
+      "name": "Diametro di moneta",
+      "emoji": "🪙",
+      "singularName": "diametro di moneta",
+      "pluralName": "diametri di moneta",
+      "description": "Unità core di lunghezza per scale minuscole: diametro di moneta.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.023,
+      "tags": [
+        "intuitive",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "lego-brick-length",
+      "dimension": "length",
+      "name": "Mattoncino LEGO",
+      "emoji": "🧱",
+      "singularName": "mattoncino LEGO",
+      "pluralName": "mattoncini LEGO",
+      "description": "Unità core di lunghezza per scale minuscole: mattoncino LEGO.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.032,
+      "tags": [
+        "geek",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cat-paw-length",
+      "dimension": "length",
+      "name": "Zampa di gatto",
+      "emoji": "🐾",
+      "singularName": "zampa di gatto",
+      "pluralName": "zampe di gatto",
+      "description": "Unità core di lunghezza per scale minuscole: zampa di gatto.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.04,
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "cat-whisker-length",
+      "dimension": "length",
+      "name": "Baffo di gatto",
+      "emoji": "🐈",
+      "singularName": "baffo di gatto",
+      "pluralName": "baffi di gatto",
+      "description": "Unità core di lunghezza per scale minuscole: baffo di gatto.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.075,
+      "tags": [
+        "cats",
+        "animals",
+        "tinyThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "espresso-spoon-length",
+      "dimension": "length",
+      "name": "Cucchiaino da espresso",
+      "emoji": "🥄",
+      "singularName": "cucchiaino da espresso",
+      "pluralName": "cucchiaini da espresso",
+      "description": "Unità core di lunghezza per scale quotidiane: cucchiaino da espresso.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.11,
+      "tags": [
+        "food",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "smartphone-length",
+      "dimension": "length",
+      "name": "Smartphone",
+      "emoji": "📱",
+      "singularName": "smartphone",
+      "pluralName": "smartphone",
+      "description": "Unità core di lunghezza per scale quotidiane: smartphone.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.15,
+      "tags": [
+        "geek",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "human-hand-length",
+      "dimension": "length",
+      "name": "Mano umana",
+      "emoji": "✋",
+      "singularName": "mano umana",
+      "pluralName": "mani umane",
+      "description": "Unità core di lunghezza per scale quotidiane: mano umana.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.18,
+      "tags": [
+        "intuitive",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pencil-length",
+      "dimension": "length",
+      "name": "Matita",
+      "emoji": "✏️",
+      "singularName": "matita",
+      "pluralName": "matite",
+      "description": "Unità core di lunghezza per scale quotidiane: matita.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.19,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "a4-short-side-length",
+      "dimension": "length",
+      "name": "Lato corto A4",
+      "emoji": "📄",
+      "singularName": "lato corto A4",
+      "pluralName": "lati corti A4",
+      "description": "Unità core di lunghezza per scale quotidiane: lato corto A4.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 0.21,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "a4-long-side-length",
+      "dimension": "length",
+      "name": "Lato lungo A4",
+      "emoji": "📄",
+      "singularName": "lato lungo A4",
+      "pluralName": "lati lunghi A4",
+      "description": "Unità core di lunghezza per scale quotidiane: lato lungo A4.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.297,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "keyboard-length",
+      "dimension": "length",
+      "name": "Tastiera",
+      "emoji": "⌨️",
+      "singularName": "tastiera",
+      "pluralName": "tastiere",
+      "description": "Unità core di lunghezza per scale quotidiane: tastiera.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 0.45,
+      "tags": [
+        "geek",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "pillow-length",
+      "dimension": "length",
+      "name": "Cuscino",
+      "emoji": "🛏️",
+      "singularName": "cuscino",
+      "pluralName": "cuscini",
+      "description": "Unità core di lunghezza per scale quotidiane: cuscino.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 0.6,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "guitar-length",
+      "dimension": "length",
+      "name": "Chitarra",
+      "emoji": "🎸",
+      "singularName": "chitarra",
+      "pluralName": "chitarre",
+      "description": "Unità core di lunghezza per scale quotidiane: chitarra.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "door-width-length",
+      "dimension": "length",
+      "name": "Larghezza di porta",
+      "emoji": "🚪",
+      "singularName": "larghezza di porta",
+      "pluralName": "larghezze di porta",
+      "description": "Unità core di lunghezza per scale quotidiane: larghezza di porta.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 0.8,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "door-height-length",
+      "dimension": "length",
+      "name": "Altezza di porta",
+      "emoji": "🚪",
+      "singularName": "altezza di porta",
+      "pluralName": "altezze di porta",
+      "description": "Unità core di lunghezza per scale domestiche: altezza di porta.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 2.1,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "fridge-height-length",
+      "dimension": "length",
+      "name": "Altezza di frigorifero",
+      "emoji": "🧊",
+      "singularName": "altezza di frigorifero",
+      "pluralName": "altezze di frigorifero",
+      "description": "Unità core di lunghezza per scale quotidiane: altezza di frigorifero.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1.7,
+      "tags": [
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "single-bed-length",
+      "dimension": "length",
+      "name": "Letto singolo",
+      "emoji": "🛏️",
+      "singularName": "letto singolo",
+      "pluralName": "letti singoli",
+      "description": "Unità core di lunghezza per scale quotidiane: letto singolo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 1.9,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-car-length",
+      "dimension": "length",
+      "name": "Auto compatta",
+      "emoji": "🚗",
+      "singularName": "auto compatta",
+      "pluralName": "auto compatte",
+      "description": "Unità core di lunghezza per scale domestiche: auto compatta.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 4.3,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "parking-space-length",
+      "dimension": "length",
+      "name": "Posto auto",
+      "emoji": "🅿️",
+      "singularName": "posto auto",
+      "pluralName": "posti auto",
+      "description": "Unità core di lunghezza per scale domestiche: posto auto.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 5.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "hallway-sprint-length",
+      "dimension": "length",
+      "name": "Corridoio da sprint",
+      "emoji": "🏃",
+      "singularName": "corridoio da sprint",
+      "pluralName": "corridoi da sprint",
+      "description": "Unità core di lunghezza per scale domestiche: corridoio da sprint.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 8.0,
+      "tags": [
+        "cats",
+        "household"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "shipping-container-length",
+      "dimension": "length",
+      "name": "Container marittimo",
+      "emoji": "📦",
+      "singularName": "container marittimo",
+      "pluralName": "container marittimi",
+      "description": "Unità core di lunghezza per scale domestiche: container marittimo.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 12.2,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "supermarket-aisle-length",
+      "dimension": "length",
+      "name": "Corsia del supermercato",
+      "emoji": "🛒",
+      "singularName": "corsia del supermercato",
+      "pluralName": "corsie del supermercato",
+      "description": "Unità core di lunghezza per scale domestiche: corsia del supermercato.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 25.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "basketball-court-length",
+      "dimension": "length",
+      "name": "Campo da basket",
+      "emoji": "🏀",
+      "singularName": "campo da basket",
+      "pluralName": "campi da basket",
+      "description": "Unità core di lunghezza per scale domestiche: campo da basket.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 28.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "tennis-court-length",
+      "dimension": "length",
+      "name": "Campo da tennis",
+      "emoji": "🎾",
+      "singularName": "campo da tennis",
+      "pluralName": "campi da tennis",
+      "description": "Unità core di lunghezza per scale domestiche: campo da tennis.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 23.77,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "apartment-loop-length",
+      "dimension": "length",
+      "name": "Giro dell'appartamento",
+      "emoji": "🏠",
+      "singularName": "giro dell'appartamento",
+      "pluralName": "giri dell'appartamento",
+      "description": "Unità core di lunghezza per scale domestiche: giro dell'appartamento.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 35.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "swimming-pool-length",
+      "dimension": "length",
+      "name": "Piscina olimpica",
+      "emoji": "🏊",
+      "singularName": "piscina olimpica",
+      "pluralName": "piscine olimpiche",
+      "description": "Unità core di lunghezza per scale domestiche: piscina olimpica.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 50.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "soccer-field-length",
+      "dimension": "length",
+      "name": "Campo da calcio",
+      "emoji": "⚽",
+      "singularName": "campo da calcio",
+      "pluralName": "campi da calcio",
+      "description": "Unità core di lunghezza per scale importanti: campo da calcio.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 105.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "city-block-length",
+      "dimension": "length",
+      "name": "Isolato urbano",
+      "emoji": "🏙️",
+      "singularName": "isolato urbano",
+      "pluralName": "isolati urbani",
+      "description": "Unità core di lunghezza per scale importanti: isolato urbano.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 100.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "metro-train-length",
+      "dimension": "length",
+      "name": "Treno della metro",
+      "emoji": "🚇",
+      "singularName": "treno della metro",
+      "pluralName": "treni della metro",
+      "description": "Unità core di lunghezza per scale importanti: treno della metro.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 110.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "mall-corridor-length",
+      "dimension": "length",
+      "name": "Corridoio del centro commerciale",
+      "emoji": "🛍️",
+      "singularName": "corridoio del centro commerciale",
+      "pluralName": "corridoi del centro commerciale",
+      "description": "Unità core di lunghezza per scale importanti: corridoio del centro commerciale.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 180.0,
+      "tags": [
+        "household",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "train-platform-length",
+      "dimension": "length",
+      "name": "Binario di stazione",
+      "emoji": "🚉",
+      "singularName": "binario di stazione",
+      "pluralName": "binari di stazione",
+      "description": "Unità core di lunghezza per scale importanti: binario di stazione.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 250.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "skyscraper-height-length",
+      "dimension": "length",
+      "name": "Grattacielo",
+      "emoji": "🏙️",
+      "singularName": "grattacielo",
+      "pluralName": "grattacieli",
+      "description": "Unità core di lunghezza per scale importanti: grattacielo.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 300.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cruise-ship-length",
+      "dimension": "length",
+      "name": "Nave da crociera",
+      "emoji": "🚢",
+      "singularName": "nave da crociera",
+      "pluralName": "navi da crociera",
+      "description": "Unità core di lunghezza per scale importanti: nave da crociera.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 330.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "burj-khalifa-height-length",
+      "dimension": "length",
+      "name": "Burj Khalifa",
+      "emoji": "🏙️",
+      "singularName": "Burj Khalifa",
+      "pluralName": "Burj Khalifa",
+      "description": "Unità core di lunghezza per scale importanti: Burj Khalifa.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 828.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-village-length",
+      "dimension": "length",
+      "name": "Paese piccolo",
+      "emoji": "🏘️",
+      "singularName": "paese piccolo",
+      "pluralName": "paesi piccoli",
+      "description": "Unità core di lunghezza per scale importanti: paese piccolo.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 1500.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "airport-runway-length",
+      "dimension": "length",
+      "name": "Pista aeroportuale",
+      "emoji": "🛫",
+      "singularName": "pista aeroportuale",
+      "pluralName": "piste aeroportuali",
+      "description": "Unità core di lunghezza per scale importanti: pista aeroportuale.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 3000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "messina-strait-length",
+      "dimension": "length",
+      "name": "Stretto di Messina",
+      "emoji": "🌊",
+      "singularName": "Stretto di Messina",
+      "pluralName": "Stretti di Messina",
+      "description": "Unità core di lunghezza per scale importanti: Stretto di Messina.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 3200.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "mount-etna-height-length",
+      "dimension": "length",
+      "name": "Etna",
+      "emoji": "🌋",
+      "singularName": "Etna",
+      "pluralName": "Etna",
+      "description": "Unità core di lunghezza per scale importanti: Etna.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 3357.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "venice-canal-length",
+      "dimension": "length",
+      "name": "Canale veneziano",
+      "emoji": "🚤",
+      "singularName": "canale veneziano",
+      "pluralName": "canali veneziani",
+      "description": "Unità core di lunghezza per scale importanti: canale veneziano.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 3800.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "central-park-length",
+      "dimension": "length",
+      "name": "Central Park",
+      "emoji": "🌳",
+      "singularName": "Central Park",
+      "pluralName": "Central Park",
+      "description": "Unità core di lunghezza per scale importanti: Central Park.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 4000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "mountain-trail-length",
+      "dimension": "length",
+      "name": "Sentiero di montagna",
+      "emoji": "🥾",
+      "singularName": "sentiero di montagna",
+      "pluralName": "sentieri di montagna",
+      "description": "Unità core di lunghezza per scale importanti: sentiero di montagna.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 8000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "everest-height-length",
+      "dimension": "length",
+      "name": "Everest",
+      "emoji": "🏔️",
+      "singularName": "Everest",
+      "pluralName": "Everest",
+      "description": "Unità core di lunghezza per scale importanti: Everest.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 8848.86,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "english-channel-length",
+      "dimension": "length",
+      "name": "Canale della Manica",
+      "emoji": "🌊",
+      "singularName": "Canale della Manica",
+      "pluralName": "Canali della Manica",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: Canale della Manica.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 34000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "marathon-length",
+      "dimension": "length",
+      "name": "Maratona",
+      "emoji": "🏃",
+      "singularName": "maratona",
+      "pluralName": "maratone",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: maratona.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 42195.0,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "lake-como-length",
+      "dimension": "length",
+      "name": "Lunghezza del Lago di Como",
+      "emoji": "🏞️",
+      "singularName": "lunghezza del Lago di Como",
+      "pluralName": "lunghezze del Lago di Como",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: lunghezza del Lago di Como.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 46000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "rome-ring-road-length",
+      "dimension": "length",
+      "name": "Grande Raccordo Anulare",
+      "emoji": "🛣️",
+      "singularName": "Grande Raccordo Anulare",
+      "pluralName": "Grandi Raccordi Anulari",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: Grande Raccordo Anulare.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 68000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "alps-crossing-length",
+      "dimension": "length",
+      "name": "Traversata alpina",
+      "emoji": "🏔️",
+      "singularName": "traversata alpina",
+      "pluralName": "traversate alpine",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: traversata alpina.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 120000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "grand-canyon-length",
+      "dimension": "length",
+      "name": "Grand Canyon",
+      "emoji": "🏜️",
+      "singularName": "Grand Canyon",
+      "pluralName": "Grand Canyon",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: Grand Canyon.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 446000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "earth-to-iss-length",
+      "dimension": "length",
+      "name": "Distanza dalla ISS",
+      "emoji": "🛰️",
+      "singularName": "distanza dalla ISS",
+      "pluralName": "distanze dalla ISS",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: distanza dalla ISS.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 408000.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "italy-length-length",
+      "dimension": "length",
+      "name": "Italia da nord a sud",
+      "emoji": "🇮🇹",
+      "singularName": "Italia da nord a sud",
+      "pluralName": "Italie da nord a sud",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: Italia da nord a sud.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 1200000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "earth-radius-length",
+      "dimension": "length",
+      "name": "Raggio terrestre",
+      "emoji": "🌍",
+      "singularName": "raggio terrestre",
+      "pluralName": "raggi terrestri",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: raggio terrestre.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 6371000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "italian-coastline-length",
+      "dimension": "length",
+      "name": "Costa italiana",
+      "emoji": "🌊",
+      "singularName": "costa italiana",
+      "pluralName": "coste italiane",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: costa italiana.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 7500000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "earth-equator-length",
+      "dimension": "length",
+      "name": "Equatore terrestre",
+      "emoji": "🌍",
+      "singularName": "equatore terrestre",
+      "pluralName": "equatori terrestri",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: equatore terrestre.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 40075017.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "moon-distance-length",
+      "dimension": "length",
+      "name": "Distanza Terra-Luna",
+      "emoji": "🌕",
+      "singularName": "distanza Terra-Luna",
+      "pluralName": "distanze Terra-Luna",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: distanza Terra-Luna.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 384400000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "light-second-length",
+      "dimension": "length",
+      "name": "Secondo luce",
+      "emoji": "💡",
+      "singularName": "secondo luce",
+      "pluralName": "secondi luce",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: secondo luce.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 299792458.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "sun-diameter-length",
+      "dimension": "length",
+      "name": "Diametro del Sole",
+      "emoji": "☀️",
+      "singularName": "diametro del Sole",
+      "pluralName": "diametri del Sole",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: diametro del Sole.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 1392700000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "astronomical-unit-length",
+      "dimension": "length",
+      "name": "Unità astronomica",
+      "emoji": "🪐",
+      "singularName": "unità astronomica",
+      "pluralName": "unità astronomiche",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: unità astronomica.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 149597870700.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "mars-distance-close-length",
+      "dimension": "length",
+      "name": "Distanza Marte vicina",
+      "emoji": "🔴",
+      "singularName": "distanza Marte vicina",
+      "pluralName": "distanze Marte vicine",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: distanza Marte vicina.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 54600000000.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "light-year-length",
+      "dimension": "length",
+      "name": "Anno luce",
+      "emoji": "🌌",
+      "singularName": "anno luce",
+      "pluralName": "anni luce",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: anno luce.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 9460730472580800.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "milky-way-width-length",
+      "dimension": "length",
+      "name": "Larghezza della Via Lattea",
+      "emoji": "🌌",
+      "singularName": "larghezza della Via Lattea",
+      "pluralName": "larghezze della Via Lattea",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: larghezza della Via Lattea.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 9.46e+20,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "library-shelf-row-length",
+      "dimension": "length",
+      "name": "Fila di scaffali biblioteca",
+      "emoji": "📚",
+      "singularName": "fila di scaffali biblioteca",
+      "pluralName": "file di scaffali biblioteca",
+      "description": "Unità core di lunghezza per scale domestiche: fila di scaffali biblioteca.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 30.0,
+      "tags": [
+        "household",
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "school-corridor-length",
+      "dimension": "length",
+      "name": "Corridoio scolastico",
+      "emoji": "🎒",
+      "singularName": "corridoio scolastico",
+      "pluralName": "corridoi scolastici",
+      "description": "Unità core di lunghezza per scale domestiche: corridoio scolastico.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 60.0,
+      "tags": [
+        "intuitive"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "cathedral-nave-length",
+      "dimension": "length",
+      "name": "Navata di cattedrale",
+      "emoji": "⛪",
+      "singularName": "navata di cattedrale",
+      "pluralName": "navate di cattedrale",
+      "description": "Unità core di lunghezza per scale domestiche: navata di cattedrale.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 90.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "football-stadium-lap-length",
+      "dimension": "length",
+      "name": "Giro di stadio",
+      "emoji": "🏟️",
+      "singularName": "giro di stadio",
+      "pluralName": "giri di stadio",
+      "description": "Unità core di lunghezza per scale importanti: giro di stadio.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 400.0,
+      "tags": [
+        "intuitive",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "small-island-length",
+      "dimension": "length",
+      "name": "Isola piccola",
+      "emoji": "🏝️",
+      "singularName": "isola piccola",
+      "pluralName": "isole piccole",
+      "description": "Unità core di lunghezza per scale importanti: isola piccola.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 5000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "po-river-length",
+      "dimension": "length",
+      "name": "Fiume Po",
+      "emoji": "🌊",
+      "singularName": "Fiume Po",
+      "pluralName": "Fiumi Po",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: Fiume Po.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 652000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "italy-boot-step-length",
+      "dimension": "length",
+      "name": "Passo dello stivale Italia",
+      "emoji": "🇮🇹",
+      "singularName": "passo dello stivale Italia",
+      "pluralName": "passi dello stivale Italia",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: passo dello stivale Italia.",
+      "scientificNote": "La tolleranza ufficiale include curiosità felina e un margine di dignità umana.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 100000.0,
+      "tags": [
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "geostationary-orbit-height-length",
+      "dimension": "length",
+      "name": "Quota geostazionaria",
+      "emoji": "🛰️",
+      "singularName": "quota geostazionaria",
+      "pluralName": "quote geostazionarie",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: quota geostazionaria.",
+      "scientificNote": "Misura consigliata quando il Sistema Internazionale diventa emotivamente distante.",
+      "origin": "Banco Misure Assurde Catverter",
+      "baseFactor": 35786000.0,
+      "tags": [
+        "geek",
+        "hugeThings"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "id": "jupiter-diameter-length",
+      "dimension": "length",
+      "name": "Diametro di Giove",
+      "emoji": "🪐",
+      "singularName": "diametro di Giove",
+      "pluralName": "diametri di Giove",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: diametro di Giove.",
+      "scientificNote": "Campioni verificati con strumenti seri, tono serio e risultati non necessariamente seri.",
+      "origin": "Comitato Felino per le Scale Ragionevoli",
+      "baseFactor": 139820000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "pluto-commute-length",
+      "dimension": "length",
+      "name": "Pendolarismo verso Plutone",
+      "emoji": "🪐",
+      "singularName": "pendolarismo verso Plutone",
+      "pluralName": "pendolarismi verso Plutone",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: pendolarismo verso Plutone.",
+      "scientificNote": "La calibrazione resta valida finché nessuno chiede troppi dettagli.",
+      "origin": "Ufficio Tarature Quotidiane Non Richieste",
+      "baseFactor": 5900000000000.0,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
+      "grammar": {
+        "gender": "masculine"
+      }
+    },
+    {
+      "id": "andromeda-distance-length",
+      "dimension": "length",
+      "name": "Distanza di Andromeda",
+      "emoji": "🌌",
+      "singularName": "distanza di Andromeda",
+      "pluralName": "distanze di Andromeda",
+      "description": "Unità core di lunghezza per scale assurdamente grandi: distanza di Andromeda.",
+      "scientificNote": "Stima approvata dal comitato dopo tre grafici e una pausa caffè non dichiarata.",
+      "origin": "Archivio Core Catverter, ampliamento italiano 2026",
+      "baseFactor": 2.4e+22,
+      "tags": [
+        "hugeThings",
+        "pseudoScientific"
+      ],
+      "scientificAccuracy": "committeeConsensus",
       "grammar": {
         "gender": "feminine"
       }
