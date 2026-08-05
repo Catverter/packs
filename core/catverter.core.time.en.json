@@ -3,7 +3,7 @@
   "kind": "localization",
   "id": "catverter.core.time.en",
   "displayName": "English Localization - Catverter Core Time",
-  "version": "1.0.1",
+  "version": "1.0.41",
   "author": "Catverter",
   "description": "English localization for Catverter Core Time.",
   "dependencies": [
